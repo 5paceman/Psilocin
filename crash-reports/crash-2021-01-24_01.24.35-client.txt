@@ -1,0 +1,82 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 24/01/21 01:24
+Description: Unexpected error
+
+java.lang.IllegalStateException: Already building!
+	at net.minecraft.client.renderer.WorldRenderer.begin(WorldRenderer.java:183)
+	at net.minecraft.client.renderer.RenderGlobal.renderCloudsFancy(RenderGlobal.java:1574)
+	at net.minecraft.client.renderer.RenderGlobal.renderClouds(RenderGlobal.java:1426)
+	at net.minecraft.client.renderer.EntityRenderer.renderCloudsCheck(EntityRenderer.java:1506)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1371)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1320)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1148)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1152)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:430)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.renderer.WorldRenderer.begin(WorldRenderer.java:183)
+	at net.minecraft.client.renderer.RenderGlobal.renderCloudsFancy(RenderGlobal.java:1574)
+	at net.minecraft.client.renderer.RenderGlobal.renderClouds(RenderGlobal.java:1426)
+	at net.minecraft.client.renderer.EntityRenderer.renderCloudsCheck(EntityRenderer.java:1506)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1371)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1320)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Dev4285'/599531, l='MpServer', x=114.50, y=-1.00, z=531.50]]
+	Chunk stats: MultiplayerChunkCache: 0, 0
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 108.00,4.00,525.00 - World: (108,4,525), Chunk: (at 12,0,13 in 6,32; contains blocks 96,0,512 to 111,255,527), Region: (0,1; contains chunks 0,32 to 31,63, blocks 0,0,512 to 511,255,1023)
+	Level time: 35533207 game time, 18000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: spectator (ID 3). Hardcore: false. Cheats: false
+	Forced entities: 2 total; [EntityPlayerSP['Dev4285'/599531, l='MpServer', x=114.50, y=-1.00, z=531.50], EntityWither['§f§lPlay Premium Minecraft at §d§lDatblock.com'/1000000000, l='MpServer', x=0.00, y=0.00, z=0.00]]
+	Retry entities: 0 total; []
+	Server brand: vanilla§r
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:390)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2781)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:459)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 651802520 bytes (621 MB) / 794820608 bytes (758 MB) up to 5717360640 bytes (5452 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 970/PCIe/SSE2 GL version 4.6.0 NVIDIA 456.71, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz

@@ -1,0 +1,33 @@
+[17:08:19] [Client thread/INFO]: Setting user: Dev4285
+[17:08:19] [Client thread/INFO]: (Session ID is token:0:Dev4285)
+[17:08:20] [Client thread/INFO]: LWJGL Version: 2.9.4
+[17:08:21] [Client thread/INFO]: Reloading ResourceManager: Default
+[17:08:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:08:21] [Client thread/WARN]: Invalid sounds.json
+java.lang.NullPointerException: Invalid type
+	at org.apache.commons.lang3.Validate.notNull(Validate.java:222) ~[commons-lang3-3.3.2.jar:3.3.2]
+	at net.minecraft.client.audio.SoundListSerializer.deserialize(SoundListSerializer.java:45) ~[Client/:?]
+	at net.minecraft.client.audio.SoundListSerializer.deserialize(SoundListSerializer.java:13) ~[Client/:?]
+	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58) ~[gson-2.2.4.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.2.4.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.2.4.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.2.4.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:803) ~[gson-2.2.4.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:768) ~[gson-2.2.4.jar:?]
+	at net.minecraft.client.audio.SoundHandler.getSoundMap(SoundHandler.java:98) ~[Client/:?]
+	at net.minecraft.client.audio.SoundHandler.onResourceManagerReload(SoundHandler.java:72) [Client/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [Client/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:509) [Client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:410) [Client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [Client/:?]
+	at Start.main(Start.java:11) [Client/:?]
+[17:08:21] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[17:08:21] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:08:22] [Thread-6/INFO]: OpenAL initialized.
+[17:08:22] [Sound Library Loader/INFO]: Sound engine started
+[17:08:23] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:08:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[17:08:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[17:08:38] [Client thread/INFO]: Stopping!
+[17:08:38] [Client thread/INFO]: SoundSystem shutting down...
+[17:08:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
