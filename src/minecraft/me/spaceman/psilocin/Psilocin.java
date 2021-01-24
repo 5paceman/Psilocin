@@ -1,5 +1,7 @@
 package me.spaceman.psilocin;
 
+import me.spaceman.psilocin.commandsystem.CommandHandler;
+import me.spaceman.psilocin.commandsystem.commands.Command;
 import me.spaceman.psilocin.eventsystem.EventHandler;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.RenderGameOverlayEvent;
@@ -10,6 +12,7 @@ import me.spaceman.psilocin.utils.RenderUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 
 public class Psilocin {
@@ -17,6 +20,7 @@ public class Psilocin {
     private static Psilocin instance;
 
     private ModuleHandler moduleHandler;
+    private CommandHandler commandHandler;
     private EventHandler eventHandler;
     private String name;
 
@@ -32,11 +36,34 @@ public class Psilocin {
                         + EnumChatFormatting.GREEN + "n";
     }
 
+    public void log(String message, Level level)
+    {
+        String chatMessage = EnumChatFormatting.DARK_GRAY + "[" +  name + EnumChatFormatting.DARK_GRAY + "]: ";
+        switch(level)
+        {
+            case INFO:
+                chatMessage += EnumChatFormatting.GRAY + message;
+                break;
+            case WARN:
+                chatMessage += EnumChatFormatting.YELLOW + message;
+                break;
+            case ERROR:
+                chatMessage += EnumChatFormatting.RED + message;
+                break;
+        }
+        Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(new ChatComponentText(chatMessage));
+    }
+
     public void setup()
     {
         this.eventHandler = new EventHandler();
         this.moduleHandler = new ModuleHandler(this);
+        this.commandHandler = new CommandHandler(this);
         getEventHandler().addEventListener(this);
+
+        this.commandHandler.addCommand(new Command("test", 2, "\\w+ \\d"), (command, args) -> {
+            this.log("Response: "  + args[0] + ":" + args[1], Level.INFO);
+        });
     }
 
     @EventSubscriber
@@ -81,5 +108,11 @@ public class Psilocin {
     public EventHandler getEventHandler()
     {
         return this.eventHandler;
+    }
+
+    public enum Level {
+        INFO,
+        WARN,
+        ERROR
     }
 }

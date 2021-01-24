@@ -1,5 +1,7 @@
 package net.minecraft.client.entity;
 
+import me.spaceman.psilocin.Psilocin;
+import me.spaceman.psilocin.eventsystem.events.SendChatMessageEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSoundMinecartRiding;
 import net.minecraft.client.audio.PositionedSoundRecord;
@@ -295,6 +297,11 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void sendChatMessage(String message)
     {
+        final SendChatMessageEvent event = new SendChatMessageEvent(message);
+        Psilocin.getInstance().getEventHandler().callEvent(event);
+        if(event.isCancelled())
+            return;
+
         this.sendQueue.addToSendQueue(new C01PacketChatMessage(message));
     }
 

@@ -15,6 +15,9 @@ import java.net.URISyntaxException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
+
+import me.spaceman.psilocin.Psilocin;
+import me.spaceman.psilocin.eventsystem.events.SendChatMessageEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.stream.GuiTwitchUserMode;
 import net.minecraft.client.renderer.GlStateManager;

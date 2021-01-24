@@ -11,6 +11,7 @@ public class Event {
     public static final int RENDER_DROPPED_ITEM = 4;
     public static final int RENDER_WORLD_EVENT = 5;
     public static final int RENDER_NAMETAGS = 6;
+    public static final int SEND_CHAT_MESSAGE = 7;
 
     private int eventId;
 
