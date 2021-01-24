@@ -11,6 +11,7 @@ import java.util.concurrent.Callable;
 
 import me.spaceman.psilocin.Psilocin;
 import me.spaceman.psilocin.eventsystem.events.RenderWorldEvent;
+import me.spaceman.psilocin.module.world.Fullbright;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBed;
 import net.minecraft.block.material.Material;
@@ -1955,7 +1956,7 @@ public class EntityRenderer implements IResourceManagerReloadListener
         GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
         Block block = ActiveRenderInfo.getBlockAtEntityViewpoint(this.mc.theWorld, entity, partialTicks);
 
-        if (entity instanceof EntityLivingBase && ((EntityLivingBase)entity).isPotionActive(Potion.blindness))
+        if (entity instanceof EntityLivingBase && ((EntityLivingBase)entity).isPotionActive(Potion.blindness) && !Psilocin.getInstance().getModuleHandler().getModule(Fullbright.class).isEnabled())
         {
             float f1 = 5.0F;
             int i = ((EntityLivingBase)entity).getActivePotionEffect(Potion.blindness).getDuration();
