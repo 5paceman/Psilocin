@@ -345,10 +345,10 @@ net/minecraft/client/audio/SoundHandler$1 3d33758ebc178ce1fd9211a560c720ad
 net/minecraft/client/audio/SoundHandler$2 bf4f7c6d0ee3c25eff172b7cfe7c97cc
 net/minecraft/client/audio/SoundHandler$3 59ba753b79a1ff3601b050ee2591cc56
 net/minecraft/client/audio/SoundHandler bd08160725860d68f821779b61ee064c
-net/minecraft/client/audio/SoundList$SoundEntry$Type 1b05e15b642157872a3ce7e312e637f8
+net/minecraft/client/audio/SoundList$SoundEntry$Type 81b38d3efac4d3a49c2457e7a8b7d559
 net/minecraft/client/audio/SoundList$SoundEntry 5c8ccb217af4640901143c5137b44283
 net/minecraft/client/audio/SoundList 168a5562bf874dc5ef901c795d4f087f
-net/minecraft/client/audio/SoundListSerializer ddc7c3557abb9c3945c651ce15ef0d56
+net/minecraft/client/audio/SoundListSerializer 060d05579153199246e7144062333b83
 net/minecraft/client/audio/SoundManager$1$1 85a551360892889f769348491ebc74e2
 net/minecraft/client/audio/SoundManager$1 ace7bd7337897d868d0d2568312253f4
 net/minecraft/client/audio/SoundManager$2$1 6c1aa7d621994db10a3b7b3d773b48be

@@ -28,52 +28,52 @@ public class SoundListSerializer implements JsonDeserializer<SoundList>
             for (int i = 0; i < jsonarray.size(); ++i)
             {
                 JsonElement jsonelement = jsonarray.get(i);
-                SoundList.SoundEntry soundlist$soundentry = new SoundList.SoundEntry();
+                SoundList.SoundEntry soundListSoundEntry = new SoundList.SoundEntry();
 
                 if (JsonUtils.isString(jsonelement))
                 {
-                    soundlist$soundentry.setSoundEntryName(JsonUtils.getString(jsonelement, "sound"));
+                    soundListSoundEntry.setSoundEntryName(JsonUtils.getString(jsonelement, "sound"));
                 }
                 else
                 {
                     JsonObject jsonobject1 = JsonUtils.getJsonObject(jsonelement, "sound");
-                    soundlist$soundentry.setSoundEntryName(JsonUtils.getString(jsonobject1, "name"));
+                    soundListSoundEntry.setSoundEntryName(JsonUtils.getString(jsonobject1, "name"));
 
                     if (jsonobject1.has("type"))
                     {
-                        SoundList.SoundEntry.Type soundlist$soundentry$type = SoundList.SoundEntry.Type.getType(JsonUtils.getString(jsonobject1, "type"));
-                        Validate.notNull(soundlist$soundentry$type, "Invalid type", new Object[0]);
-                        soundlist$soundentry.setSoundEntryType(soundlist$soundentry$type);
+                        SoundList.SoundEntry.Type soundType = SoundList.SoundEntry.Type.getType(JsonUtils.getString(jsonobject1, "type"));
+                        Validate.notNull(soundType, "Invalid type", new Object[0]);
+                        soundListSoundEntry.setSoundEntryType(soundType);
                     }
 
                     if (jsonobject1.has("volume"))
                     {
                         float f = JsonUtils.getFloat(jsonobject1, "volume");
                         Validate.isTrue(f > 0.0F, "Invalid volume", new Object[0]);
-                        soundlist$soundentry.setSoundEntryVolume(f);
+                        soundListSoundEntry.setSoundEntryVolume(f);
                     }
 
                     if (jsonobject1.has("pitch"))
                     {
                         float f1 = JsonUtils.getFloat(jsonobject1, "pitch");
                         Validate.isTrue(f1 > 0.0F, "Invalid pitch", new Object[0]);
-                        soundlist$soundentry.setSoundEntryPitch(f1);
+                        soundListSoundEntry.setSoundEntryPitch(f1);
                     }
 
                     if (jsonobject1.has("weight"))
                     {
                         int j = JsonUtils.getInt(jsonobject1, "weight");
                         Validate.isTrue(j > 0, "Invalid weight", new Object[0]);
-                        soundlist$soundentry.setSoundEntryWeight(j);
+                        soundListSoundEntry.setSoundEntryWeight(j);
                     }
 
                     if (jsonobject1.has("stream"))
                     {
-                        soundlist$soundentry.setStreaming(JsonUtils.getBoolean(jsonobject1, "stream"));
+                        soundListSoundEntry.setStreaming(JsonUtils.getBoolean(jsonobject1, "stream"));
                     }
                 }
 
-                soundlist.getSoundList().add(soundlist$soundentry);
+                soundlist.getSoundList().add(soundListSoundEntry);
             }
         }
 
