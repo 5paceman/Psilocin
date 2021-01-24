@@ -686,13 +686,13 @@ INFO: Processing net/minecraft/client/audio/SoundHandler.class
 FINE: Access: net/minecraft/client/audio/SoundHandler/access$000(Lnet/minecraft/client/audio/SoundHandler;)Lnet/minecraft/client/audio/SoundRegistry; [GETFIELD net/minecraft/client/audio/SoundHandler/sndRegistry Lnet/minecraft/client/audio/SoundRegistry;]
 INFO: Processed 11776 -> 11743
 INFO: Processing net/minecraft/client/audio/SoundList$SoundEntry$Type.class
-INFO: Processed 1750 -> 1747
+INFO: Processed 1744 -> 1741
 INFO: Processing net/minecraft/client/audio/SoundList$SoundEntry.class
 INFO: Processed 2117 -> 2117
 INFO: Processing net/minecraft/client/audio/SoundList.class
 INFO: Processed 1419 -> 1419
 INFO: Processing net/minecraft/client/audio/SoundListSerializer.class
-INFO: Processed 4951 -> 4933
+INFO: Processed 4934 -> 4916
 INFO: Processing net/minecraft/client/audio/SoundManager$1$1.class
 INFO: Processed 1710 -> 1710
 INFO: Processing net/minecraft/client/audio/SoundManager$1.class
