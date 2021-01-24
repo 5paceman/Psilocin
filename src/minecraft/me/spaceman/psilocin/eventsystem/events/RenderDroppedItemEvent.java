@@ -42,14 +42,14 @@ public class RenderDroppedItemEvent extends Event{
     public EntityItem getItem() {
         return item;
     }
-
+    // RenderEntityItem#doRender
     public static class Pre extends RenderDroppedItemEvent {
 
         public Pre(EntityItem item, double x, double y, double z, float entityYaw, float partialTicks) {
             super(item, x, y, z, entityYaw, partialTicks);
         }
     }
-
+    // RenderEntityItem#doRender
     public static class Post extends RenderDroppedItemEvent {
 
         public Post(EntityItem item, double x, double y, double z, float entityYaw, float partialTicks) {

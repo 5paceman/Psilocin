@@ -7,7 +7,7 @@ public class RenderWorldEvent extends Event{
 
     private float partialTicks;
     private EntityRenderer entityRenderer;
-
+    // EntityRender#renderWorldPass
     public RenderWorldEvent(float partialTicks, EntityRenderer entityRenderer) {
         super(RENDER_WORLD_EVENT);
         this.partialTicks = partialTicks;

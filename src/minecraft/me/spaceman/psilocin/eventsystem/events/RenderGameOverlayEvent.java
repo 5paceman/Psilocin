@@ -7,7 +7,7 @@ public class RenderGameOverlayEvent extends Event {
 
     private float partialTicks;
     public FontRenderer fontRenderer;
-
+    // PsyGuiIngame#renderGameOverlay
     public RenderGameOverlayEvent(float partialTicks, FontRenderer fontRenderer) {
         super(RENDER_GAME_OVERLAY_EVENT);
         this.partialTicks = partialTicks;

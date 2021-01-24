@@ -7,7 +7,7 @@ public class RenderNametagsEvent extends Event{
 
     private double x, y, z;
     private EntityLivingBase entity;
-
+    // RendererLivingEntity#renderName
     public RenderNametagsEvent(EntityLivingBase entity, double x, double y, double z) {
         super(RENDER_NAMETAGS);
         this.entity = entity;
