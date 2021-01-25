@@ -51,6 +51,7 @@ public class Tracers extends Module{
             if(player == Minecraft.getMinecraft().thePlayer)
                 continue;
 
+            boolean isFriend = Psilocin.getInstance().getFriendHandler().isFriend(player);
             double playerPosX = player.lastTickPosX + (player.posX - player.lastTickPosX) * (double) event.getPartialTicks() - renderManager.renderPosX;
             double playerPosY = player.lastTickPosY + (player.posY - player.lastTickPosY) * (double) event.getPartialTicks() - renderManager.renderPosY;
             double playerPosZ = player.lastTickPosZ + (player.posZ - player.lastTickPosZ) * (double) event.getPartialTicks() - renderManager.renderPosZ;
@@ -64,8 +65,8 @@ public class Tracers extends Module{
             Tessellator tessellator = Tessellator.getInstance();
             WorldRenderer worldRenderer = tessellator.getWorldRenderer();
             worldRenderer.begin(GL11.GL_LINES, DefaultVertexFormats.POSITION_COLOR);
-            worldRenderer.pos(posX, posY + thePlayer.getEyeHeight(), posZ).color(0f, 1f, 0f, 1f).endVertex();
-            worldRenderer.pos(playerPosX, playerPosY, playerPosZ).color(0f, 1f, 0f, 1f).endVertex();
+            worldRenderer.pos(posX, posY + thePlayer.getEyeHeight(), posZ).color(0f, isFriend ? 0f : 1f, isFriend ? 1f : 0f, 1f).endVertex();
+            worldRenderer.pos(playerPosX, playerPosY, playerPosZ).color(0f, isFriend ? 0f :  1f, isFriend ? 1f : 0f, 1f).endVertex();
             tessellator.draw();
             GlStateManager.popMatrix();
             GL11.glEnable(GL11.GL_LIGHTING);

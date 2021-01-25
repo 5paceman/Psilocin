@@ -6,6 +6,7 @@ import me.spaceman.psilocin.eventsystem.EventHandler;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.RenderGameOverlayEvent;
 import me.spaceman.psilocin.eventsystem.events.RenderMainMenuEvent;
+import me.spaceman.psilocin.handlers.FriendHandler;
 import me.spaceman.psilocin.handlers.ModuleHandler;
 import me.spaceman.psilocin.module.Module;
 import me.spaceman.psilocin.utils.RenderUtils;
@@ -22,6 +23,7 @@ public class Psilocin {
     private ModuleHandler moduleHandler;
     private CommandHandler commandHandler;
     private EventHandler eventHandler;
+    private FriendHandler friendHandler;
     private String name;
 
     public Psilocin() {
@@ -59,6 +61,7 @@ public class Psilocin {
         this.eventHandler = new EventHandler();
         this.moduleHandler = new ModuleHandler(this);
         this.commandHandler = new CommandHandler(this);
+        this.friendHandler = new FriendHandler(this);
         getEventHandler().addEventListener(this);
 
         this.commandHandler.addCommand(new Command("test", 2, "\\w+ \\d"), (command, args) -> {
@@ -108,6 +111,14 @@ public class Psilocin {
     public EventHandler getEventHandler()
     {
         return this.eventHandler;
+    }
+
+    public CommandHandler getCommandHandler() {
+        return this.commandHandler;
+    }
+
+    public FriendHandler getFriendHandler() {
+        return this.friendHandler;
     }
 
     public enum Level {

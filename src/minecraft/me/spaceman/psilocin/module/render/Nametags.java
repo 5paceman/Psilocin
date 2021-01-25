@@ -43,7 +43,7 @@ public class Nametags extends Module {
             double y = event.getY() + 0.25;
             double z = event.getZ();
 
-            String s = event.getEntity().getDisplayName().getFormattedText() + " H:" + decimalFormat.format(event.getEntity().getHealth()) + " D:" + decimalFormat.format(distance);
+            String s = event.getEntity().getDisplayName().getFormattedText() + " H:" + decimalFormat.format(event.getEntity().getHealth());
             float f1 = 0.02666667F;
             GlStateManager.alphaFunc(516, 0.1F);
 

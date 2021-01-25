@@ -40,14 +40,13 @@ public class CommandHandler {
             {
                 if(command.getCommand().equalsIgnoreCase(splitMessage[0]))
                 {
-                    if(splitMessage.length - 1 == command.getArgumentCount()) {
+                    if(splitMessage.length - 1 >= command.getArgumentCount()) {
                         if (command.getArgumentCount() > 0) {
                             String args = "";
                             for (int i = 1; i < splitMessage.length; i++) {
                                 args += splitMessage[0 + i] + " ";
                             }
                             args = args.trim();
-                            this.psilocin.log("RegEx: " + command.getArgumentRegEx() + " Args: " + args, Psilocin.Level.INFO);
                             if (args.matches(command.getArgumentRegEx())) {
 
                                 this.loadedCommands.get(command).accept(command, args.split(" "));
