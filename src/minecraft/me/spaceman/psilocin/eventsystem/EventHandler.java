@@ -14,8 +14,8 @@ public class EventHandler {
 
     /**
      * This loops through the methods of a class and checks to see if they
-     * have a @EventHandler and if so registers them to the ConcurrentHashMap
-     * @param The class that is listening for events
+     * have a @EventHandler and if so registers them to the listenerslist
+     * @param listener object that contains @EventHandler methods
      *
      */
     public void addEventListener(Object listener)
@@ -32,8 +32,8 @@ public class EventHandler {
     }
 
     /**
-     * This removes the class from the ConcurrentHashMap
-     * @param The class that is being removed from the list of listeners
+     * This removes the listener object from the ConcurrentHashMap
+     * @param listener listener object that is being removed from the list of listeners
      */
     public void removeEventListener(Object listener)
     {
@@ -51,8 +51,8 @@ public class EventHandler {
     public int eventsParsed = 0;
 
     /**
-     * This will call the specified eventsystem and invoke a method if it is listening for the parsed eventsystem
-     * @param The eventsystem to be parsed and handled
+     * This will call the specified eventsystem and invoke a listener method if it is listening for the parsed event
+     * @param event to be parsed and handled
      */
     public void callEvent(Event event)
     {

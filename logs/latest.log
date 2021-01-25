@@ -1,40 +1,13 @@
-[00:33:49] [Client thread/INFO]: Setting user: Dev4285
-[00:33:49] [Client thread/INFO]: (Session ID is token:0:Dev4285)
-[00:33:50] [Client thread/INFO]: LWJGL Version: 2.9.4
-[00:33:51] [Client thread/INFO]: Reloading ResourceManager: Default
-[00:33:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:33:52] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[00:33:52] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:33:52] [Thread-6/INFO]: OpenAL initialized.
-[00:33:52] [Sound Library Loader/INFO]: Sound engine started
-[00:33:54] [Client thread/INFO]: Created: 512x512 textures-atlas
-[00:33:58] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[00:33:58] [Server thread/INFO]: Generating keypair
-[00:33:58] [Server thread/INFO]: Preparing start region for level 0
-[00:33:59] [Server thread/INFO]: Changing view distance to 12, from 10
-[00:34:00] [Server thread/INFO]: Dev4285[local:E:56fe4483] logged in with entity id 152 at (-347.7621772503496, 80.0, 557.4033215928189)
-[00:34:00] [Server thread/INFO]: Dev4285 joined the game
-[00:34:08] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7RegEx: \w+.+ Args: list
-[00:34:08] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: 
-[00:34:14] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7RegEx: \w+.+ Args: add test
-[00:34:14] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: test
-[00:34:18] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7RegEx: \w+.+ Args: list
-[00:34:18] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: test
-
-[00:34:52] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7RegEx: \w+.+ Args: remove test
-[00:34:52] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friend removed: test
-[00:34:57] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7RegEx: \w+.+ Args: list
-[00:34:57] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: 
-[00:35:03] [Server thread/INFO]: Saving and pausing game...
-[00:35:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[00:35:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[00:35:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[00:35:04] [Server thread/INFO]: Stopping server
-[00:35:04] [Server thread/INFO]: Saving players
-[00:35:04] [Server thread/INFO]: Saving worlds
-[00:35:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[00:35:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[00:35:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[00:35:06] [Client thread/INFO]: Stopping!
-[00:35:06] [Client thread/INFO]: SoundSystem shutting down...
-[00:35:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:15:25] [Client thread/INFO]: Setting user: Dev4285
+[15:15:25] [Client thread/INFO]: (Session ID is token:0:Dev4285)
+[15:15:26] [Client thread/INFO]: LWJGL Version: 2.9.4
+[15:15:27] [Client thread/INFO]: Reloading ResourceManager: Default
+[15:15:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:15:27] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[15:15:27] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:15:27] [Thread-6/INFO]: OpenAL initialized.
+[15:15:28] [Sound Library Loader/INFO]: Sound engine started
+[15:15:36] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:15:39] [Client thread/INFO]: Stopping!
+[15:15:39] [Client thread/INFO]: SoundSystem shutting down...
+[15:15:39] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

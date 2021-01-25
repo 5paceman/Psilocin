@@ -1,6 +1,7 @@
 package net.minecraft.client.entity;
 
 import me.spaceman.psilocin.Psilocin;
+import me.spaceman.psilocin.eventsystem.events.PlayerLivingUpdateEvent;
 import me.spaceman.psilocin.eventsystem.events.SendChatMessageEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSoundMinecartRiding;
@@ -721,6 +722,7 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void onLivingUpdate()
     {
+        Psilocin.getInstance().getEventHandler().callEvent(new PlayerLivingUpdateEvent(this));
         if (this.sprintingTicksLeft > 0)
         {
             --this.sprintingTicksLeft;

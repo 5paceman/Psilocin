@@ -32,6 +32,10 @@ import java.net.SocketAddress;
 import java.util.Queue;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import javax.crypto.SecretKey;
+
+import me.spaceman.psilocin.Psilocin;
+import me.spaceman.psilocin.eventsystem.events.ReceivePacketEvent;
+import me.spaceman.psilocin.eventsystem.events.SendPacketEvent;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.CryptManager;
@@ -152,6 +156,12 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
         {
             try
             {
+                final ReceivePacketEvent event = new ReceivePacketEvent(p_channelRead0_2_);
+                Psilocin.getInstance().getEventHandler().callEvent(event);;
+                if(event.isCancelled())
+                    return;
+                else
+                    p_channelRead0_2_ = event.getPacket();
                 p_channelRead0_2_.processPacket(this.packetListener);
             }
             catch (ThreadQuickExitException var4)
@@ -174,6 +184,13 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
 
     public void sendPacket(Packet packetIn)
     {
+        final SendPacketEvent event = new SendPacketEvent(packetIn);
+        Psilocin.getInstance().getEventHandler().callEvent(event);
+        if(event.isCancelled())
+            return;
+        else
+            packetIn = event.getPacket();
+
         if (this.isChannelOpen())
         {
             this.flushOutboundQueue();
