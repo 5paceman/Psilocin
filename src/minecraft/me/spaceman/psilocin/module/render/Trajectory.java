@@ -34,6 +34,7 @@ public class Trajectory extends Module {
         mc = Minecraft.getMinecraft();
     }
 
+    // See the event class declaration to see where this event gets called from
     @EventSubscriber
     public void onRenderWorld(final RenderWorldEvent event)
     {
@@ -41,6 +42,7 @@ public class Trajectory extends Module {
         {
             if(mc.thePlayer.getItemInUse().getItem() instanceof ItemBow)
             {
+                // This is so our rendering doesnt end up bobbing all over the screen if view bobbing is turned on
                 if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
                     GL11.glPushAttrib(GL_VIEWPORT_BIT);
                     GL11.glLoadIdentity();
@@ -49,17 +51,21 @@ public class Trajectory extends Module {
                     Minecraft.getMinecraft().gameSettings.viewBobbing = true;
                 }
 
+                // Intial position of the arrow moved slightly so it lines up with the bow
                 double arrowX = mc.thePlayer.lastTickPosX + (mc.thePlayer.posX - mc.thePlayer.lastTickPosX) * event.getPartialTicks() - Math.cos(Math.toRadians(mc.thePlayer.rotationYaw)) * 0.08F;
                 double arrowY = mc.thePlayer.lastTickPosY + (mc.thePlayer.posY - mc.thePlayer.lastTickPosY) * event.getPartialTicks() + mc.thePlayer.getEyeHeight() - 0.04;
                 double arrowZ = mc.thePlayer.lastTickPosZ + (mc.thePlayer.posZ - mc.thePlayer.lastTickPosZ) * event.getPartialTicks() - Math.sin(Math.toRadians(mc.thePlayer.rotationYaw)) * 0.08F;
+                // The generic speed of the arrow (Will change if its an enderpearl etc)
                 float speed = 1F;
+                // Convert pitch and yaw to radians
                 float yaw = (float)Math.toRadians(mc.thePlayer.rotationYaw);
                 float pitch = (float)Math.toRadians(mc.thePlayer.rotationPitch);
+                // Basic Trajectory motion (Same calculation as on StackOverflow)
                 double motionX = -Math.sin(yaw) * Math.cos(pitch) * speed;
                 double motionY = -Math.sin(pitch) * speed;
                 double motionZ = Math.cos(yaw) *  Math.cos(pitch) * speed;
-
-                float bowPower = (72000 - mc.thePlayer.getItemInUseCount()) / 20f;
+                // Same math as used in ItemBow#onPlayerStoppedUsing for calculating bow power
+                float bowPower = (mc.thePlayer.getItemInUse().getMaxItemUseDuration() - mc.thePlayer.getItemInUseCount()) / 20f;
                 bowPower = (bowPower * bowPower + bowPower * 2f) / 3f;
 
                 if (bowPower > 1f || bowPower <= 0.1f)
@@ -70,30 +76,46 @@ public class Trajectory extends Module {
                 motionY *= bowPower;
                 motionZ *= bowPower;
 
+                // Disable lighting so no lighting gets applied to our lines
                 GL11.glDisable(GL11.GL_LIGHTING);
                 GlStateManager.disableLighting();
+                // Disable texturing
                 GlStateManager.disableTexture2D();
                 GlStateManager.pushMatrix();
                 GL11.glLineWidth(2f);
+                // Tesselator and world renderer are Minecraft classes used for rendering
                 Tessellator tessellator = Tessellator.getInstance();
                 WorldRenderer worldRenderer = tessellator.getWorldRenderer();
+                // GL_LINE_STRIP lets us plot points for a continous line GL_LINE would plot a line for every two points
+                // DefaultVertexFormats.POSITION_COLOR just sets it so each vertex has a position and color vertex
                 worldRenderer.begin(GL11.GL_LINE_STRIP, DefaultVertexFormats.POSITION_COLOR);
+                // Loop to simulate time of the arrow flying
                 for(double i = 0; i < 1000D; i++)
                 {
+                    // Plot our point for rendering renderPosX/Y/Z are Minecraft render engine offsets so stuff renders where we need it
                     worldRenderer.pos(arrowX - mc.getRenderManager().renderPosX, arrowY - mc.getRenderManager().renderPosY, arrowZ - mc.getRenderManager().renderPosZ).color(1f, 1f, 1f, 1f).endVertex();
+                    // Slowly increment our simulated arrows coords using our motion values
                     arrowX += motionX * 0.1;
                     arrowZ += motionZ * 0.1;
                     arrowY += motionY * 0.1;
+                    // Slowly decrement our motions so they fall off over time
                     motionX *= 0.999;
                     motionY *= 0.999;
                     motionZ *= 0.999;
+                    // Decrement Y motion by gravity
                     motionY -= 0.005;
+
+
                 }
+                // After the loop we draw our line
                 tessellator.draw();
                 GlStateManager.popMatrix();
+                // Re-enable depth and texture 2D. If we re-enable lighting we'll end up with stuff in the
+                // GUI like the hotbar having lighting when it shouldnt
                 GlStateManager.enableDepth();
                 GlStateManager.enableTexture2D();
 
+                // This is so our rendering doesnt end up bobbing all over the screen if view bobbing is turned on
                 if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
                     GL11.glPopAttrib();
                     Minecraft.getMinecraft().gameSettings.viewBobbing = true;
