@@ -6,7 +6,9 @@ import me.spaceman.psilocin.eventsystem.events.RenderWorldEvent;
 import me.spaceman.psilocin.module.Module;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.item.ItemBow;
+import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.BlockPos;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
@@ -28,9 +30,9 @@ public class Trajectory extends Module {
     @EventSubscriber
     public void onRenderWorld(final RenderWorldEvent event)
     {
-        if(Mouse.isButtonDown(1))
+        if(Mouse.isButtonDown(1) && mc.thePlayer.getItemInUse().getItem() != null)
         {
-            if(mc.thePlayer.getCurrentEquippedItem().getItem() instanceof ItemBow)
+            if(mc.thePlayer.getItemInUse().getItem() instanceof ItemBow)
             {
                 double arrowX = mc.thePlayer.posX;
                 double arrowY = mc.thePlayer.posY + mc.thePlayer.getEyeHeight();
@@ -46,9 +48,11 @@ public class Trajectory extends Module {
                     arrowZ += motionZ * i;
                     arrowY += motionY * i;
 
-                    if(mc.theWorld.getBlockState(new BlockPos(arrowX, arrowY, arrowZ)).getBlock().isCollidable())
+                    if(mc.theWorld.getBlockState(new BlockPos(Math.ceil(arrowX), Math.ceil(arrowY), Math.ceil(arrowZ))).getBlock().isCollidable())
                     {
-                        
+                        Block block = mc.theWorld.getBlockState(new BlockPos(Math.ceil(arrowX), Math.ceil(arrowY), Math.ceil(arrowZ))).getBlock();
+                        RenderGlobal.drawOutlinedBoundingBox(new AxisAlignedBB(block.getBlockBoundsMinX(), block.getBlockBoundsMinY(), block.getBlockBoundsMinZ(), block.getBlockBoundsMaxX(), block.getBlockBoundsMaxY(), block.getBlockBoundsMaxZ()), 255, 255, 255, 255);
+                        break;
                     }
                 }
             }
