@@ -59,8 +59,8 @@ public class Psilocin {
     public void setup()
     {
         this.eventHandler = new EventHandler();
-        this.moduleHandler = new ModuleHandler(this);
         this.commandHandler = new CommandHandler(this);
+        this.moduleHandler = new ModuleHandler(this);
         this.friendHandler = new FriendHandler(this);
         getEventHandler().addEventListener(this);
 
@@ -88,7 +88,7 @@ public class Psilocin {
         {
             if(mod.isEnabled())
             {
-                RenderUtils.drawRect(scaledResolution.getScaledWidth() - Psilocin.getInstance().getModuleHandler().getLongestModName() - 4, y - 2, scaledResolution.getScaledWidth(), y + event.fontRenderer.FONT_HEIGHT, 0x55111111);
+                RenderUtils.drawRect(scaledResolution.getScaledWidth() - Psilocin.getInstance().getModuleHandler().getLongestModName() - 4, y - 2, scaledResolution.getScaledWidth(), y + event.fontRenderer.FONT_HEIGHT, 0xAA111111);
                 event.fontRenderer.drawStringWithShadow(mod.getName(), scaledResolution.getScaledWidth() - event.fontRenderer.getStringWidth(mod.getName()) - 2f, y, mod.getColor());
                 y += event.fontRenderer.FONT_HEIGHT + 2f;
             }

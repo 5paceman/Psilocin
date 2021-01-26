@@ -19,6 +19,8 @@ public class FireballAura extends Module {
         Psilocin.getInstance().getEventHandler().addEventListener(this);
     }
 
+    private Entity lastHit = null;
+
     @EventSubscriber
     public void onPlayerUpdate(final PlayerLivingUpdateEvent event)
     {
@@ -26,15 +28,17 @@ public class FireballAura extends Module {
         {
             for(Entity entity : event.getPlayer().worldObj.loadedEntityList)
             {
-                if(entity instanceof EntityFireball)
+                if(entity instanceof EntityFireball && this.lastHit != entity)
                 {
                     EntityFireball fireball = (EntityFireball) entity;
                     if(fireball.canAttackWithItem() && Minecraft.getMinecraft().playerController.getCurrentGameType() == WorldSettings.GameType.SURVIVAL)
                     {
-                        if(event.getPlayer().canEntityBeSeen(fireball)) {
+                        double distance = fireball.getDistanceToEntity(event.getPlayer());
+                        if(event.getPlayer().canEntityBeSeen(fireball) && distance <= 5) {
                             this.lookAt(fireball, event.getPlayer());
-                            event.getPlayer().sendQueue.addToSendQueue(new C03PacketPlayer.C06PacketPlayerPosLook(event.getPlayer().posX, event.getPlayer().getEntityBoundingBox().minY, event.getPlayer().posZ, event.getPlayer().rotationYaw, event.getPlayer().rotationPitch, event.getPlayer().onGround));
-                            event.getPlayer().attackTargetEntityWithCurrentItem(fireball);
+                            Minecraft.getMinecraft().playerController.attackEntity(event.getPlayer(), entity);
+                            event.getPlayer().swingItem();
+                            this.lastHit = entity;
                         }
                     }
                 }
@@ -44,30 +48,27 @@ public class FireballAura extends Module {
 
     private void lookAt(EntityFireball entity, EntityPlayerSP thePlayer)
     {
-        double d0 = entity.posX - thePlayer.posX;
-        double d1 = entity.posY - (thePlayer.posY + (double)thePlayer.getEyeHeight());
-        double d2 = entity.posZ - thePlayer.posZ;
-        double d3 = (double) MathHelper.sqrt_double(d0 * d0 + d2 * d2);
-        float f = (float)(MathHelper.atan2(d2, d0) * 180.0D / Math.PI) - 90.0F;
-        float f1 = (float)(-(MathHelper.atan2(d1, d3) * 180.0D / Math.PI));
-        thePlayer.rotationPitch = this.updateRotation(thePlayer.rotationPitch, f1, 30F);
-        thePlayer.rotationYawHead = this.updateRotation(thePlayer.rotationYawHead, f, 30F);
-    }
+        double xDiff = entity.posX - thePlayer.posX;
+        double yDiff = entity.posY - (thePlayer.posY + (double)thePlayer.getEyeHeight());
+        double zDiff = entity.posZ - thePlayer.posZ;
+        double xzSqrtDiff = MathHelper.sqrt_double(xDiff * xDiff + zDiff * zDiff);
+        float newYaw = (float)(MathHelper.atan2(zDiff, xDiff) * 180.0D / Math.PI) - 90.0F;
+        float newPitch = (float)(-(MathHelper.atan2(yDiff, xzSqrtDiff) * 180.0D / Math.PI));
+        float rotationPitch = thePlayer.rotationPitch + MathHelper.wrapAngleTo180_float(newPitch - thePlayer.rotationPitch);
+        float rotationYaw = thePlayer.rotationYaw + MathHelper.wrapAngleTo180_float(newYaw - thePlayer.rotationYaw);
 
-    private float updateRotation(float p_75652_1_, float p_75652_2_, float p_75652_3_)
-    {
-        float f = MathHelper.wrapAngleTo180_float(p_75652_2_ - p_75652_1_);
+        float f2 = MathHelper.wrapAngleTo180_float(thePlayer.rotationYaw - thePlayer.renderYawOffset);
 
-        if (f > p_75652_3_)
+        if (f2 < -75.0F)
         {
-            f = p_75652_3_;
+            rotationYaw = thePlayer.renderYawOffset - 75.0F;
         }
 
-        if (f < -p_75652_3_)
+        if (f2 > 75.0F)
         {
-            f = -p_75652_3_;
+            rotationYaw = thePlayer.renderYawOffset + 75.0F;
         }
 
-        return p_75652_1_ + f;
+        thePlayer.setLocationAndAngles(thePlayer.posX, thePlayer.posY, thePlayer.posZ, rotationYaw, rotationPitch);
     }
 }

@@ -1,6 +1,7 @@
 package me.spaceman.psilocin.handlers;
 
 import me.spaceman.psilocin.Psilocin;
+import me.spaceman.psilocin.commandsystem.commands.Command;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.KeyPressEvent;
 import me.spaceman.psilocin.module.Module;
@@ -8,8 +9,11 @@ import me.spaceman.psilocin.module.movement.Safestep;
 import me.spaceman.psilocin.module.render.Nametags;
 import me.spaceman.psilocin.module.render.Tracers;
 import me.spaceman.psilocin.module.render.Wallhacks;
+import me.spaceman.psilocin.module.world.FireballAura;
 import me.spaceman.psilocin.module.world.Fullbright;
+import me.spaceman.psilocin.utils.TimeHelper;
 import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 
@@ -22,6 +26,32 @@ public class ModuleHandler {
     {
         setupMods();
         psilocin.getEventHandler().addEventListener(this);
+
+        psilocin.getCommandHandler().addCommand(new Command("mod", 1, "\\w+"), ((command, args) -> {
+            if(args[0].equalsIgnoreCase("list"))
+            {
+                psilocin.log("Loaded Modules: ", Psilocin.Level.INFO);
+                for(Module mod : this.loadedModules)
+                {
+                    psilocin.log("- " + mod.getName() + "- Keybind: " + Keyboard.getKeyName(mod.getKeyCode()), Psilocin.Level.INFO);
+                }
+            } else if (args[0].equalsIgnoreCase("reload")) {
+                TimeHelper timeHelper = new TimeHelper();
+                try {
+                    timeHelper.start();
+                    for(Module mod : this.loadedModules)
+                    {
+                        psilocin.getEventHandler().removeEventListener(mod);
+                    }
+                    this.loadedModules.clear();
+                    setupMods();
+                    timeHelper.stop();
+                    psilocin.log("Reloaded mods in " + timeHelper.getTimedTimeInMilliseconds() + "ms.", Psilocin.Level.INFO);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }));
     }
 
     @EventSubscriber
@@ -95,6 +125,7 @@ public class ModuleHandler {
         addModule(new Wallhacks());
         addModule(new Tracers());
         addModule(new Nametags());
+        addModule(new FireballAura());
     }
 
 }

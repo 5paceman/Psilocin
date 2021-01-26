@@ -304,18 +304,19 @@ public abstract class EntityFireball extends Entity
      */
     public boolean attackEntityFrom(DamageSource source, float amount)
     {
+
         if (this.isEntityInvulnerable(source))
         {
             return false;
         }
         else
         {
+
             this.setBeenAttacked();
 
             if (source.getEntity() != null)
             {
                 Vec3 vec3 = source.getEntity().getLookVec();
-
                 if (vec3 != null)
                 {
                     this.motionX = vec3.xCoord;

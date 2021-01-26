@@ -105,21 +105,21 @@ public class EntityLookHelper
         }
     }
 
-    private float updateRotation(float p_75652_1_, float p_75652_2_, float p_75652_3_)
+    private float updateRotation(float currentAngle, float newAngle, float delta)
     {
-        float f = MathHelper.wrapAngleTo180_float(p_75652_2_ - p_75652_1_);
+        float f = MathHelper.wrapAngleTo180_float(newAngle - currentAngle);
 
-        if (f > p_75652_3_)
+        if (f > delta)
         {
-            f = p_75652_3_;
+            f = delta;
         }
 
-        if (f < -p_75652_3_)
+        if (f < -delta)
         {
-            f = -p_75652_3_;
+            f = -delta;
         }
 
-        return p_75652_1_ + f;
+        return currentAngle + f;
     }
 
     public boolean getIsLooking()
