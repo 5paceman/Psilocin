@@ -65,13 +65,7 @@ public class Trajectory extends Module {
                 double motionY = -Math.sin(pitch) * speed;
                 double motionZ = Math.cos(yaw) *  Math.cos(pitch) * speed;
                 // Same math as used in ItemBow#onPlayerStoppedUsing for calculating bow power
-                float bowPower = (mc.thePlayer.getItemInUse().getMaxItemUseDuration() - mc.thePlayer.getItemInUseCount()) / 20f;
-                bowPower = (bowPower * bowPower + bowPower * 2f) / 3f;
-
-                if (bowPower > 1f || bowPower <= 0.1f)
-                    bowPower = 1f;
-
-                bowPower *= 3f;
+                float bowPower = getBowStrength();
                 motionX *= bowPower;
                 motionY *= bowPower;
                 motionZ *= bowPower;
@@ -125,39 +119,16 @@ public class Trajectory extends Module {
         }
     }
 
-    private double[] getHeading(double x, double y, double z)
+    private float getBowStrength()
     {
-        float velocity = 1F * 1.5F;
-        float inaccuracy = 1F;
-        float f = MathHelper.sqrt_double(x * x + y * y + z * z);
-        x = x / (double)f;
-        y = y / (double)f;
-        z = z / (double)f;
-        x = x + this.rand.nextGaussian() * (double)(this.rand.nextBoolean() ? -1 : 1) * 0.007499999832361937D * (double)inaccuracy;
-        y = y + this.rand.nextGaussian() * (double)(this.rand.nextBoolean() ? -1 : 1) * 0.007499999832361937D * (double)inaccuracy;
-        z = z + this.rand.nextGaussian() * (double)(this.rand.nextBoolean() ? -1 : 1) * 0.007499999832361937D * (double)inaccuracy;
-        x = x * (double)velocity;
-        y = y * (double)velocity;
-        z = z * (double)velocity;
-        return new double[]{x, y ,z};
-    }
+        float bowPower = (mc.thePlayer.getItemInUse().getMaxItemUseDuration() - mc.thePlayer.getItemInUseCount()) / 20f;
+        bowPower = (bowPower * bowPower + bowPower * 2f) / 3f;
 
-    private double getBowStrength()
-    {
-        int useTime = mc.thePlayer.getCurrentEquippedItem().getMaxItemUseDuration() - mc.thePlayer.getItemInUseCount();
-        float bowStrength = (float)useTime / 20.0F;
-        bowStrength = (bowStrength * bowStrength + bowStrength * 2.0F) / 3.0F;
+        if (bowPower > 1f || bowPower <= 0.1f)
+            bowPower = 1f;
 
-        if ((double)bowStrength < 0.1D)
-        {
-            return 0D;
-        }
+        bowPower *= 3f;
 
-        if (bowStrength > 1.0F)
-        {
-            bowStrength = 1.0F;
-        }
-
-        return bowStrength;
+        return bowPower;
     }
 }
