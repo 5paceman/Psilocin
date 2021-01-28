@@ -4,17 +4,22 @@ import me.spaceman.psilocin.Psilocin;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.RenderWorldEvent;
 import me.spaceman.psilocin.module.Module;
+import me.spaceman.psilocin.utils.RenderUtils;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.WorldRenderer;
+import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemBow;
-import net.minecraft.util.AxisAlignedBB;
-import net.minecraft.util.BlockPos;
-import net.minecraft.util.MathHelper;
+import net.minecraft.item.ItemEnderPearl;
+import net.minecraft.item.ItemFireball;
+import net.minecraft.util.*;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
@@ -38,25 +43,26 @@ public class Trajectory extends Module {
     @EventSubscriber
     public void onRenderWorld(final RenderWorldEvent event)
     {
-        if(Mouse.isButtonDown(1) && mc.thePlayer.getItemInUse() != null)
+        // Make sure we're holding an item
+        if(mc.thePlayer.getHeldItem() != null)
         {
-            if(mc.thePlayer.getItemInUse().getItem() instanceof ItemBow)
+            Item heldItem = mc.thePlayer.getHeldItem().getItem();
+            // Make sure the item we're holding is an item we want to predict for (ItemFireball is for Bed Wars)
+            if(heldItem instanceof ItemEnderPearl || heldItem instanceof ItemBow || heldItem instanceof ItemFireball)
             {
+                // In the case of the bow if we're not pulling the string back we dont care to render the projection
+                if(heldItem instanceof ItemBow && mc.thePlayer.getItemInUse() == null)
+                    return;
+
                 // This is so our rendering doesnt end up bobbing all over the screen if view bobbing is turned on
-                if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
-                    GL11.glPushAttrib(GL_VIEWPORT_BIT);
-                    GL11.glLoadIdentity();
-                    Minecraft.getMinecraft().gameSettings.viewBobbing = false;
-                    event.getEntityRenderer().setupCameraTransform(event.getPartialTicks(), 0);
-                    Minecraft.getMinecraft().gameSettings.viewBobbing = true;
-                }
+                RenderUtils.preRemoveViewBobbing(event.getPartialTicks());
 
                 // Intial position of the arrow moved slightly so it lines up with the bow
-                double arrowX = mc.thePlayer.lastTickPosX + (mc.thePlayer.posX - mc.thePlayer.lastTickPosX) * event.getPartialTicks() - Math.cos(Math.toRadians(mc.thePlayer.rotationYaw)) * 0.08F;
-                double arrowY = mc.thePlayer.lastTickPosY + (mc.thePlayer.posY - mc.thePlayer.lastTickPosY) * event.getPartialTicks() + mc.thePlayer.getEyeHeight() - 0.04;
-                double arrowZ = mc.thePlayer.lastTickPosZ + (mc.thePlayer.posZ - mc.thePlayer.lastTickPosZ) * event.getPartialTicks() - Math.sin(Math.toRadians(mc.thePlayer.rotationYaw)) * 0.08F;
+                double projX = mc.thePlayer.lastTickPosX + (mc.thePlayer.posX - mc.thePlayer.lastTickPosX) * event.getPartialTicks() - Math.cos(Math.toRadians(mc.thePlayer.rotationYaw)) * 0.08F;
+                double projY = mc.thePlayer.lastTickPosY + (mc.thePlayer.posY - mc.thePlayer.lastTickPosY) * event.getPartialTicks() + mc.thePlayer.getEyeHeight() - 0.04;
+                double projZ = mc.thePlayer.lastTickPosZ + (mc.thePlayer.posZ - mc.thePlayer.lastTickPosZ) * event.getPartialTicks() - Math.sin(Math.toRadians(mc.thePlayer.rotationYaw)) * 0.08F;
                 // The generic speed of the arrow (Will change if its an enderpearl etc)
-                float speed = 1F;
+                float speed = (heldItem instanceof ItemBow) ? 1F : (heldItem instanceof ItemEnderPearl) ? 0.4F : 1F;
                 // Convert pitch and yaw to radians
                 float yaw = (float)Math.toRadians(mc.thePlayer.rotationYaw);
                 float pitch = (float)Math.toRadians(mc.thePlayer.rotationPitch);
@@ -64,11 +70,24 @@ public class Trajectory extends Module {
                 double motionX = -Math.sin(yaw) * Math.cos(pitch) * speed;
                 double motionY = -Math.sin(pitch) * speed;
                 double motionZ = Math.cos(yaw) *  Math.cos(pitch) * speed;
+                double motionFactor = Math.sqrt(motionX * motionX + motionY * motionY + motionZ * motionZ);
+                //  setThrowableMotion for EntityThrowable and EntityArrow
+                motionX /= motionFactor;
+                motionY /= motionFactor;
+                motionZ /= motionFactor;
                 // Same math as used in ItemBow#onPlayerStoppedUsing for calculating bow power
-                float bowPower = getBowStrength();
-                motionX *= bowPower;
-                motionY *= bowPower;
-                motionZ *= bowPower;
+                if(heldItem instanceof ItemBow) {
+                    float bowPower = getBowStrength();
+                    motionX *= bowPower;
+                    motionY *= bowPower;
+                    motionZ *= bowPower;
+                } else if(heldItem instanceof ItemEnderPearl)
+                {
+                    // See EntityThrowable getVelocity()
+                    motionX *= 1.5D;
+                    motionY *= 1.5D;
+                    motionZ *= 1.5D;
+                }
 
                 // Disable lighting so no lighting gets applied to our lines
                 GL11.glDisable(GL11.GL_LIGHTING);
@@ -84,25 +103,113 @@ public class Trajectory extends Module {
                 // DefaultVertexFormats.POSITION_COLOR just sets it so each vertex has a position and color vertex
                 worldRenderer.begin(GL11.GL_LINE_STRIP, DefaultVertexFormats.POSITION_COLOR);
                 // Loop to simulate time of the arrow flying
+                boolean hit = false;
                 for(double i = 0; i < 1000D; i++)
                 {
                     // Plot our point for rendering renderPosX/Y/Z are Minecraft render engine offsets so stuff renders where we need it
-                    worldRenderer.pos(arrowX - mc.getRenderManager().renderPosX, arrowY - mc.getRenderManager().renderPosY, arrowZ - mc.getRenderManager().renderPosZ).color(1f, 1f, 1f, 1f).endVertex();
+                    worldRenderer.pos(projX - mc.getRenderManager().renderPosX, projY - mc.getRenderManager().renderPosY, projZ - mc.getRenderManager().renderPosZ).color(1f, 1f, 1f, 1f).endVertex();
+                    MovingObjectPosition rayTrace = mc.theWorld.rayTraceBlocks(new Vec3(projX, projY, projZ), new Vec3(projX + (motionX * 0.1), projY + (motionY * 0.1), projZ + (motionZ * 0.1)), false, true, false);
+                    if(rayTrace != null)
+                    {
+                        hit = true;
+                        tessellator.draw();
+                        switch(rayTrace.typeOfHit)
+                        {
+                            case ENTITY:
+                                break;
+                            case BLOCK:
+                                double x = rayTrace.getBlockPos().getX() - mc.getRenderManager().renderPosX;
+                                double y = rayTrace.getBlockPos().getY() - mc.getRenderManager().renderPosY;
+                                double z = rayTrace.getBlockPos().getZ() - mc.getRenderManager().renderPosZ;
+                                GL11.glDisable(GL11.GL_DEPTH_TEST);
+                                GlStateManager.disableDepth();
+                                RenderUtils.drawBox(x, y, z, 1, 1, 0.8f, 1f, 0.8f, 0.25f);
+                                GlStateManager.enableTexture2D();
+                                GL11.glEnable(GL11.GL_TEXTURE_2D);
+                                break;
+                        }
+                        break;
+                    }
+
+                    for(Entity entity : mc.theWorld.loadedEntityList)
+                    {
+                        if(entity == mc.getRenderViewEntity())
+                            continue;
+                        if(entity instanceof EntityLivingBase && entity.getEntityBoundingBox().isVecInside(new Vec3(projX, projY, projZ)))
+                        {
+
+                            hit = true;
+                            tessellator.draw();
+                            double x = entity.lastTickPosX + (entity.posX - entity.lastTickPosX) * event.getPartialTicks() - mc.getRenderManager().renderPosX;
+                            double y = entity.lastTickPosY + (entity.posY - entity.lastTickPosY) * event.getPartialTicks() - mc.getRenderManager().renderPosY;
+                            double z = entity.lastTickPosZ + (entity.posZ - entity.lastTickPosZ) * event.getPartialTicks() - mc.getRenderManager().renderPosZ;
+                            GL11.glPushMatrix();
+                            GL11.glTranslated(x, y, z);
+                            GlStateManager.rotate(entity.prevRotationYaw + (entity.rotationYaw - entity.prevRotationYaw) * event.getPartialTicks() - 90.0F, 0.0F, 1.0F, 0.0F);
+                            GlStateManager.disableDepth();
+                            RenderUtils.drawBox(0  - (entity.width * 1.5f) / 2, 0, 0 - (entity.width * 1.5f) / 2, (entity.width * 1.5f), entity.height, 0.2f, 1f, 0.2f, 0.25f);
+                            GlStateManager.enableTexture2D();
+                            GlStateManager.disableDepth();
+                            GL11.glEnable(GL11.GL_TEXTURE_2D);
+                            GL11.glPopMatrix();
+                            break;
+                        }
+                    }
+                    if(!hit) {
+                        for (Entity entity : mc.theWorld.playerEntities) {
+                            if (entity == mc.getRenderViewEntity())
+                                continue;
+                            if (entity.getEntityBoundingBox().isVecInside(new Vec3(projX, projY, projZ))) {
+                                hit = true;
+                                tessellator.draw();
+                                double x = entity.lastTickPosX + (entity.posX - entity.lastTickPosX) * event.getPartialTicks() - mc.getRenderManager().renderPosX;
+                                double y = entity.lastTickPosY + (entity.posY - entity.lastTickPosY) * event.getPartialTicks() - mc.getRenderManager().renderPosY;
+                                double z = entity.lastTickPosZ + (entity.posZ - entity.lastTickPosZ) * event.getPartialTicks() - mc.getRenderManager().renderPosZ;
+                                GL11.glPushMatrix();
+                                GL11.glTranslated(x, y, z);
+                                GlStateManager.rotate(entity.prevRotationYaw + (entity.rotationYaw - entity.prevRotationYaw) * event.getPartialTicks() - 90.0F, 0.0F, 1.0F, 0.0F);
+                                GL11.glDisable(GL11.GL_DEPTH_TEST);
+                                GlStateManager.disableDepth();
+                                RenderUtils.drawBox(0 - entity.width / 2, 0, 0 - entity.width / 2, entity.width, entity.height, 0.2f, 1f, 0f, 0.25f);
+                                GlStateManager.enableTexture2D();
+                                GL11.glEnable(GL11.GL_TEXTURE_2D);
+                                GL11.glEnable(GL11.GL_DEPTH_TEST);
+                                GL11.glPopMatrix();
+                                break;
+                            }
+                        }
+                    }
+                    if(hit)
+                        break;
                     // Slowly increment our simulated arrows coords using our motion values
-                    arrowX += motionX * 0.1;
-                    arrowZ += motionZ * 0.1;
-                    arrowY += motionY * 0.1;
+                    projX += motionX * 0.1;
+                    projZ += motionZ * 0.1;
+                    projY += motionY * 0.1;
                     // Slowly decrement our motions so they fall off over time
-                    motionX *= 0.999;
-                    motionY *= 0.999;
-                    motionZ *= 0.999;
+
                     // Decrement Y motion by gravity
-                    motionY -= 0.005;
+                    if(heldItem instanceof ItemBow) {
+                        motionX *= 0.999;
+                        motionY *= 0.999;
+                        motionZ *= 0.999;
+                        motionY -= 0.005F;
+                    }else if(heldItem instanceof ItemEnderPearl)
+                    {
+                        motionX *= 0.999;
+                        motionY *= 0.999;
+                        motionZ *= 0.999;
+                        motionY -= 0.003F;
+                    } else if(heldItem instanceof ItemFireball)
+                    {
+                        motionY -= 0f;
+                    }
 
 
                 }
                 // After the loop we draw our line
-                tessellator.draw();
+                if(!hit)
+                    tessellator.draw();
+
                 GlStateManager.popMatrix();
                 // Re-enable depth and texture 2D. If we re-enable lighting we'll end up with stuff in the
                 // GUI like the hotbar having lighting when it shouldnt
@@ -110,11 +217,7 @@ public class Trajectory extends Module {
                 GlStateManager.enableTexture2D();
 
                 // This is so our rendering doesnt end up bobbing all over the screen if view bobbing is turned on
-                if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
-                    GL11.glPopAttrib();
-                    Minecraft.getMinecraft().gameSettings.viewBobbing = true;
-
-                }
+                RenderUtils.postRemoveViewBobbing();
             }
         }
     }

@@ -6,7 +6,8 @@ public abstract class Module {
         WORLD,
         RENDER,
         MOVEMENT,
-        MISC
+        MISC,
+        MINIGAME
     }
 
     private String name;

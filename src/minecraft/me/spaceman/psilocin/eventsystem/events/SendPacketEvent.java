@@ -1,6 +1,5 @@
 package me.spaceman.psilocin.eventsystem.events;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.Lister;
 import net.minecraft.network.Packet;
 
 public class SendPacketEvent extends Event{

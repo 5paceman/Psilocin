@@ -10,11 +10,17 @@ INFO: ApplyMarker:    true
 INFO: GenArgs:        false
 INFO: LVT:            LVT
 INFO: Loaded max Class Index: 1
+INFO: Copying me/spaceman/psilocin/Psilocin$1.class
+INFO: Copying me/spaceman/psilocin/Psilocin$Level.class
 INFO: Copying me/spaceman/psilocin/Psilocin.class
+INFO: Copying me/spaceman/psilocin/commandsystem/CommandHandler.class
+INFO: Copying me/spaceman/psilocin/commandsystem/commands/Command.class
 INFO: Copying me/spaceman/psilocin/eventsystem/EventHandler.class
 INFO: Copying me/spaceman/psilocin/eventsystem/EventSubscriber.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/Event.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/KeyPressEvent.class
+INFO: Copying me/spaceman/psilocin/eventsystem/events/PlayerLivingUpdateEvent.class
+INFO: Copying me/spaceman/psilocin/eventsystem/events/ReceivePacketEvent.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderDroppedItemEvent$Post.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderDroppedItemEvent$Pre.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderDroppedItemEvent.class
@@ -25,6 +31,9 @@ INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderPlayerEvent$Post.cla
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderPlayerEvent$Pre.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderPlayerEvent.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderWorldEvent.class
+INFO: Copying me/spaceman/psilocin/eventsystem/events/SendChatMessageEvent.class
+INFO: Copying me/spaceman/psilocin/eventsystem/events/SendPacketEvent.class
+INFO: Copying me/spaceman/psilocin/handlers/FriendHandler.class
 INFO: Copying me/spaceman/psilocin/handlers/ModuleHandler.class
 INFO: Copying me/spaceman/psilocin/hooks/PsyGuiIngame.class
 INFO: Copying me/spaceman/psilocin/module/Module$Category.class
@@ -32,9 +41,13 @@ INFO: Copying me/spaceman/psilocin/module/Module.class
 INFO: Copying me/spaceman/psilocin/module/movement/Safestep.class
 INFO: Copying me/spaceman/psilocin/module/render/Nametags.class
 INFO: Copying me/spaceman/psilocin/module/render/Tracers.class
+INFO: Copying me/spaceman/psilocin/module/render/Trajectory$1.class
+INFO: Copying me/spaceman/psilocin/module/render/Trajectory.class
 INFO: Copying me/spaceman/psilocin/module/render/Wallhacks.class
+INFO: Copying me/spaceman/psilocin/module/world/FireballAura.class
 INFO: Copying me/spaceman/psilocin/module/world/Fullbright.class
 INFO: Copying me/spaceman/psilocin/utils/RenderUtils.class
+INFO: Copying me/spaceman/psilocin/utils/TimeHelper.class
 INFO: Processing net/minecraft/block/Block$1.class
 INFO: Processed 723 -> 723
 INFO: Processing net/minecraft/block/Block$2.class
@@ -720,7 +733,7 @@ INFO: Processed 6063 -> 6048
 INFO: Processing net/minecraft/client/entity/EntityOtherPlayerMP.class
 INFO: Processed 4893 -> 4890
 INFO: Processing net/minecraft/client/entity/EntityPlayerSP.class
-INFO: Processed 22117 -> 22130
+INFO: Processed 22808 -> 22816
 INFO: Processing net/minecraft/client/gui/ChatLine.class
 INFO: Processed 874 -> 874
 INFO: Processing net/minecraft/client/gui/FontRenderer.class
@@ -1581,7 +1594,7 @@ INFO: Processing net/minecraft/client/renderer/EntityRenderer$4.class
 INFO: Processed 1766 -> 1766
 INFO: Processing net/minecraft/client/renderer/EntityRenderer.class
 FINE: Access: net/minecraft/client/renderer/EntityRenderer/access$000(Lnet/minecraft/client/renderer/EntityRenderer;)Lnet/minecraft/client/Minecraft; [GETFIELD net/minecraft/client/renderer/EntityRenderer/mc Lnet/minecraft/client/Minecraft;]
-INFO: Processed 49903 -> 49964
+INFO: Processed 50241 -> 50302
 INFO: Processing net/minecraft/client/renderer/EnumFaceDirection$1.class
 INFO: Processed 259 -> 259
 INFO: Processing net/minecraft/client/renderer/EnumFaceDirection$Constants.class
@@ -2881,7 +2894,7 @@ INFO: Processed 838 -> 838
 INFO: Processing net/minecraft/entity/ai/EntityJumpHelper.class
 INFO: Processed 720 -> 720
 INFO: Processing net/minecraft/entity/ai/EntityLookHelper.class
-INFO: Processed 3052 -> 3032
+INFO: Processed 3047 -> 3027
 INFO: Processing net/minecraft/entity/ai/EntityMinecartMobSpawner$1.class
 INFO: Processed 1219 -> 1219
 INFO: Processing net/minecraft/entity/ai/EntityMinecartMobSpawner.class
@@ -3675,7 +3688,7 @@ FINE: Access: net/minecraft/network/NetworkManager$InboundHandlerTuplePacketList
 INFO: Processed 1498 -> 1498
 INFO: Processing net/minecraft/network/NetworkManager.class
 FINE: Access: net/minecraft/network/NetworkManager/access$000(Lnet/minecraft/network/NetworkManager;)Lio/netty/channel/Channel; [GETFIELD net/minecraft/network/NetworkManager/channel Lio/netty/channel/Channel;]
-INFO: Processed 16160 -> 16164
+INFO: Processed 16994 -> 16987
 INFO: Processing net/minecraft/network/NetworkSystem$1.class
 INFO: Processed 1190 -> 1190
 INFO: Processing net/minecraft/network/NetworkSystem$2.class

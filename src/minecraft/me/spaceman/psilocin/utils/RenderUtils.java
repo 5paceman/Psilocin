@@ -1,13 +1,110 @@
 package me.spaceman.psilocin.utils;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.WorldRenderer;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
+import org.lwjgl.opengl.GL11;
+
+import static org.lwjgl.opengl.GL11.GL_VIEWPORT_BIT;
 
 public class RenderUtils {
+
+    public static void preRemoveViewBobbing(float partialTicks)
+    {
+        if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
+            // Store the Viewport settings
+            GL11.glPushAttrib(GL_VIEWPORT_BIT);
+            // Reset the view matrix
+            GL11.glLoadIdentity();
+            // Turn off Viewbobbing
+            Minecraft.getMinecraft().gameSettings.viewBobbing = false;
+            // Use Minecraft camera setup function with view bobbing turned off
+            Minecraft.getMinecraft().entityRenderer.setupCameraTransform(partialTicks, 0);
+            // Enable it again
+            Minecraft.getMinecraft().gameSettings.viewBobbing = true;
+        }
+    }
+
+    public static void postRemoveViewBobbing()
+    {
+        if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
+            // Put the stored viewport settings back to how they were
+            GL11.glPopAttrib();
+        }
+    }
+
+    public static void drawBox(double x, double y, double z, float w, float h, float r, float g, float b, float a)
+    {
+        Tessellator tessellator = Tessellator.getInstance();
+        WorldRenderer worldrenderer = tessellator.getWorldRenderer();
+        GlStateManager.enableBlend();
+        GlStateManager.disableTexture2D();
+        GlStateManager.tryBlendFuncSeparate(770, 771, 1, 0);
+        GlStateManager.color(r, g, b, a);
+        worldrenderer.begin(GL11.GL_QUADS, DefaultVertexFormats.POSITION);
+        worldrenderer.pos(x + w, y + h, z).endVertex();
+        worldrenderer.pos(x, y + h, z).endVertex();
+        worldrenderer.pos(x, y + h, z + w).endVertex();
+        worldrenderer.pos(x + w, y + h, z + w).endVertex();
+
+        worldrenderer.pos(x + w, y, z + w).endVertex();
+        worldrenderer.pos(x, y, z + w).endVertex();
+        worldrenderer.pos(x, y, z).endVertex();
+        worldrenderer.pos(x + w, y, z).endVertex();
+
+        worldrenderer.pos(x + w, y + h, z + w).endVertex();
+        worldrenderer.pos(x, y + h, z + w).endVertex();
+        worldrenderer.pos(x, y, z + w).endVertex();
+        worldrenderer.pos(x + w, y,  z + w).endVertex();
+
+        worldrenderer.pos(x + w, y, z).endVertex();
+        worldrenderer.pos(x, y, z).endVertex();
+        worldrenderer.pos(x, y + h, z).endVertex();
+        worldrenderer.pos(x + w, y+h, z).endVertex();
+
+        worldrenderer.pos(x, y + h, z + w).endVertex();
+        worldrenderer.pos(x, y + h, z).endVertex();
+        worldrenderer.pos(x, y, z).endVertex();
+        worldrenderer.pos(x, y, z + w).endVertex();
+
+        worldrenderer.pos(x + w, y + h, z).endVertex();
+        worldrenderer.pos(x + w, y+h, z + w).endVertex();
+        worldrenderer.pos(x + w, y,  z + w).endVertex();
+        worldrenderer.pos(x + w, y, z).endVertex();
+        tessellator.draw();
+
+        GlStateManager.color(r, g, b, 0.8f);
+        worldrenderer.begin(GL11.GL_LINE_STRIP, DefaultVertexFormats.POSITION);
+        worldrenderer.pos(x, y, z).endVertex();
+        worldrenderer.pos(x + w, y, z).endVertex();
+        worldrenderer.pos(x + w, y, z+w).endVertex();
+        worldrenderer.pos(x, y, z + w).endVertex();
+        worldrenderer.pos(x, y, z).endVertex();
+        tessellator.draw();
+        worldrenderer.begin(GL11.GL_LINE_STRIP, DefaultVertexFormats.POSITION);
+        worldrenderer.pos(x, y + h, z).endVertex();
+        worldrenderer.pos(x + w, y + h, z).endVertex();
+        worldrenderer.pos(x + w, y + h, z + w).endVertex();
+        worldrenderer.pos(x, y + h, z + w).endVertex();
+        worldrenderer.pos(x, y + h, z).endVertex();
+        tessellator.draw();
+        worldrenderer.begin(GL11.GL_LINES, DefaultVertexFormats.POSITION);
+        worldrenderer.pos(x, y, z).endVertex();
+        worldrenderer.pos(x, y + h, z).endVertex();
+        worldrenderer.pos(x + w, y, z).endVertex();
+        worldrenderer.pos(x + w, y + h, z).endVertex();
+        worldrenderer.pos(x + w, y, z + w).endVertex();
+        worldrenderer.pos(x + w, y + h, z + w).endVertex();
+        worldrenderer.pos(x, y, z + w).endVertex();
+        worldrenderer.pos(x, y + h, z + w).endVertex();
+        tessellator.draw();
+        GlStateManager.enableTexture2D();
+        GlStateManager.disableBlend();
+    }
 
     public static void drawHorizontalLine(int startX, int endX, int y, int color)
     {

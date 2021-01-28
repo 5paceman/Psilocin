@@ -82,7 +82,6 @@ public class Psilocin {
     {
         ScaledResolution scaledResolution = new ScaledResolution(Minecraft.getMinecraft());
         event.fontRenderer.drawStringWithShadow(name, 2.f, 2.f, 0xFFFFFFFF);
-        Tessellator tessellator = Tessellator.getInstance();
         int y = 2;
         for(Module mod : this.getModuleHandler().getLoadedModules())
         {

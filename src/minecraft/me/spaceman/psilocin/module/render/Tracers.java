@@ -4,6 +4,7 @@ import me.spaceman.psilocin.Psilocin;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.RenderWorldEvent;
 import me.spaceman.psilocin.module.Module;
+import me.spaceman.psilocin.utils.RenderUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
@@ -32,13 +33,7 @@ public class Tracers extends Module{
         if (!this.isEnabled())
             return;
 
-        if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
-            GL11.glPushAttrib(GL_VIEWPORT_BIT);
-            GL11.glLoadIdentity();
-            Minecraft.getMinecraft().gameSettings.viewBobbing = false;
-            event.getEntityRenderer().setupCameraTransform(event.getPartialTicks(), 0);
-            Minecraft.getMinecraft().gameSettings.viewBobbing = true;
-        }
+        RenderUtils.preRemoveViewBobbing(event.getPartialTicks());
 
 
         Entity thePlayer = Minecraft.getMinecraft().getRenderViewEntity();
@@ -74,11 +69,7 @@ public class Tracers extends Module{
             GlStateManager.enableTexture2D();
         }
 
-        if (Minecraft.getMinecraft().gameSettings.viewBobbing) {
-            GL11.glPopAttrib();
-            Minecraft.getMinecraft().gameSettings.viewBobbing = true;
-
-        }
+        RenderUtils.postRemoveViewBobbing();
     }
 
 }
