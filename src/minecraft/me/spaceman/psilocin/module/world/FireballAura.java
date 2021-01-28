@@ -15,7 +15,7 @@ import org.lwjgl.input.Keyboard;
 
 public class FireballAura extends Module {
     public FireballAura() {
-        super("FireballAura", Keyboard.KEY_U, Category.WORLD, 0xFF21B3E4);
+        super("FireballAura", Keyboard.KEY_U, Category.WORLD, 0xFFF23005);
         Psilocin.getInstance().getEventHandler().addEventListener(this);
     }
 

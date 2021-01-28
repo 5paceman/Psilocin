@@ -34,7 +34,7 @@ public class Trajectory extends Module {
     private Random rand = new Random();
 
     public Trajectory() {
-        super("Trajectory", Keyboard.KEY_T, Category.RENDER, 0xFF922B21);
+        super("Trajectory", Keyboard.KEY_T, Category.RENDER, 0xFF00C4FF);
         Psilocin.getInstance().getEventHandler().addEventListener(this);
         mc = Minecraft.getMinecraft();
     }
@@ -43,6 +43,9 @@ public class Trajectory extends Module {
     @EventSubscriber
     public void onRenderWorld(final RenderWorldEvent event)
     {
+        if(!this.isEnabled())
+            return;
+
         // Make sure we're holding an item
         if(mc.thePlayer.getHeldItem() != null)
         {

@@ -24,7 +24,7 @@ public class Nametags extends Module {
     private RenderManager renderManager = Minecraft.getMinecraft().getRenderManager();
     private DecimalFormat decimalFormat = new DecimalFormat("#.#");
     public Nametags() {
-        super("Nametags", Keyboard.KEY_M, Category.RENDER, 0xFF2233BB);
+        super("Nametags", Keyboard.KEY_M, Category.RENDER, 0xFFFF0076);
         Psilocin.getInstance().getEventHandler().addEventListener(this);
     }
 

@@ -9,7 +9,7 @@ public class Fullbright extends Module {
     private float oldGamma = 1F;
     // EntityRenderer#setupFog -> 1958
     public Fullbright() {
-        super("Fullbright", Keyboard.KEY_F, Category.WORLD, 0xFFbb8fce);
+        super("Fullbright", Keyboard.KEY_F, Category.WORLD, 0xFF20B1B2);
     }
 
     @Override

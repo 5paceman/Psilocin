@@ -12,7 +12,7 @@ import org.lwjgl.opengl.GL11;
 public class Wallhacks extends Module {
 
     public Wallhacks() {
-        super("Wallhacks", Keyboard.KEY_N, Category.RENDER, 0xFFE1C896);
+        super("Wallhacks", Keyboard.KEY_N, Category.RENDER, 0xFFD7E800);
         Psilocin.getInstance().getEventHandler().addEventListener(this);
     }
 

@@ -87,7 +87,7 @@ public class Psilocin {
         {
             if(mod.isEnabled())
             {
-                RenderUtils.drawRect(scaledResolution.getScaledWidth() - Psilocin.getInstance().getModuleHandler().getLongestModName() - 4, y - 2, scaledResolution.getScaledWidth(), y + event.fontRenderer.FONT_HEIGHT, 0xAA111111);
+                RenderUtils.drawRect(scaledResolution.getScaledWidth() - Psilocin.getInstance().getModuleHandler().getLongestModName() - 6, y - 2, scaledResolution.getScaledWidth(), y + event.fontRenderer.FONT_HEIGHT, 0xAA111111);
                 event.fontRenderer.drawStringWithShadow(mod.getName(), scaledResolution.getScaledWidth() - event.fontRenderer.getStringWidth(mod.getName()) - 2f, y, mod.getColor());
                 y += event.fontRenderer.FONT_HEIGHT + 2f;
             }

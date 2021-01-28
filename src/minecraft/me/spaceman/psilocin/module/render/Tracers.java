@@ -24,7 +24,7 @@ public class Tracers extends Module{
 
     public Tracers()
     {
-        super("Tracers", Keyboard.KEY_Y, Category.RENDER, 0xFF6D9F9F);
+        super("Tracers", Keyboard.KEY_Y, Category.RENDER, 0xFF7700E8);
         Psilocin.getInstance().getEventHandler().addEventListener(this);
     }
 
