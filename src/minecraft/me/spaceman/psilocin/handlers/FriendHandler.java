@@ -4,8 +4,12 @@ import me.spaceman.psilocin.Psilocin;
 import me.spaceman.psilocin.commandsystem.commands.Command;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.EnumChatFormatting;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class FriendHandler {
 
@@ -16,6 +20,11 @@ public class FriendHandler {
     {
         this.psilocin = psilocin;
         this.psilocin.getCommandHandler().addCommand(new Command("friend", 1, "\\w+.+"), this::handleFriendCommand);
+        try {
+            this.friends.addAll(Arrays.asList(this.psilocin.getConfigHandler().readArray("friends.json")));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public void handleFriendCommand(Command command, String[] args)
@@ -23,10 +32,10 @@ public class FriendHandler {
         String subCommand = args[0];
         if(subCommand.equalsIgnoreCase("list"))
         {
-            String friendString = "";
+            String friendString = "\n";
             for(String string : this.friends)
             {
-                friendString += string + "\n";
+                friendString += EnumChatFormatting.GRAY + " - " + string + "\n";
             }
             this.psilocin.log("Friends: " + friendString, Psilocin.Level.INFO);
         } else if(subCommand.equalsIgnoreCase("add"))
@@ -58,6 +67,12 @@ public class FriendHandler {
                 this.psilocin.log("Friend removed: "  + name, Psilocin.Level.INFO);
             }
         }
+
+        try {
+            this.psilocin.getConfigHandler().saveArray(this.friends.toArray(new String[this.friends.size()]), "friends.json");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void addFriend(String name)
@@ -67,6 +82,11 @@ public class FriendHandler {
             this.psilocin.log("Added friend: " + name, Psilocin.Level.INFO);
 
         this.friends.add(name);
+        try {
+            this.psilocin.getConfigHandler().saveArray(this.friends.toArray(new String[this.friends.size()]), "friends.json");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public boolean isFriend(String name)

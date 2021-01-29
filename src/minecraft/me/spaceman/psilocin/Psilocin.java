@@ -6,15 +6,19 @@ import me.spaceman.psilocin.eventsystem.EventHandler;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.RenderGameOverlayEvent;
 import me.spaceman.psilocin.eventsystem.events.RenderMainMenuEvent;
+import me.spaceman.psilocin.handlers.ConfigHandler;
 import me.spaceman.psilocin.handlers.FriendHandler;
 import me.spaceman.psilocin.handlers.ModuleHandler;
 import me.spaceman.psilocin.module.Module;
+import me.spaceman.psilocin.utils.LoginHelper;
 import me.spaceman.psilocin.utils.RenderUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
-import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
+
+import java.io.IOException;
+import java.util.logging.Logger;
 
 public class Psilocin {
 
@@ -24,6 +28,7 @@ public class Psilocin {
     private CommandHandler commandHandler;
     private EventHandler eventHandler;
     private FriendHandler friendHandler;
+    private ConfigHandler configHandler;
     private String name;
 
     public Psilocin() {
@@ -40,24 +45,33 @@ public class Psilocin {
 
     public void log(String message, Level level)
     {
-        String chatMessage = EnumChatFormatting.DARK_GRAY + "[" +  name + EnumChatFormatting.DARK_GRAY + "]: ";
-        switch(level)
-        {
-            case INFO:
-                chatMessage += EnumChatFormatting.GRAY + message;
-                break;
-            case WARN:
-                chatMessage += EnumChatFormatting.YELLOW + message;
-                break;
-            case ERROR:
-                chatMessage += EnumChatFormatting.RED + message;
-                break;
+        Logger.getLogger("PSILOCIN").log(java.util.logging.Level.INFO, message);
+        if(Minecraft.getMinecraft().thePlayer != null) {
+            String chatMessage = EnumChatFormatting.DARK_GRAY + "[" +  name + EnumChatFormatting.DARK_GRAY + "]: ";
+            switch (level) {
+                case INFO:
+                    chatMessage += EnumChatFormatting.GRAY + message;
+                    break;
+                case WARN:
+                    chatMessage += EnumChatFormatting.YELLOW + message;
+                    break;
+                case ERROR:
+                    chatMessage += EnumChatFormatting.RED + message;
+                    break;
+            }
+            Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(new ChatComponentText(chatMessage));
         }
-        Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(new ChatComponentText(chatMessage));
     }
 
     public void setup()
     {
+        try {
+            this.configHandler = new ConfigHandler();
+
+            Minecraft.getMinecraft().session = LoginHelper.login(this.configHandler.<String>getValue("logon.username"), this.configHandler.<String>getValue("logon.password"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         this.eventHandler = new EventHandler();
         this.commandHandler = new CommandHandler(this);
         this.moduleHandler = new ModuleHandler(this);
@@ -118,6 +132,10 @@ public class Psilocin {
 
     public FriendHandler getFriendHandler() {
         return this.friendHandler;
+    }
+
+    public ConfigHandler getConfigHandler() {
+        return this.configHandler;
     }
 
     public enum Level {

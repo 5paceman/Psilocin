@@ -6,10 +6,7 @@ import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.KeyPressEvent;
 import me.spaceman.psilocin.module.Module;
 import me.spaceman.psilocin.module.movement.Safestep;
-import me.spaceman.psilocin.module.render.Nametags;
-import me.spaceman.psilocin.module.render.Tracers;
-import me.spaceman.psilocin.module.render.Trajectory;
-import me.spaceman.psilocin.module.render.Wallhacks;
+import me.spaceman.psilocin.module.render.*;
 import me.spaceman.psilocin.module.world.FireballAura;
 import me.spaceman.psilocin.module.world.Fullbright;
 import me.spaceman.psilocin.utils.TimeHelper;
@@ -128,6 +125,7 @@ public class ModuleHandler {
         addModule(new Nametags());
         addModule(new FireballAura());
         addModule(new Trajectory());
+        addModule(new BedESP());
     }
 
 }

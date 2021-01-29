@@ -116,6 +116,7 @@ public class Trajectory extends Module {
                     {
                         hit = true;
                         tessellator.draw();
+                        RenderUtils.postRemoveViewBobbing();
                         switch(rayTrace.typeOfHit)
                         {
                             case ENTITY:
@@ -143,6 +144,7 @@ public class Trajectory extends Module {
 
                             hit = true;
                             tessellator.draw();
+                            RenderUtils.postRemoveViewBobbing();
                             double x = entity.lastTickPosX + (entity.posX - entity.lastTickPosX) * event.getPartialTicks() - mc.getRenderManager().renderPosX;
                             double y = entity.lastTickPosY + (entity.posY - entity.lastTickPosY) * event.getPartialTicks() - mc.getRenderManager().renderPosY;
                             double z = entity.lastTickPosZ + (entity.posZ - entity.lastTickPosZ) * event.getPartialTicks() - mc.getRenderManager().renderPosZ;
@@ -165,6 +167,7 @@ public class Trajectory extends Module {
                             if (entity.getEntityBoundingBox().isVecInside(new Vec3(projX, projY, projZ))) {
                                 hit = true;
                                 tessellator.draw();
+                                RenderUtils.postRemoveViewBobbing();
                                 double x = entity.lastTickPosX + (entity.posX - entity.lastTickPosX) * event.getPartialTicks() - mc.getRenderManager().renderPosX;
                                 double y = entity.lastTickPosY + (entity.posY - entity.lastTickPosY) * event.getPartialTicks() - mc.getRenderManager().renderPosY;
                                 double z = entity.lastTickPosZ + (entity.posZ - entity.lastTickPosZ) * event.getPartialTicks() - mc.getRenderManager().renderPosZ;
@@ -210,8 +213,10 @@ public class Trajectory extends Module {
 
                 }
                 // After the loop we draw our line
-                if(!hit)
+                if(!hit) {
                     tessellator.draw();
+                    RenderUtils.postRemoveViewBobbing();
+                }
 
                 GlStateManager.popMatrix();
                 // Re-enable depth and texture 2D. If we re-enable lighting we'll end up with stuff in the
@@ -220,7 +225,7 @@ public class Trajectory extends Module {
                 GlStateManager.enableTexture2D();
 
                 // This is so our rendering doesnt end up bobbing all over the screen if view bobbing is turned on
-                RenderUtils.postRemoveViewBobbing();
+
             }
         }
     }

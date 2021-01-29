@@ -1,24 +1,47 @@
-[17:07:25] [Client thread/INFO]: Setting user: Dev4285
-[17:07:25] [Client thread/INFO]: (Session ID is token:0:Dev4285)
-[17:07:25] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:07:26] [Client thread/INFO]: Reloading ResourceManager: Default
-[17:07:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:07:26] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[17:07:26] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:07:26] [Thread-6/INFO]: OpenAL initialized.
-[17:07:26] [Sound Library Loader/INFO]: Sound engine started
-[17:07:27] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:07:36] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[17:07:36] [Server thread/INFO]: Generating keypair
-[17:07:36] [Server thread/INFO]: Preparing start region for level 0
-[17:07:37] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:07:38] [Server thread/INFO]: Dev4285[local:E:a95ce78c] logged in with entity id 147 at (-6690.812258112713, 173.41306546346655, 1941.055727824481)
-[17:07:38] [Server thread/INFO]: Dev4285 joined the game
-[17:08:31] [Server thread/INFO]: Saving and pausing game...
-[17:08:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:08:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:08:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:09:10] [Server thread/INFO]: Saving and pausing game...
-[17:09:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:09:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:09:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:28:49] [Client thread/INFO]: Setting user: Dev4285
+[12:28:49] [Client thread/INFO]: (Session ID is token:0:Dev4285)
+[12:28:50] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:28:50] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:28:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:28:51] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[12:28:51] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:28:51] [Thread-6/INFO]: OpenAL initialized.
+[12:28:51] [Sound Library Loader/INFO]: Sound engine started
+[12:28:52] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:28:52] [Client thread/INFO]: Logging in with username & password
+[12:29:01] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[12:29:01] [Server thread/INFO]: Generating keypair
+[12:29:01] [Server thread/INFO]: Preparing start region for level 0
+[12:29:02] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:29:03] [Server thread/INFO]: Peanut_Brittle_[local:E:e6c89fd9] logged in with entity id 147 at (-7138.193486216435, 89.0, 2509.707611485289)
+[12:29:03] [Server thread/INFO]: Peanut_Brittle_ joined the game
+[12:29:12] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: apple
+[12:30:25] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: Test
+Test2
+apple
+
+[12:31:25] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: 
+§7Test
+§7Test2
+§7apple
+
+[12:31:27] [Server thread/INFO]: Saving and pausing game...
+[12:31:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:31:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:31:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:31:46] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: 
+§7 - Test
+§7 - Test2
+§7 - apple
+
+[12:31:57] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: orange
+[12:31:59] [Server thread/INFO]: Saving and pausing game...
+[12:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:32:15] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: blue
+[12:32:17] [Server thread/INFO]: Saving and pausing game...
+[12:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:32:57] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: gab

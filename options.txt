@@ -10,13 +10,13 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:herobrine.org
+lastServer:mc.hypixel.net
 lang:en_US
 chatVisibility:0
 chatColors:true
