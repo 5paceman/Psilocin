@@ -4,8 +4,10 @@ import me.spaceman.psilocin.commandsystem.CommandHandler;
 import me.spaceman.psilocin.commandsystem.commands.Command;
 import me.spaceman.psilocin.eventsystem.EventHandler;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
+import me.spaceman.psilocin.eventsystem.events.KeyPressEvent;
 import me.spaceman.psilocin.eventsystem.events.RenderGameOverlayEvent;
 import me.spaceman.psilocin.eventsystem.events.RenderMainMenuEvent;
+import me.spaceman.psilocin.gui.GuiPsyMenu;
 import me.spaceman.psilocin.handlers.ConfigHandler;
 import me.spaceman.psilocin.handlers.FriendHandler;
 import me.spaceman.psilocin.handlers.ModuleHandler;
@@ -16,6 +18,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
+import net.minecraft.util.Session;
+import org.lwjgl.input.Keyboard;
 
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -68,7 +72,9 @@ public class Psilocin {
         try {
             this.configHandler = new ConfigHandler();
 
-            Minecraft.getMinecraft().session = LoginHelper.login(this.configHandler.<String>getValue("logon.username"), this.configHandler.<String>getValue("logon.password"));
+            Session session = LoginHelper.login(this.configHandler.<String>getValue("logon.username"), this.configHandler.<String>getValue("logon.password"));
+            if(session != null)
+                Minecraft.getMinecraft().session = session;
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -105,6 +111,15 @@ public class Psilocin {
                 event.fontRenderer.drawStringWithShadow(mod.getName(), scaledResolution.getScaledWidth() - event.fontRenderer.getStringWidth(mod.getName()) - 2f, y, mod.getColor());
                 y += event.fontRenderer.FONT_HEIGHT + 2f;
             }
+        }
+    }
+
+    @EventSubscriber
+    public void onKeyPressed(final KeyPressEvent event)
+    {
+        if(event.getKeyState() && event.getKeyCode() == Keyboard.KEY_RSHIFT)
+        {
+            Minecraft.getMinecraft().displayGuiScreen(new GuiPsyMenu());
         }
     }
 

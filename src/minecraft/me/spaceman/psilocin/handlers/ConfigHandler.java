@@ -116,7 +116,6 @@ public class ConfigHandler {
             {
                 JsonPrimitive arrayElement = (JsonPrimitive) jsonArray.get(i);
                 returnArray[i] = arrayElement.getAsString();
-                Psilocin.getInstance().log(arrayElement.getAsString(), Psilocin.Level.INFO);
             }
             return returnArray;
         } else {

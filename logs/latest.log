@@ -1,47 +1,1510 @@
-[12:28:49] [Client thread/INFO]: Setting user: Dev4285
-[12:28:49] [Client thread/INFO]: (Session ID is token:0:Dev4285)
-[12:28:50] [Client thread/INFO]: LWJGL Version: 2.9.4
-[12:28:50] [Client thread/INFO]: Reloading ResourceManager: Default
-[12:28:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:28:51] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[12:28:51] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:28:51] [Thread-6/INFO]: OpenAL initialized.
-[12:28:51] [Sound Library Loader/INFO]: Sound engine started
-[12:28:52] [Client thread/INFO]: Created: 512x512 textures-atlas
-[12:28:52] [Client thread/INFO]: Logging in with username & password
-[12:29:01] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[12:29:01] [Server thread/INFO]: Generating keypair
-[12:29:01] [Server thread/INFO]: Preparing start region for level 0
-[12:29:02] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:29:03] [Server thread/INFO]: Peanut_Brittle_[local:E:e6c89fd9] logged in with entity id 147 at (-7138.193486216435, 89.0, 2509.707611485289)
-[12:29:03] [Server thread/INFO]: Peanut_Brittle_ joined the game
-[12:29:12] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: apple
-[12:30:25] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: Test
-Test2
-apple
+[21:54:23] [Client thread/INFO]: Setting user: Dev4285
+[21:54:23] [Client thread/INFO]: (Session ID is token:0:Dev4285)
+[21:54:24] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:54:24] [Client thread/INFO]: Reloading ResourceManager: Default
+[21:54:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:54:25] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[21:54:25] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:54:25] [Thread-6/INFO]: OpenAL initialized.
+[21:54:25] [Sound Library Loader/INFO]: Sound engine started
+[21:54:27] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:54:27] [Client thread/INFO]: Logging in with username & password
+[21:55:20] [Client thread/INFO]: Connecting to mc.hypixel.net, 25565
+[21:55:23] [Client thread/INFO]: [CHAT]                                      
+[21:55:23] [Client thread/INFO]: [CHAT]                          
+[21:55:23] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[21:55:23] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[21:55:23] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[21:55:23] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[21:55:25] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] j8yden§f §6joined the lobby!
+[21:55:25] [Client thread/INFO]: [CHAT] §7[56✫] §a[VIP] oJqhnny§f: cya
+[21:55:25] [Client thread/INFO]: [CHAT] §7[37✫] §b[MVP§c+§b] egirlzee§f: hehe
+[21:55:25] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] manda_panda28§f §6joined the lobby!
+[21:55:26] [Client thread/INFO]: [CHAT] §7[7✫] §7GundoMini§7: HES RELLY GOOD
+[21:55:28] [Client thread/INFO]: [CHAT] -----------------------------
+[21:55:28] [Client thread/INFO]: [CHAT] Peanut_Brittle_ invited KD3 to the party! They have 60 seconds to accept.
+[21:55:28] [Client thread/INFO]: [CHAT] -----------------------------
+[21:55:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[21:55:36] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] Kxlx§f §6joined the lobby!
+[21:55:39] [Client thread/INFO]: [CHAT] §7[36✫] §7Flightmaster2010§7: B * S T A * D S
+[21:55:42] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] cevaki§f §6joined the lobby!
+[21:55:42] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] yMatthew§f §6joined the lobby! §a<§c<§b<
+[21:55:46] [Client thread/INFO]: [CHAT] §7[37✫] §b[MVP§c+§b] egirlzee§f: no uu
+[21:55:46] [Client thread/INFO]: [CHAT] Lilyy_Btw found a ✰✰✰✰✰ Mystery Box!
+[21:55:47] [Client thread/INFO]: [CHAT] -----------------------------
+[21:55:47] [Client thread/INFO]: [CHAT] KD3 joined the party.
+[21:55:47] [Client thread/INFO]: [CHAT] -----------------------------
+[21:55:47] [Client thread/INFO]: [CHAT] Parkour challenge started!
+[21:55:47] [Client thread/INFO]: [CHAT] Use /parkour checkpoint to teleport to the last checkpoint or /parkour cancel to cancel!
+[21:55:48] [Client thread/INFO]: [CHAT] §7[37✫] §b[MVP§c+§b] egirlzee§f: x
+[21:55:50] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§5++§6] Cxlxy§f §6joined the lobby! §a<§c<§b<
+[21:55:50] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] etheraki§f §6joined the lobby!
+[21:55:54] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] Wqstefull§f §6joined the lobby! §a<§c<§b<
+[21:55:55] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§3++§6] DADDYASUNA§f §6joined the lobby! §a<§c<§b<
+[21:55:55] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§8++§6] H0OMBIES§f §6joined the lobby! §a<§c<§b<
+[21:55:55] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] ilyhazsi§f §6joined the lobby! §a<§c<§b<
+[21:55:56] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§c++§b] hejepic§f §6joined the lobby! §a<§c<§b<
+[21:56:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[21:56:04] [Client thread/INFO]: [CHAT]                                      
+[21:56:04] [Client thread/INFO]: [CHAT]        
+[21:56:04] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (13/16)!
+[21:56:04] [Client thread/INFO]: [CHAT] KD3 has joined (14/16)!
+[21:56:04] [Client thread/INFO]: [CHAT] Trashman42 has joined (15/16)!
+[21:56:04] [Client thread/INFO]: [CHAT] shxxbert has joined (16/16)!
+[21:56:05] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[21:56:15] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[21:56:17] [Client thread/INFO]: [CHAT] §7v_e_r_s_a_c_e§7: pvpgod
+[21:56:20] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[21:56:21] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[21:56:22] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[21:56:23] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[21:56:24] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[21:56:25] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[21:56:25] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[21:56:25] [Client thread/INFO]: [CHAT] 
+[21:56:25] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[21:56:25] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[21:56:25] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[21:56:25] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[21:56:25] [Client thread/INFO]: [CHAT] 
+[21:56:25] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[21:56:35] [Client thread/INFO]: [CHAT] You purchased Wool
+[21:56:35] [Client thread/INFO]: [CHAT] You purchased Wool
+[21:56:35] [Client thread/INFO]: [CHAT] You purchased Wool
+[21:56:35] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 1 more!
+[21:56:37] [Client thread/ERROR]: Item entity 1428 has no item?!
+[21:57:06] [Client thread/INFO]: [CHAT] You can't place blocks here!
+[21:57:10] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[21:57:11] [Client thread/INFO]: [CHAT] You can't place blocks here!
+[21:57:19] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[21:57:19] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[21:57:39] [Client thread/INFO]: [CHAT] GamerCooper123 fell into the void.
+[21:57:42] [Client thread/INFO]: [CHAT] 
+[21:57:42] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Your Bed was destroyed by Trashman42!
+[21:57:42] [Client thread/INFO]: [CHAT] 
+[21:57:45] [Client thread/INFO]: [CHAT] KD3 was killed by shxxbert. FINAL KILL!
+[21:58:05] [Client thread/INFO]: [CHAT] JakeyBrudda was painted pretty by JxmzT.
+[21:58:11] [Client thread/INFO]: [CHAT] v_e_r_s_a_c_e was knocked into the void by Chromeraptor282.
+[21:58:11] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was killed by Trashman42. FINAL KILL!
+[21:58:11] [Client thread/INFO]: [CHAT] You have been eliminated!
+[21:58:11] [Client thread/INFO]: [CHAT] 
+[21:58:11] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > White Team has been eliminated!
+[21:58:11] [Client thread/INFO]: [CHAT] 
+[21:58:16] [Client thread/INFO]: [CHAT] Itsdaz3d fell into the void.
+[21:58:19] [Client thread/ERROR]: Item entity 3291 has no item?!
+[21:58:20] [Client thread/INFO]: [CHAT] Teleporting you to the lobby in 3 seconds... Right-click again to cancel the teleport!
+[21:58:20] [Client thread/INFO]: [CHAT] Leaving queue!
+[21:58:23] [Client thread/INFO]: [CHAT]                                      
+[21:58:23] [Client thread/INFO]: [CHAT]                          
+[21:58:23] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[21:58:23] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[21:58:23] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[21:58:23] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[21:58:24] [Client thread/INFO]: [CHAT] 
+§r    §bYou recently played the map §eGateway§b and we would like to
+§b§r                       §bhear what you thought of it.
+§b
+§r                               §a[Give Feedback]
+§a
+[21:58:37] [Client thread/INFO]: [CHAT] Thank you for your feedback!
+[21:58:41] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] iProSNOW§f §6joined the lobby!
+[21:58:43] [Client thread/INFO]: [CHAT]                                      
+[21:58:43] [Client thread/INFO]: [CHAT]        
+[21:58:43] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (8/16)!
+[21:58:43] [Client thread/INFO]: [CHAT] KD3 has joined (9/16)!
+[21:58:43] [Client thread/INFO]: [CHAT] ToxiSpoof has joined (10/16)!
+[21:58:56] [Client thread/INFO]: [CHAT] foxtrot1273 has joined (11/16)!
+[21:58:56] [Client thread/INFO]: [CHAT] TheBrUhGuy78 has joined (12/16)!
+[21:58:58] [Client thread/INFO]: [CHAT] pixie_nika has joined (13/16)!
+[21:58:58] [Client thread/INFO]: [CHAT] Ghoulfriendx has joined (14/16)!
+[21:58:59] [Client thread/INFO]: [CHAT] §7Poopo_o§7: gay maliciouspig is
+[21:58:59] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[21:59:09] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[21:59:13] [Client thread/INFO]: [CHAT] zanita18 has joined (15/16)!
+[21:59:14] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[21:59:17] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[21:59:18] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[21:59:18] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[21:59:19] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[21:59:20] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[21:59:20] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[21:59:20] [Client thread/INFO]: [CHAT] 
+[21:59:20] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[21:59:20] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[21:59:20] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[21:59:20] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[21:59:20] [Client thread/INFO]: [CHAT] 
+[21:59:20] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[21:59:22] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[21:59:22] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[21:59:24] [Client thread/ERROR]: Item entity 633 has no item?!
+[21:59:28] [Client thread/INFO]: [CHAT] You purchased Wool
+[21:59:29] [Client thread/INFO]: [CHAT] You purchased Wool
+[21:59:29] [Client thread/INFO]: [CHAT] You purchased Wool
+[21:59:29] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 1 more!
+[21:59:30] [Client thread/ERROR]: Item entity 853 has no item?!
+[21:59:33] [Client thread/ERROR]: Item entity 959 has no item?!
+[21:59:34] [Client thread/ERROR]: Item entity 970 has no item?!
+[21:59:36] [Client thread/ERROR]: Item entity 1033 has no item?!
+[21:59:37] [Client thread/ERROR]: Item entity 1075 has no item?!
+[21:59:39] [Client thread/ERROR]: Item entity 1154 has no item?!
+[21:59:41] [Client thread/INFO]: [CHAT] CageyPompano8 fell into the void.
+[21:59:43] [Client thread/ERROR]: Item entity 1268 has no item?!
+[21:59:48] [Client thread/ERROR]: Item entity 1389 has no item?!
+[21:59:48] [Client thread/ERROR]: Item entity 1403 has no item?!
+[21:59:49] [Client thread/ERROR]: Item entity 1413 has no item?!
+[21:59:51] [Client thread/INFO]: [CHAT] ToxiSpoof fell into the void.
+[21:59:53] [Client thread/ERROR]: Item entity 1502 has no item?!
+[21:59:54] [Client thread/ERROR]: Item entity 1513 has no item?!
+[22:00:05] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[22:00:14] [Client thread/INFO]: [CHAT] 
+[22:00:14] [Client thread/INFO]: [CHAT] [WATCHDOG ANNOUNCEMENT]
+[22:00:14] [Client thread/INFO]: [CHAT] Watchdog has banned 42,643 players in the last 7 days.
+[22:00:14] [Client thread/INFO]: [CHAT] Staff have banned an additional 18,605 in the last 7 days.
+[22:00:14] [Client thread/INFO]: [CHAT] Blacklisted modifications are a bannable offense!
+[22:00:14] [Client thread/INFO]: [CHAT] 
+[22:00:22] [Client thread/ERROR]: Item entity 1842 has no item?!
+[22:00:22] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:00:22] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:00:29] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was filled full of lead by ToxiSpoof.
+[22:00:29] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:00:30] [Client thread/INFO]: [CHAT] ToxiSpoof was killed by KD3.
+[22:00:30] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:00:31] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:00:32] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:00:33] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:00:34] [Client thread/INFO]: [CHAT] You have respawned!
+[22:00:35] [Client thread/INFO]: [CHAT] dillpickle_368 fell into the void.
+[22:00:39] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:00:49] [Client thread/INFO]: [CHAT] ToxiSpoof fell into the void.
+[22:00:55] [Client thread/ERROR]: Item entity 2224 has no item?!
+[22:00:56] [Client thread/ERROR]: Item entity 2246 has no item?!
+[22:01:12] [Client thread/ERROR]: Item entity 2428 has no item?!
+[22:01:14] [Client thread/INFO]: [CHAT] dillpickle_368 disconnected
+[22:01:15] [Client thread/INFO]: [CHAT] KD3 met their end by ToxiSpoof.
+[22:01:16] [Client thread/ERROR]: Item entity 2481 has no item?!
+[22:01:18] [Client thread/INFO]: [CHAT] foxtrot1273 was knocked into the void by pixie_nika.
+[22:01:22] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:01:22] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:01:23] [Client thread/INFO]: [CHAT] 
+[22:01:23] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Aqua Bed was destroyed by pixie_nika!
+[22:01:23] [Client thread/INFO]: [CHAT] 
+[22:01:24] [Client thread/ERROR]: Item entity 2572 has no item?!
+[22:01:27] [Client thread/INFO]: [CHAT] pixie_nika was killed by foxtrot1273.
+[22:01:32] [Client thread/INFO]: [CHAT] Peanut_Brittle_ lost a drinking contest with ToxiSpoof.
+[22:01:32] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:01:33] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:01:34] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:01:35] [Client thread/ERROR]: Item entity 2690 has no item?!
+[22:01:35] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:01:36] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:01:37] [Client thread/INFO]: [CHAT] You have respawned!
+[22:01:43] [Client thread/INFO]: [CHAT] [SHOUT] [BLUE] Peanut_Brittle_: red got that wallhacks lmao
+[22:01:47] [Client thread/ERROR]: Item entity 2831 has no item?!
+[22:01:47] [Client thread/ERROR]: Item entity 2831 has no item?!
+[22:01:47] [Client thread/ERROR]: Item entity 2831 has no item?!
+[22:01:47] [Client thread/ERROR]: Item entity 2831 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:48] [Client thread/ERROR]: Item entity 2839 has no item?!
+[22:01:52] [Client thread/INFO]: [CHAT] foxtrot1273 fell into the void. FINAL KILL!
+[22:01:53] [Client thread/ERROR]: Item entity 2891 has no item?!
+[22:01:53] [Client thread/ERROR]: Item entity 2891 has no item?!
+[22:01:54] [Client thread/ERROR]: Item entity 2900 has no item?!
+[22:02:06] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:02:09] [Client thread/INFO]: [CHAT] You don't have enough Gold! Need 4 more!
+[22:02:15] [Client thread/ERROR]: Item entity 3105 has no item?!
+[22:02:15] [Client thread/ERROR]: Item entity 3105 has no item?!
+[22:02:17] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was filled full of lead by ToxiSpoof.
+[22:02:17] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:02:18] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:02:19] [Client thread/ERROR]: Item entity 3137 has no item?!
+[22:02:19] [Client thread/INFO]: [CHAT] KD3 was filled full of lead by ToxiSpoof.
+[22:02:19] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:02:20] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:02:21] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:02:22] [Client thread/INFO]: [CHAT] You have respawned!
+[22:02:22] [Client thread/INFO]: [CHAT] 
+[22:02:22] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Your Bed was iced by ToxiSpoof!
+[22:02:22] [Client thread/INFO]: [CHAT] 
+[22:02:23] [Client thread/INFO]: [CHAT] You attacked someone and lost your invincibility!
+[22:02:25] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was filled full of lead by ToxiSpoof. FINAL KILL!
+[22:02:25] [Client thread/INFO]: [CHAT] You have been eliminated!
+[22:02:28] [Client thread/INFO]: [CHAT] KD3 was filled full of lead by ToxiSpoof. FINAL KILL!
+[22:02:28] [Client thread/INFO]: [CHAT] 
+[22:02:28] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Blue Team has been eliminated!
+[22:02:28] [Client thread/INFO]: [CHAT] 
+[22:02:29] [Client thread/INFO]: [CHAT] You are not allowed to use commands as a spectator!
+[22:02:36] [Client thread/INFO]: [CHAT] Please specify a player you would like to report (/report playerName)
+[22:02:36] [Client thread/INFO]: [CHAT] 
+[22:02:36] [Client thread/INFO]: [CHAT] 
+[22:02:51] [Client thread/INFO]: [CHAT] Crooner69 was kicked for being AFK!
+[22:02:51] [Client thread/INFO]: [CHAT] Crooner69 disconnected
+[22:02:51] [Client thread/INFO]: [CHAT] 
+[22:02:51] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Yellow Team has been eliminated!
+[22:02:51] [Client thread/INFO]: [CHAT] 
+[22:02:53] [Client thread/INFO]: [CHAT] TheBrUhGuy78 was killed by pixie_nika.
+[22:02:54] [Client thread/INFO]: [CHAT] Teleporting you to the lobby in 3 seconds... Right-click again to cancel the teleport!
+[22:02:54] [Client thread/INFO]: [CHAT] Leaving queue!
+[22:02:57] [Client thread/INFO]: [CHAT]                                      
+[22:02:57] [Client thread/INFO]: [CHAT]                          
+[22:02:57] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[22:02:57] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:02:57] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[22:02:57] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:02:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[22:03:01] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] mastersomething9§f §6joined the lobby!
+[22:03:05] [Client thread/INFO]: [CHAT] Parkour challenge started!
+[22:03:05] [Client thread/INFO]: [CHAT] Use /parkour checkpoint to teleport to the last checkpoint or /parkour cancel to cancel!
+[22:03:06] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Aaxx24Zz7§f §6joined the lobby!
+[22:03:16] [Client thread/INFO]: [CHAT]                                      
+[22:03:16] [Client thread/INFO]: [CHAT]        
+[22:03:16] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (13/16)!
+[22:03:16] [Client thread/INFO]: [CHAT] KD3 has joined (14/16)!
+[22:03:17] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[22:03:27] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[22:03:30] [Client thread/INFO]: [CHAT] RoofLlama has joined (15/16)!
+[22:03:31] [Client thread/INFO]: [CHAT] GamaDragon_ has joined (16/16)!
+[22:03:32] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[22:03:33] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[22:03:34] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[22:03:35] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[22:03:36] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[22:03:37] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:03:37] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[22:03:37] [Client thread/INFO]: [CHAT] 
+[22:03:37] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[22:03:37] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[22:03:37] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[22:03:37] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[22:03:37] [Client thread/INFO]: [CHAT] 
+[22:03:37] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:03:39] [Client thread/ERROR]: Item entity 314 has no item?!
+[22:03:39] [Client thread/ERROR]: Item entity 314 has no item?!
+[22:03:40] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:03:40] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:03:54] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:03:54] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:03:54] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:03:54] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:03:55] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 3 more!
+[22:04:02] [Client thread/ERROR]: Item entity 1041 has no item?!
+[22:04:21] [Client thread/INFO]: [CHAT] _coldnoodle fell into the void.
+[22:04:21] [Client thread/ERROR]: Item entity 1405 has no item?!
+[22:04:21] [Client thread/ERROR]: Item entity 1405 has no item?!
+[22:04:22] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[22:04:28] [Client thread/INFO]: [CHAT] ricqzforti was killed by Peanut_Brittle_.
+[22:04:40] [Client thread/INFO]: [CHAT] KD3 was killed by Luis_Playsss.
+[22:04:40] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was killed by ricqzforti.
+[22:04:40] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:04:41] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:04:42] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:04:43] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:04:44] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:04:45] [Client thread/INFO]: [CHAT] You have respawned!
+[22:04:46] [Client thread/INFO]: [CHAT] _coldnoodle fell into the void.
+[22:04:47] [Client thread/INFO]: [CHAT] Lircheck was knocked into the void by _ukelad.
+[22:04:53] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was killed by ricqzforti.
+[22:04:53] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:04:54] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:04:55] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:04:56] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:04:57] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:04:58] [Client thread/INFO]: [CHAT] 
+[22:04:58] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Your Bed was destroyed by Luis_Playsss!
+[22:04:58] [Client thread/INFO]: [CHAT] 
+[22:04:58] [Client thread/INFO]: [CHAT] You have respawned!
+[22:05:02] [Client thread/INFO]: [CHAT] KD3 was knocked into the void by Luis_Playsss. FINAL KILL!
+[22:05:06] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was knocked into the void by Luis_Playsss. FINAL KILL!
+[22:05:06] [Client thread/INFO]: [CHAT] You have been eliminated!
+[22:05:06] [Client thread/INFO]: [CHAT] 
+[22:05:06] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Yellow Team has been eliminated!
+[22:05:06] [Client thread/INFO]: [CHAT] 
+[22:05:39] [Client thread/INFO]: [CHAT] popachockym1lk was filled full of lead by GamaDragon_.
+[22:05:40] [Client thread/INFO]: [CHAT] Teleporting you to the lobby in 3 seconds... Right-click again to cancel the teleport!
+[22:05:40] [Client thread/INFO]: [CHAT] Leaving queue!
+[22:05:43] [Client thread/INFO]: [CHAT]                                      
+[22:05:43] [Client thread/INFO]: [CHAT]                          
+[22:05:43] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[22:05:43] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:05:43] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[22:05:43] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:05:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[22:05:45] [Client thread/INFO]: [CHAT] §b[303✫] §b[MVP§2+§b] ebrooke§f: hihih
+[22:05:46] [Client thread/INFO]: [CHAT] §7[19✫] §7DaviZM§7: k
+[22:05:50] [Client thread/INFO]: [CHAT] §b[303✫] §b[MVP§2+§b] ebrooke§f: i like your eyes
+[22:05:50] [Client thread/INFO]: [CHAT]                                      
+[22:05:50] [Client thread/INFO]: [CHAT]        
+[22:05:50] [Client thread/INFO]: [CHAT] KD3 has joined (11/16)!
+[22:05:50] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (12/16)!
+[22:05:50] [Client thread/INFO]: [CHAT] GR8B8M8R88OUT8 has joined (13/16)!
+[22:05:50] [Client thread/INFO]: [CHAT] Cloud_________ has joined (14/16)!
+[22:05:51] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[22:06:01] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[22:06:03] [Client thread/INFO]: [CHAT] We don't have enough players! Start cancelled.
+[22:06:03] [Client thread/INFO]: [CHAT] dadedu6911 has quit!
+[22:06:04] [Client thread/INFO]: [CHAT] xaviee has joined (14/16)!
+[22:06:05] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[22:06:05] [Client thread/INFO]: [CHAT] FallsMissing has joined (15/16)!
+[22:06:05] [Client thread/INFO]: [CHAT] Aquaticly has joined (16/16)!
+[22:06:15] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[22:06:20] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[22:06:21] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[22:06:22] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[22:06:23] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[22:06:24] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[22:06:25] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:06:25] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[22:06:25] [Client thread/INFO]: [CHAT] 
+[22:06:25] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[22:06:25] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[22:06:25] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[22:06:25] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[22:06:25] [Client thread/INFO]: [CHAT] 
+[22:06:25] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:06:27] [Client thread/ERROR]: Item entity 893 has no item?!
+[22:06:27] [Client thread/ERROR]: Item entity 893 has no item?!
+[22:06:27] [Client thread/ERROR]: Item entity 893 has no item?!
+[22:06:27] [Client thread/ERROR]: Item entity 893 has no item?!
+[22:06:36] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:06:36] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:06:36] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:06:36] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:06:53] [Client thread/INFO]: [CHAT] watrmelns fell into the void.
+[22:07:11] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[22:07:14] [Client thread/INFO]: [CHAT] FallsMissing was struck down by Lvlly.
+[22:07:15] [Client thread/INFO]: [CHAT] Aquaticly was hit off by a love bomb from Lvlly.
+[22:07:16] [Client thread/INFO]: [CHAT] ItsCzianelle was knocked off a cliff by Peanut_Brittle_.
+[22:07:20] [Client thread/INFO]: [CHAT] 
+[22:07:20] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Red Bed be shot with cannon by Lvlly!
+[22:07:20] [Client thread/INFO]: [CHAT] 
+[22:07:21] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:07:21] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:07:25] [Client thread/INFO]: [CHAT] Klynestaa was knocked into the void by Cloud_________.
+[22:07:26] [Client thread/INFO]: [CHAT] FallsMissing was given the cold shoulder by Lvlly. FINAL KILL!
+[22:07:27] [Client thread/INFO]: [CHAT] Aquaticly was watrmelns's final #4,315. FINAL KILL!
+[22:07:27] [Client thread/INFO]: [CHAT] 
+[22:07:27] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Red Team has been eliminated!
+[22:07:27] [Client thread/INFO]: [CHAT] 
+[22:07:54] [Client thread/INFO]: [CHAT] ItsCzianelle fell into the void.
+[22:07:55] [Client thread/INFO]: [CHAT] caizlyn was knocked into the void by TheAkatsukiYeet.
+[22:07:55] [Client thread/INFO]: [CHAT] 
+[22:07:55] [Client thread/INFO]: [CHAT] BED DESTRUCTION > White Bed was destroyed by balisticabtin!
+[22:07:55] [Client thread/INFO]: [CHAT] 
+[22:08:00] [Client thread/INFO]: [CHAT] quavaity was killed by TheAkatsukiYeet. FINAL KILL!
+[22:08:00] [Client thread/INFO]: [CHAT] watrmelns fell into the void.
+[22:08:00] [Client thread/INFO]: [CHAT] Peanut_Brittle_ fell into the void.
+[22:08:00] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:08:01] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:08:02] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:08:03] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:08:04] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:08:05] [Client thread/INFO]: [CHAT] You have respawned!
+[22:08:08] [Client thread/INFO]: [CHAT] caizlyn was killed by balisticabtin. FINAL KILL!
+[22:08:08] [Client thread/INFO]: [CHAT] 
+[22:08:08] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > White Team has been eliminated!
+[22:08:08] [Client thread/INFO]: [CHAT] 
+[22:08:08] [Client thread/INFO]: [CHAT] Klynestaa was knocked into the void by GR8B8M8R88OUT8.
+[22:08:09] [Client thread/INFO]: [CHAT] Andrea_Navarro was knocked into the void by GR8B8M8R88OUT8.
+[22:08:21] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:08:21] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:08:29] [Client thread/INFO]: [CHAT] watrmelns fell into the void.
+[22:08:35] [Client thread/INFO]: [CHAT] Andrea_Navarro was knocked into the void by GR8B8M8R88OUT8.
+[22:08:44] [Client thread/INFO]: [CHAT] KD3 was knocked into the void by ItsCzianelle.
+[22:08:45] [Client thread/INFO]: [CHAT] 
+[22:08:45] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Your Bed was destroyed by ItsCzianelle!
+[22:08:45] [Client thread/INFO]: [CHAT] 
+[22:08:45] [Client thread/INFO]: [CHAT] ItsCzianelle was killed by Peanut_Brittle_.
+[22:08:45] [Client thread/INFO]: [CHAT] +40 Iron
+[22:08:45] [Client thread/INFO]: [CHAT] +1 Gold
+[22:08:46] [Client thread/INFO]: [CHAT] Klynestaa was knocked into the void by GR8B8M8R88OUT8.
+[22:08:49] [Client thread/INFO]: [CHAT] Peanut_Brittle_ fell into the void. FINAL KILL!
+[22:08:49] [Client thread/INFO]: [CHAT] You have been eliminated!
+[22:09:00] [Client thread/INFO]: [CHAT] Andrea_Navarro was knocked into the void by GR8B8M8R88OUT8.
+[22:09:11] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:09:12] [Client thread/INFO]: [CHAT] ItsCzianelle slipped in BBQ sauce off the edge spilled by Lvlly.
+[22:09:15] [Client thread/INFO]: [CHAT] Lvlly was bzzz'd into the void by xaviee.
+[22:09:17] [Client thread/INFO]: [CHAT] 
+[22:09:17] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Green Bed was bed #1,839 destroyed by watrmelns!
+[22:09:17] [Client thread/INFO]: [CHAT] 
+[22:09:20] [Client thread/INFO]: [CHAT] watrmelns was killed by Andrea_Navarro.
+[22:09:24] [Client thread/INFO]: [CHAT] You were teleported to [MVP+] Lvlly
+[22:09:24] [Client thread/INFO]: [CHAT] You were teleported to TheAkatsukiYeet
+[22:09:36] [Client thread/INFO]: [CHAT] Andrea_Navarro was watrmelns's final #4,315. FINAL KILL!
+[22:09:39] [Client thread/INFO]: [CHAT] Klynestaa was watrmelns's final #4,315. FINAL KILL!
+[22:09:39] [Client thread/INFO]: [CHAT] 
+[22:09:39] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Green Team has been eliminated!
+[22:09:39] [Client thread/INFO]: [CHAT] 
+[22:09:50] [Client thread/INFO]: [CHAT] KD3 was filled full of lead by Lvlly. FINAL KILL!
+[22:09:50] [Client thread/INFO]: [CHAT] 
+[22:09:50] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Gray Team has been eliminated!
+[22:09:50] [Client thread/INFO]: [CHAT] 
+[22:10:00] [Client thread/INFO]: [CHAT] 
+[22:10:00] [Client thread/INFO]: [CHAT] 
+[22:10:00] [Client thread/INFO]: [CHAT] Please specify a player you would like to report (/report playerName)
+[22:10:31] [Client thread/INFO]: [CHAT] Teleporting you to the lobby in 3 seconds... Right-click again to cancel the teleport!
+[22:10:31] [Client thread/INFO]: [CHAT] Leaving queue!
+[22:10:31] [Client thread/INFO]: [CHAT] watrmelns was killed by Cloud_________.
+[22:10:34] [Client thread/INFO]: [CHAT]                                      
+[22:10:34] [Client thread/INFO]: [CHAT]                          
+[22:10:34] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[22:10:34] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:10:34] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[22:10:34] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:10:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:10:41] [Client thread/INFO]: [CHAT]                                      
+[22:10:41] [Client thread/INFO]: [CHAT]        
+[22:10:41] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (12/16)!
+[22:10:46] [Client thread/INFO]: [CHAT] FranHPYT has joined (13/16)!
+[22:10:56] [Client thread/INFO]: [CHAT] BlockBusterGirl_ has joined (14/16)!
+[22:10:56] [Client thread/INFO]: [CHAT] BahnB4bo has joined (15/16)!
+[22:10:57] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[22:11:07] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[22:11:10] [Client thread/INFO]: [CHAT] smitmonster has joined (16/16)!
+[22:11:12] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[22:11:13] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[22:11:14] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[22:11:15] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[22:11:16] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[22:11:17] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:11:17] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[22:11:17] [Client thread/INFO]: [CHAT] 
+[22:11:17] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[22:11:17] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[22:11:17] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[22:11:17] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[22:11:17] [Client thread/INFO]: [CHAT] 
+[22:11:17] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:11:25] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:11:25] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:11:42] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:11:42] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:11:43] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:12:02] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[22:12:05] [Client thread/INFO]: [CHAT] Noahj717 was knocked into the void by Peanut_Brittle_.
+[22:12:05] [Client thread/INFO]: [CHAT] +2 Gold
+[22:12:25] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:12:25] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:12:28] [Client thread/INFO]: [CHAT] Oakleylma0 fell into the void.
+[22:12:30] [Client thread/INFO]: [CHAT] CaferCrafter was killed by Matlefishh.
+[22:12:40] [Client thread/INFO]: [CHAT] BahnB4bo fell into the void.
+[22:13:11] [Client thread/ERROR]: Item entity 1658 has no item?!
+[22:13:15] [Client thread/INFO]: [CHAT] Oakleylma0 fell into the void.
+[22:13:16] [Client thread/INFO]: [CHAT] Matlefishh was killed by FranHPYT.
+[22:13:19] [Client thread/INFO]: [CHAT] FranHPYT was knocked into the void by Matlefishh.
+[22:13:25] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:13:25] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:13:26] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was knocked into the void by BahnB4bo.
+[22:13:26] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:13:27] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:13:28] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:13:30] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:13:30] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:13:30] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by CaferCrafter.
+[22:13:31] [Client thread/INFO]: [CHAT] You have respawned!
+[22:13:33] [Client thread/INFO]: [CHAT] CaferCrafter was knocked into the void by Matlefishh.
+[22:13:34] [Client thread/ERROR]: Item entity 1813 has no item?!
+[22:13:38] [Client thread/INFO]: [CHAT] KD3 was hit off by a love bomb from BlockBusterGirl_.
+[22:13:39] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by FranHPYT.
+[22:13:40] [Client thread/INFO]: [CHAT] BlockBusterGirl_ was killed by Peanut_Brittle_.
+[22:13:40] [Client thread/INFO]: [CHAT] +10 Iron
+[22:13:44] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was killed by BahnB4bo.
+[22:13:44] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:13:45] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:13:46] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:13:47] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:13:48] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:13:49] [Client thread/INFO]: [CHAT] You have respawned!
+[22:13:57] [Client thread/INFO]: [CHAT] Noahj717 was knocked into the void by BahnB4bo.
+[22:14:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:14:03] [Client thread/INFO]: [CHAT] 
+[22:14:03] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Blue Bed was destroyed by BahnB4bo!
+[22:14:03] [Client thread/INFO]: [CHAT] 
+[22:14:03] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh.
+[22:14:04] [Client thread/INFO]: [CHAT] MonsTa_lc was knocked into the void by Oakleylma0.
+[22:14:09] [Client thread/INFO]: [CHAT] Peanut_Brittle_ fell into the void.
+[22:14:09] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:14:10] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:14:11] [Client thread/INFO]: [CHAT] BahnB4bo was knocked into the void by Peanut_Brittle_.
+[22:14:11] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:14:12] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:14:13] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:14:14] [Client thread/INFO]: [CHAT] You have respawned!
+[22:14:23] [Client thread/INFO]: [CHAT] Solo_yt_mc was knocked into the void by BahnB4bo.
+[22:14:25] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:14:25] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:14:27] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by FranHPYT.
+[22:14:27] [Client thread/INFO]: [CHAT] FranHPYT was knocked into the void by MTCVS.
+[22:14:41] [Client thread/INFO]: [CHAT] MonsTa_lc was killed by Oakleylma0.
+[22:14:44] [Client thread/INFO]: [CHAT] BlockBusterGirl_ was killed by Peanut_Brittle_.
+[22:14:44] [Client thread/INFO]: [CHAT] +5 Iron
+[22:14:44] [Client thread/INFO]: [CHAT] +2 Gold
+[22:14:50] [Client thread/INFO]: [CHAT] Oakleylma0 was knocked into the void by Symbiose_PS.
+[22:15:03] [Client thread/INFO]: [CHAT] MTCVS was knocked off a cliff by FranHPYT.
+[22:15:05] [Client thread/INFO]: [CHAT] BahnB4bo was killed by Drndja.
+[22:15:10] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Iron Forge
+[22:15:19] [Client thread/ERROR]: Item entity 2545 has no item?!
+[22:15:19] [Client thread/ERROR]: Item entity 2545 has no item?!
+[22:15:19] [Client thread/ERROR]: Item entity 2545 has no item?!
+[22:15:19] [Client thread/ERROR]: Item entity 2545 has no item?!
+[22:15:19] [Client thread/ERROR]: Item entity 2545 has no item?!
+[22:15:25] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:15:25] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:15:27] [Client thread/INFO]: [CHAT] CaferCrafter was knocked into the void by Matlefishh.
+[22:15:32] [Client thread/INFO]: [CHAT] Drndja was knocked into the void by BahnB4bo.
+[22:15:51] [Client thread/ERROR]: Item entity 2752 has no item?!
+[22:15:51] [Client thread/ERROR]: Item entity 2752 has no item?!
+[22:15:51] [Client thread/ERROR]: Item entity 2752 has no item?!
+[22:15:51] [Client thread/ERROR]: Item entity 2752 has no item?!
+[22:16:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:16:07] [Client thread/INFO]: [CHAT] MTCVS was killed by FranHPYT.
+[22:16:15] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh.
+[22:16:18] [Client thread/INFO]: [CHAT] Oakleylma0 was knocked into the void by MonsTa_lc.
+[22:16:23] [Client thread/ERROR]: Item entity 2999 has no item?!
+[22:16:23] [Client thread/ERROR]: Item entity 2999 has no item?!
+[22:16:23] [Client thread/ERROR]: Item entity 2999 has no item?!
+[22:16:23] [Client thread/ERROR]: Item entity 2999 has no item?!
+[22:16:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:16:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:16:38] [Client thread/INFO]: [CHAT] Solo_yt_mc was knocked into the void by BahnB4bo.
+[22:16:39] [Client thread/INFO]: [CHAT] FranHPYT was knocked into the void by Matlefishh.
+[22:16:43] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by CaferCrafter.
+[22:16:47] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:17:02] [Client thread/INFO]: [CHAT] Oakleylma0 was knocked into the void by MonsTa_lc.
+[22:17:09] [Client thread/INFO]: [CHAT] 
+[22:17:09] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Pink Bed was destroyed by BahnB4bo!
+[22:17:09] [Client thread/INFO]: [CHAT] 
+[22:17:17] [Client thread/INFO]: [CHAT] Diamond Generators have been upgraded to Tier II
+[22:17:19] [Client thread/INFO]: [CHAT] Drndja was killed by BahnB4bo. FINAL KILL!
+[22:17:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:17:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:17:27] [Client thread/INFO]: [CHAT] Solo_yt_mc was knocked into the void by BahnB4bo. FINAL KILL!
+[22:17:27] [Client thread/INFO]: [CHAT] 
+[22:17:27] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Pink Team has been eliminated!
+[22:17:27] [Client thread/INFO]: [CHAT] 
+[22:17:43] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Golden Forge
+[22:17:49] [Client thread/INFO]: [CHAT] MTCVS was killed by CaferCrafter.
+[22:17:52] [Client thread/INFO]: [CHAT] Noahj717 was knocked into the void by Peanut_Brittle_. FINAL KILL!
+[22:17:52] [Client thread/INFO]: [CHAT] +28 Iron
+[22:17:52] [Client thread/INFO]: [CHAT] +3 coins! (Final Kill)
+[22:17:53] [Client thread/INFO]: [CHAT] CaferCrafter was knocked into the void by Matlefishh.
+[22:17:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:17:54] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh.
+[22:17:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:17:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:18:00] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was knocked into the void by JasenJasper.
+[22:18:00] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:18:01] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:18:02] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:18:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:18:03] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:18:04] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:18:05] [Client thread/INFO]: [CHAT] You have respawned!
+[22:18:05] [Client thread/ERROR]: Item entity 3532 has no item?!
+[22:18:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:18:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:18:10] [Client thread/INFO]: [CHAT] Oakleylma0 was killed by Symbiose_PS.
+[22:18:11] [Client thread/INFO]: [CHAT] CaferCrafter was killed by Matlefishh.
+[22:18:15] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh.
+[22:18:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:18:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:18:25] [Client thread/ERROR]: Item entity 3890 has no item?!
+[22:18:25] [Client thread/ERROR]: Item entity 3890 has no item?!
+[22:18:25] [Client thread/ERROR]: Item entity 3890 has no item?!
+[22:18:25] [Client thread/ERROR]: Item entity 3890 has no item?!
+[22:18:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:18:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:18:34] [Client thread/INFO]: [CHAT] JasenJasper fell into the void. FINAL KILL!
+[22:18:34] [Client thread/INFO]: [CHAT] 
+[22:18:34] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Blue Team has been eliminated!
+[22:18:34] [Client thread/INFO]: [CHAT] 
+[22:18:39] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:18:49] [Client thread/INFO]: [CHAT] MTCVS was killed by CaferCrafter.
+[22:18:50] [Client thread/INFO]: [CHAT] Oakleylma0 was killed by Symbiose_PS.
+[22:18:51] [Client thread/INFO]: [CHAT] Symbiose_PS was killed by smitmonster.
+[22:18:52] [Client thread/INFO]: [CHAT] MonsTa_lc was knocked into the void by Oakleylma0.
+[22:18:54] [Client thread/INFO]: [CHAT] 
+§aSupport Completed!
+ §8+§33,360§7 §7Hypixel Experience
 
-[12:31:25] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: 
-§7Test
-§7Test2
-§7apple
+§7You can complete §e§e9 §7more challenges today.
 
-[12:31:27] [Server thread/INFO]: Saving and pausing game...
-[12:31:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:31:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:31:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:31:46] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Friends: 
-§7 - Test
-§7 - Test2
-§7 - apple
+[22:18:56] [Client thread/INFO]: [CHAT] 
+[22:18:56] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Yellow Bed was destroyed by smitmonster!
+[22:18:56] [Client thread/INFO]: [CHAT] 
+[22:19:02] [Client thread/INFO]: [CHAT] CaferCrafter was knocked into the void by Matlefishh.
+[22:19:10] [Client thread/INFO]: [CHAT] smitmonster was knocked into the void by Symbiose_PS.
+[22:19:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:19:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:19:26] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was knocked into the void by BahnB4bo.
+[22:19:26] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:19:27] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:19:28] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:19:29] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:19:29] [Client thread/INFO]: [CHAT] KD3 was killed by BahnB4bo.
+[22:19:30] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:19:31] [Client thread/INFO]: [CHAT] You have respawned!
+[22:19:33] [Client thread/INFO]: [CHAT] You attacked someone and lost your invincibility!
+[22:19:35] [Client thread/INFO]: [CHAT] BlockBusterGirl_ was killed by Peanut_Brittle_.
+[22:19:35] [Client thread/INFO]: [CHAT] +43 Iron
+[22:19:35] [Client thread/INFO]: [CHAT] +3 Gold
+[22:19:35] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh.
+[22:19:45] [Client thread/INFO]: [CHAT] CaferCrafter was killed by Matlefishh.
+[22:19:46] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:19:47] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh.
+[22:19:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:19:52] [Client thread/INFO]: [CHAT] smitmonster was knocked into the void by Symbiose_PS.
+[22:19:52] [Client thread/INFO]: [CHAT] 
+[22:19:52] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Aqua Bed was destroyed by Matlefishh!
+[22:19:52] [Client thread/INFO]: [CHAT] 
+[22:19:55] [Client thread/INFO]: [CHAT] BahnB4bo was knocked into the void by Peanut_Brittle_.
+[22:19:55] [Client thread/INFO]: [CHAT] +64 Iron
+[22:19:55] [Client thread/INFO]: [CHAT] +9 Gold
+[22:19:55] [Client thread/INFO]: [CHAT] +6 Diamonds
+[22:19:57] [Client thread/INFO]: [CHAT] FranHPYT was killed by Matlefishh. FINAL KILL!
+[22:20:00] [Client thread/ERROR]: Item entity 4525 has no item?!
+[22:20:00] [Client thread/ERROR]: Item entity 4525 has no item?!
+[22:20:00] [Client thread/ERROR]: Item entity 4525 has no item?!
+[22:20:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:20:07] [Client thread/INFO]: [CHAT] CaferCrafter was killed by Matlefishh. FINAL KILL!
+[22:20:07] [Client thread/INFO]: [CHAT] 
+[22:20:07] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Aqua Team has been eliminated!
+[22:20:07] [Client thread/INFO]: [CHAT] 
+[22:20:12] [Client thread/ERROR]: Item entity 4599 has no item?!
+[22:20:18] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Reinforced Armor I
+[22:20:19] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Sharpened Swords
+[22:20:21] [Client thread/INFO]: [CHAT] MonsTa_lc was killed by Oakleylma0. FINAL KILL!
+[22:20:25] [Client thread/INFO]: [CHAT] Oakleylma0 was knocked into the void by Symbiose_PS.
+[22:20:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:20:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:20:29] [Client thread/INFO]: [CHAT] BahnB4bo was knocked into the void by KD3.
+[22:20:31] [Client thread/INFO]: [CHAT] smitmonster was killed by Symbiose_PS.
+[22:20:34] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:20:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:21:07] [Client thread/INFO]: [CHAT] smitmonster was killed by Symbiose_PS.
+[22:21:09] [Client thread/ERROR]: Item entity 5025 has no item?!
+[22:21:18] [Client thread/INFO]: [CHAT] BlockBusterGirl_ fell into the void.
+[22:21:22] [Client thread/INFO]: [CHAT] Symbiose_PS was killed by Oakleylma0. FINAL KILL!
+[22:21:22] [Client thread/INFO]: [CHAT] 
+[22:21:22] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Yellow Team has been eliminated!
+[22:21:22] [Client thread/INFO]: [CHAT] 
+[22:21:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:21:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:21:34] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:21:39] [Client thread/INFO]: [CHAT] KD3 fell into the void.
+[22:22:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:22:12] [Client thread/ERROR]: Item entity 5565 has no item?!
+[22:22:18] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Maniac Miner I
+[22:22:20] [Client thread/INFO]: [CHAT] KD3 fell into the void.
+[22:22:20] [Client thread/INFO]: [CHAT] You don't have enough resources to unlock that upgrade!
+[22:22:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:22:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:22:29] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:22:31] [Client thread/ERROR]: Item entity 5701 has no item?!
+[22:22:31] [Client thread/ERROR]: Item entity 5701 has no item?!
+[22:22:31] [Client thread/ERROR]: Item entity 5701 has no item?!
+[22:22:57] [Client thread/INFO]: [CHAT] Oakleylma0 fell into the void.
+[22:23:07] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Reinforced Armor II
+[22:23:13] [Client thread/INFO]: [CHAT] You purchased Permanent Iron Armor
+[22:23:16] [Client thread/INFO]: [CHAT] You purchased Iron Sword
+[22:23:17] [Client thread/INFO]: [CHAT] Emerald Generators have been upgraded to Tier II
+[22:23:19] [Client thread/ERROR]: Item entity 5984 has no item?!
+[22:23:19] [Client thread/ERROR]: Item entity 5984 has no item?!
+[22:23:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:23:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:23:31] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:23:32] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:23:36] [Client thread/INFO]: [CHAT] smitmonster fell into the void.
+[22:23:54] [Client thread/INFO]: [CHAT] KD3 fell into the void.
+[22:24:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:24:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:24:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:24:30] [Client thread/INFO]: [CHAT] KD3 purchased Miner Fatigue Trap
+[22:24:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:24:35] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by Peanut_Brittle_.
+[22:24:35] [Client thread/INFO]: [CHAT] +25 Iron
+[22:24:39] [Client thread/INFO]: [CHAT] Oakleylma0 was killed by Peanut_Brittle_.
+[22:24:46] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by Peanut_Brittle_.
+[22:25:08] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:25:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:25:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:25:36] [Client thread/ERROR]: Item entity 6568 has no item?!
+[22:25:44] [Client thread/INFO]: [CHAT] Miner Fatigue Trap was set off!
+[22:26:00] [Client thread/INFO]: [CHAT] Oakleylma0 was killed by Matlefishh.
+[22:26:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:26:05] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:26:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:26:18] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:26:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:26:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:26:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:26:41] [Client thread/INFO]: [CHAT] KD3 was knocked into the void by Matlefishh.
+[22:26:42] [Client thread/INFO]: [CHAT] smitmonster disconnected
+[22:26:46] [Client thread/INFO]: [CHAT] Oakleylma0 disconnected
+[22:26:47] [Client thread/INFO]: [CHAT] 
+[22:26:47] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Green Team has been eliminated!
+[22:26:47] [Client thread/INFO]: [CHAT] 
+[22:26:50] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was killed by Matlefishh.
+[22:26:50] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:26:52] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:26:53] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:26:54] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:26:55] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:26:56] [Client thread/INFO]: [CHAT] You have respawned!
+[22:27:03] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by Peanut_Brittle_.
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:10] [Client thread/ERROR]: Item entity 7114 has no item?!
+[22:27:11] [Client thread/ERROR]: Item entity 7115 has no item?!
+[22:27:11] [Client thread/ERROR]: Item entity 7115 has no item?!
+[22:27:11] [Client thread/ERROR]: Item entity 7115 has no item?!
+[22:27:11] [Client thread/ERROR]: Item entity 7115 has no item?!
+[22:27:15] [Client thread/INFO]: [CHAT] KD3 was knocked into the void by Matlefishh.
+[22:27:16] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:27:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:27:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:27:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:27:31] [Client thread/INFO]: [CHAT] You purchased Iron Sword
+[22:27:34] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:27:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:27:46] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by Peanut_Brittle_.
+[22:27:46] [Client thread/INFO]: [CHAT] +44 Iron
+[22:27:46] [Client thread/INFO]: [CHAT] +10 Gold
+[22:27:46] [Client thread/INFO]: [CHAT] +4 Diamonds
+[22:27:51] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:27:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:28:02] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:28:13] [Client thread/ERROR]: Item entity 7456 has no item?!
+[22:28:13] [Client thread/ERROR]: Item entity 7456 has no item?!
+[22:28:13] [Client thread/ERROR]: Item entity 7456 has no item?!
+[22:28:13] [Client thread/ERROR]: Item entity 7456 has no item?!
+[22:28:22] [Client thread/ERROR]: Item entity 7486 has no item?!
+[22:28:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:28:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:28:50] [Client thread/ERROR]: Item entity 7588 has no item?!
+[22:28:50] [Client thread/ERROR]: Item entity 7588 has no item?!
+[22:28:58] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Miner Fatigue Trap
+[22:29:04] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Emerald Forge
+[22:29:10] [Client thread/ERROR]: Item entity 7658 has no item?!
+[22:29:10] [Client thread/ERROR]: Item entity 7658 has no item?!
+[22:29:10] [Client thread/ERROR]: Item entity 7658 has no item?!
+[22:29:10] [Client thread/ERROR]: Item entity 7658 has no item?!
+[22:29:18] [Client thread/INFO]: [CHAT] Diamond Generators have been upgraded to Tier III
+[22:29:21] [Client thread/INFO]: [CHAT] BahnB4bo was killed by Matlefishh.
+[22:29:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:29:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:29:36] [Client thread/INFO]: [CHAT] BahnB4bo was knocked into the void by Matlefishh.
+[22:29:41] [Client thread/INFO]: [CHAT] Matlefishh was given the cold shoulder by BlockBusterGirl_.
+[22:29:46] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by BahnB4bo.
+[22:30:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:30:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:30:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:31:17] [Client thread/INFO]: [CHAT] Matlefishh fell into the void.
+[22:31:24] [Client thread/INFO]: [CHAT] 
+[22:31:24] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Gray Bed was destroyed by KD3!
+[22:31:24] [Client thread/INFO]: [CHAT] 
+[22:31:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:31:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:31:30] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:31:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:32:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:32:09] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by BahnB4bo.
+[22:32:15] [Client thread/ERROR]: Item entity 8569 has no item?!
+[22:32:15] [Client thread/ERROR]: Item entity 8569 has no item?!
+[22:32:15] [Client thread/ERROR]: Item entity 8569 has no item?!
+[22:32:15] [Client thread/ERROR]: Item entity 8569 has no item?!
+[22:32:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:32:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:32:27] [Client thread/INFO]: [CHAT] BahnB4bo was knocked into the void by Matlefishh. FINAL KILL!
+[22:32:36] [Client thread/INFO]: [CHAT] Matlefishh was given the cold shoulder by BlockBusterGirl_.
+[22:32:39] [Client thread/ERROR]: Item entity 8716 has no item?!
+[22:32:39] [Client thread/ERROR]: Item entity 8716 has no item?!
+[22:32:39] [Client thread/ERROR]: Item entity 8716 has no item?!
+[22:32:39] [Client thread/ERROR]: Item entity 8716 has no item?!
+[22:33:13] [Client thread/INFO]: [CHAT] KD3 was killed by MTCVS.
+[22:33:13] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:33:14] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:33:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:33:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:33:31] [Client thread/ERROR]: Item entity 8752 has no item?!
+[22:33:48] [Client thread/ERROR]: Item entity 9093 has no item?!
+[22:34:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:34:01] [Client thread/INFO]: [CHAT] BlockBusterGirl_ was knocked into the void by Matlefishh. FINAL KILL!
+[22:34:01] [Client thread/INFO]: [CHAT] 
+[22:34:01] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Gray Team has been eliminated!
+[22:34:01] [Client thread/INFO]: [CHAT] 
+[22:34:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:34:06] [Client thread/ERROR]: Item entity 9166 has no item?!
+[22:34:07] [Client thread/INFO]: [CHAT] MTCVS was knocked into the void by Peanut_Brittle_.
+[22:34:11] [Client thread/INFO]: [CHAT] Peanut_Brittle_ fell into the void.
+[22:34:11] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:34:12] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:34:13] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:34:14] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:34:15] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:34:16] [Client thread/INFO]: [CHAT] You have respawned!
+[22:34:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:34:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:34:31] [Client thread/INFO]: [CHAT] You purchased Iron Sword
+[22:34:36] [Client thread/INFO]: [CHAT] You purchased Bow (Power I)
+[22:34:38] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:34:38] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:34:38] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:34:39] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:34:49] [Client thread/ERROR]: Item entity 9356 has no item?!
+[22:34:52] [Client thread/ERROR]: Item entity 9373 has no item?!
+[22:34:52] [Client thread/ERROR]: Item entity 9373 has no item?!
+[22:35:01] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:35:01] [Client thread/ERROR]: Item entity 9408 has no item?!
+[22:35:01] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:35:02] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:35:15] [Client thread/INFO]: [CHAT] KD3 was knocked into the void by Matlefishh.
+[22:35:18] [Client thread/INFO]: [CHAT] Emerald Generators have been upgraded to Tier III
+[22:35:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:35:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:36:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:36:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:36:16] [Client thread/ERROR]: Item entity 9745 has no item?!
+[22:36:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:36:18] [Client thread/INFO]: [CHAT] All beds will be destroyed in 5 minutes!
+[22:36:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:36:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:36:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:36:42] [Client thread/INFO]: [CHAT] KD3 purchased Dragon Buff
+[22:36:53] [Client thread/ERROR]: Item entity 9982 has no item?!
+[22:37:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:37:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:37:13] [Client thread/INFO]: [CHAT] Matlefishh is on 18.7 HP!
+[22:37:16] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was killed by Matlefishh.
+[22:37:16] [Client thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[22:37:17] [Client thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[22:37:18] [Client thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[22:37:19] [Client thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[22:37:20] [Client thread/INFO]: [CHAT] You will respawn in 1 seconds!
+[22:37:21] [Client thread/INFO]: [CHAT] You have respawned!
+[22:37:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:37:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:37:27] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:37:27] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:37:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:37:30] [Client thread/INFO]: [CHAT] Miner Fatigue Trap was set off!
+[22:37:30] [Client thread/ERROR]: Item entity 10191 has no item?!
+[22:37:30] [Client thread/ERROR]: Item entity 10191 has no item?!
+[22:37:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:37:35] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by Peanut_Brittle_.
+[22:37:35] [Client thread/INFO]: [CHAT] +66 Iron
+[22:37:35] [Client thread/INFO]: [CHAT] +11 Gold
+[22:37:35] [Client thread/INFO]: [CHAT] +1 Diamond
+[22:38:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:38:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:38:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:38:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:38:39] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:38:39] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:38:39] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 6 more!
+[22:38:39] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 6 more!
+[22:38:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:38:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:38:52] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by KD3.
+[22:39:02] [Client thread/INFO]: [CHAT] You purchased Bow (Power I)
+[22:39:02] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:39:02] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:39:02] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:39:03] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:39:18] [Client thread/INFO]: [CHAT] KD3 purchased Reinforced Armor III
+[22:39:21] [Client thread/INFO]: [CHAT] KD3 purchased Miner Fatigue Trap
+[22:39:22] [Client thread/ERROR]: Item entity 10658 has no item?!
+[22:39:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:39:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:39:43] [Client thread/INFO]: [CHAT] MTCVS is on 17.8 HP!
+[22:39:45] [Client thread/INFO]: [CHAT] MTCVS is on 16.2 HP!
+[22:39:58] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:39:58] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:39:59] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:39:59] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 17 more!
+[22:40:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:40:06] [Client thread/INFO]: [CHAT] Matlefishh is on 17.9 HP!
+[22:40:10] [Client thread/INFO]: [CHAT] Matlefishh is on 16.7 HP!
+[22:40:16] [Client thread/INFO]: [CHAT] MTCVS is on 17.5 HP!
+[22:40:17] [Client thread/INFO]: [CHAT] MTCVS is on 15.2 HP!
+[22:40:19] [Client thread/INFO]: [CHAT] Matlefishh is on 16.5 HP!
+[22:40:20] [Client thread/INFO]: [CHAT] Matlefishh is on 14.3 HP!
+[22:40:21] [Client thread/INFO]: [CHAT] Matlefishh is on 13.4 HP!
+[22:40:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:40:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:40:34] [Client thread/INFO]: [CHAT] Matlefishh is on 14.1 HP!
+[22:40:38] [Client thread/INFO]: [CHAT] Matlefishh is on 14 HP!
+[22:40:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:40:49] [Client thread/INFO]: [CHAT] Matlefishh is on 14.9 HP!
+[22:40:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:41:02] [Client thread/INFO]: [CHAT] Matlefishh is on 15.4 HP!
+[22:41:18] [Client thread/INFO]: [CHAT] All beds have been destroyed!
+[22:41:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:41:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:41:23] [Client thread/INFO]: [CHAT] Matlefishh was knocked into the void by KD3. FINAL KILL!
+[22:41:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:41:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:41:31] [Client thread/INFO]: [CHAT] You purchased Iron Sword
+[22:41:32] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:41:33] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:41:33] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:41:33] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:41:33] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:41:46] [Client thread/ERROR]: Item entity 11288 has no item?!
+[22:42:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:42:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:42:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:42:40] [Client thread/ERROR]: Item entity 11585 has no item?!
+[22:42:40] [Client thread/ERROR]: Item entity 11585 has no item?!
+[22:42:56] [Client thread/ERROR]: Item entity 11668 has no item?!
+[22:42:57] [Client thread/INFO]: [CHAT] You purchased Permanent Diamond Armor
+[22:42:57] [Client thread/ERROR]: Item entity 11673 has no item?!
+[22:43:15] [Client thread/ERROR]: Item entity 11771 has no item?!
+[22:43:26] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:43:26] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:43:51] [Client thread/INFO]: [CHAT] Peanut_Brittle_ purchased Reinforced Armor IV
+[22:44:03] [Client thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[22:44:03] [Client thread/ERROR]: Item entity 11983 has no item?!
+[22:44:05] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:44:06] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:44:06] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:44:06] [Client thread/INFO]: [CHAT] You purchased Arrow
+[22:44:10] [Client thread/INFO]: [CHAT] You purchased Fireball
+[22:44:10] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 11 more!
+[22:44:15] [Client thread/INFO]: [CHAT] MTCVS disconnected
+[22:44:15] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:44:15] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[22:44:15] [Client thread/INFO]: [CHAT] 
+[22:44:15] [Client thread/INFO]: [CHAT]                         Red - Peanut_Brittle_, KD3
 
-[12:31:57] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: orange
-[12:31:59] [Server thread/INFO]: Saving and pausing game...
-[12:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:32:15] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: blue
-[12:32:17] [Server thread/INFO]: Saving and pausing game...
-[12:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:32:57] [Client thread/INFO]: [CHAT] §8[§9P§7s§ai§cl§ko§6c§di§an§8]: §7Added friend: gab
+[22:44:15] [Client thread/INFO]: [CHAT] 
+[22:44:15] [Client thread/INFO]: [CHAT]                       1st Killer - Matlefishh - 27
+[22:44:15] [Client thread/INFO]: [CHAT]                   2nd Killer - Peanut_Brittle_ - 14
+[22:44:15] [Client thread/INFO]: [CHAT]                       3rd Killer - BahnB4bo - 12
+[22:44:15] [Client thread/INFO]: [CHAT] 
+[22:44:15] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:44:15] [Client thread/INFO]: [CHAT] +30 coins! (Win)
+[22:44:15] [Client thread/INFO]: [CHAT] +100 Bed Wars Experience (Position Bonus)
+[22:44:15] [Client thread/INFO]: [CHAT] 
+[22:44:15] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > White Team has been eliminated!
+[22:44:15] [Client thread/INFO]: [CHAT] 
+[22:44:15] [Client thread/INFO]: [CHAT] +92 Bed Wars Experience (Group Bonus)
+[22:44:16] [Client thread/INFO]: [CHAT] §a§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+§r                            §f§lReward Summary§f§l
+
+   §7You earned
+§r     • §6231 Bed Wars Coins
+§r     • §31,243 Hypixel Experience
+
+§r                           §bBed Wars Experience§b
+§r          §bLevel 8                                           §bLevel 9§b
+          §8[§b■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■§7■■■■§8]
+§r                           §b4,426§7 / §a5,000§7 (88.5%)§7
+
+§7You earned §b1017 Bed Wars Experience
+
+§a§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:44:21] [Client thread/INFO]: [CHAT] §aThis game has been recorded. §6Buy §aVIP §6to get access to the Replay System.
+[22:44:27] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:27] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:27] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:28] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:28] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:28] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:28] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:28] [Client thread/INFO]: [CHAT] Please wait 0.5s to use that again
+[22:44:31] [Client thread/INFO]: [CHAT]                                      
+[22:44:31] [Client thread/INFO]: [CHAT]        
+[22:44:31] [Client thread/INFO]: [CHAT] KD3 has joined (9/16)!
+[22:44:31] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (10/16)!
+[22:44:31] [Client thread/INFO]: [CHAT] sandmonkey77 has joined (11/16)!
+[22:44:31] [Client thread/INFO]: [CHAT] wmsped has joined (12/16)!
+[22:44:33] [Client thread/INFO]: [CHAT] Teleporting you to the lobby in 3 seconds... Right-click again to cancel the teleport!
+[22:44:37] [Client thread/INFO]: [CHAT]                                      
+[22:44:37] [Client thread/INFO]: [CHAT]                          
+[22:44:37] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[22:44:37] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:44:37] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[22:44:37] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:44:39] [Client thread/INFO]: [CHAT] §7[18✫] §7jnside901§7: wewewewe
+[22:44:40] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] RedstoneTier§f §6joined the lobby!
+[22:44:49] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] OverdriveMC§f §6joined the lobby!
+[22:44:58] [Client thread/INFO]: [CHAT] §7[32✫] §a[VIP] WylieMAC§f: :) gf
+[22:45:04] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] PixelMeow§f §6joined the lobby!
+[22:45:05] [Client thread/INFO]: [CHAT] §7[32✫] §a[VIP] WylieMAC§f: my macro works pogg
+[22:45:06] [Client thread/INFO]: [CHAT] Tinyfires123 found a ✰✰✰✰✰ Mystery Box!
+[22:45:19] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Spekix§f §6joined the lobby! §a<§c<§b<
+[22:45:20] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] qsro§f §6joined the lobby! §a<§c<§b<
+[22:45:20] [Client thread/INFO]: [CHAT] §7[31✫] §6[MVP§c++§6] Spekix§f: DO /p join spekix for FUN custom games live on youtube
+[22:45:21] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] Jytx§f §6joined the lobby! §a<§c<§b<
+[22:45:21] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Some_Random_Non§f §6joined the lobby!
+[22:45:22] [Client thread/INFO]: [CHAT] §6[207✫] §6[MVP§2++§6] Jytx§f: Streaming Some Private Bedwars Games! | /p join Jytx
+[22:45:22] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] qvro§f §6joined the lobby!
+[22:45:22] [Client thread/INFO]: [CHAT] §7[12✫] §7Stxormy§7: bf stands for best friend and gf stands for good friend
+[22:45:28] [Client thread/INFO]: [CHAT] §f[149✫] §b[MVP] i77k§f: [BIG PRIZE] » 150 KIDS Event! » /visit Qrowu in Housing! » [!] Slots Filling up! [INSANE PRIZE]
+[22:45:30] [Client thread/INFO]: [CHAT] §7[12✫] §7Stxormy§7: duh
+[22:45:37] [Client thread/INFO]: [CHAT] Parkour challenge started!
+[22:45:37] [Client thread/INFO]: [CHAT] Use /parkour checkpoint to teleport to the last checkpoint or /parkour cancel to cancel!
+[22:45:40] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] PlayerGhost§f §6joined the lobby!
+[22:45:48] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] SkibidiRush§f §6joined the lobby!
+[22:45:51] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§4++§6] NoahHax§f §6joined the lobby! §a<§c<§b<
+[22:45:52] [Client thread/INFO]: [CHAT]                                      
+[22:45:52] [Client thread/INFO]: [CHAT]        
+[22:45:52] [Client thread/INFO]: [CHAT] KD3 has joined (15/16)!
+[22:45:52] [Client thread/INFO]: [CHAT] Peanut_Brittle_ has joined (16/16)!
+[22:45:53] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[22:45:55] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[22:45:56] [Client thread/INFO]: [CHAT] chargedcreaper69 has quit!
+[22:45:57] [Client thread/INFO]: [CHAT] heheaw has quit!
+[22:46:00] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[22:46:01] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[22:46:03] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[22:46:03] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[22:46:04] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[22:46:05] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:46:05] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[22:46:05] [Client thread/INFO]: [CHAT] 
+[22:46:05] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[22:46:05] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[22:46:05] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[22:46:05] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[22:46:05] [Client thread/INFO]: [CHAT] 
+[22:46:05] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[22:46:07] [Client thread/ERROR]: Item entity 590 has no item?!
+[22:46:11] [Client thread/ERROR]: Item entity 688 has no item?!
+[22:46:13] [Client thread/INFO]: [CHAT] mweatung disconnected
+[22:46:13] [Client thread/INFO]: [CHAT] 
+[22:46:13] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Red Team has been eliminated!
+[22:46:13] [Client thread/INFO]: [CHAT] 
+[22:46:14] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[22:46:14] [Client thread/INFO]: [CHAT] +6 coins! (Time Played)
+[22:46:19] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:46:19] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:46:19] [Client thread/INFO]: [CHAT] You purchased Wool
+[22:46:20] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 1 more!
+[22:46:21] [Client thread/ERROR]: Item entity 933 has no item?!
+[22:46:21] [Client thread/ERROR]: Item entity 937 has no item?!
+[22:46:22] [Client thread/ERROR]: Item entity 972 has no item?!
+[22:46:23] [Client thread/INFO]: [CHAT] 9list_ fell into the void.
+[22:46:25] [Client thread/ERROR]: Item entity 1032 has no item?!
+[22:46:32] [Client thread/ERROR]: Item entity 1239 has no item?!
+[22:46:34] [Client thread/INFO]: [CHAT] 
+[22:46:34] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Your Bed was dismantled by Kaohh!
+[22:46:34] [Client thread/INFO]: [CHAT] 
+[22:46:35] [Client thread/ERROR]: Item entity 1291 has no item?!
+[22:46:37] [Client thread/INFO]: [CHAT] Peanut_Brittle_ was given the cold shoulder by Kaohh. FINAL KILL!
+[22:46:37] [Client thread/INFO]: [CHAT] You have been eliminated!
+[22:46:37] [Client thread/ERROR]: Item entity 916 has no item?!
+[22:46:38] [Client thread/INFO]: [CHAT] FrogsTea was bzzz'd into the void by slus2.
+[22:46:38] [Client thread/INFO]: [CHAT] slus2 fell into the void.
+[22:46:39] [Client thread/INFO]: [CHAT] 
+[22:46:39] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Aqua Bed was stung by Harpsters!
+[22:46:39] [Client thread/INFO]: [CHAT] 
+[22:46:41] [Client thread/INFO]: [CHAT] Kaohh was killed by KD3.
+[22:46:41] [Client thread/INFO]: [CHAT] 
+[22:46:41] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Green Team has been eliminated!
+[22:46:41] [Client thread/INFO]: [CHAT] 
+[22:46:43] [Client thread/INFO]: [CHAT] Shadow0390 was buzzed to death by Harpsters. FINAL KILL!
+[22:46:45] [Client thread/INFO]: [CHAT] KD3 was glazed in BBQ sauce by matooulie. FINAL KILL!
+[22:46:45] [Client thread/INFO]: [CHAT] 
+[22:46:45] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Gray Team has been eliminated!
+[22:46:45] [Client thread/INFO]: [CHAT] 
+[22:46:46] [Client thread/INFO]: [CHAT] stingyy was buzzed to death by Harpsters. FINAL KILL!
+[22:46:46] [Client thread/INFO]: [CHAT] 
+[22:46:46] [Client thread/INFO]: [CHAT] TEAM ELIMINATED > Aqua Team has been eliminated!
+[22:46:46] [Client thread/INFO]: [CHAT] 
+[22:46:48] [Client thread/ERROR]: Item entity 1490 has no item?!
+[22:46:48] [Client thread/INFO]: [CHAT] Teleporting you to the lobby in 3 seconds... Right-click again to cancel the teleport!
+[22:46:48] [Client thread/INFO]: [CHAT] Leaving queue!
+[22:46:50] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[22:46:51] [Client thread/INFO]: [CHAT]                                      
+[22:46:51] [Client thread/INFO]: [CHAT]                          
+[22:46:51] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[22:46:51] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:46:51] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[22:46:51] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:46:54] [Client thread/INFO]: [CHAT] §7[7✫] §7Skellinate_§7: /party join ReallyMushroom
+[22:46:56] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] n4nc1§f §6joined the lobby!
+[22:47:00] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] SacredSeal§f §6joined the lobby!
+[22:47:02] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] JoonFsh§f §6joined the lobby! §a<§c<§b<
+[22:47:04] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] MRCometClaus§f §6joined the lobby!
+[22:47:08] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] CamFlash§f §6joined the lobby! §a<§c<§b<
+[22:47:09] [Client thread/INFO]: [CHAT] §6[229✫] §6[MVP§2++§6] CamFlash§f: ➜ Do /p join CamFlash for Bedwars and Skywars Private games (Live Streaming) ➜
+[22:47:12] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] darrqn§f §6joined the lobby!
+[22:47:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:47:25] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Soup1988§f §6joined the lobby! §a<§c<§b<
+[22:47:26] [Client thread/INFO]: [CHAT] §7[28✫] §6[MVP§c++§6] Soup1988§f: Streaming on yt (do /p join soup1988) for fun private games
+[22:47:27] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] uh_lana§f §6joined the lobby!
+[22:47:33] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§c++§b] Txler_§f §6joined the lobby! §a<§c<§b<
+[22:47:34] [Client thread/INFO]: [CHAT] §f[123✫] §b[MVP§c++§b] Txler_§f: ( ﾟ◡ﾟ)/ Im streaming on twitch hosting privates games do ./ party join Txler_ to join come check out my t
+[22:47:35] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] Pigafied§f §6joined the lobby! §a<§c<§b<
+[22:47:35] [Client thread/INFO]: [CHAT] §f[105✫] §a[VIP§6+§a] g504§f: exacto
+[22:47:38] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] ChiefE001§f §6joined the lobby!
+[22:47:44] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] submosphere§f §6joined the lobby! §a<§c<§b<
+[22:47:45] [Client thread/INFO]: [CHAT] [Mystery Box] §f§buh_lana §ffound a §5Epic Mooshroom Pet§f!
+[22:47:48] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] SenseiChicken§f §6joined the lobby!
+[22:47:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:47:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:47:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:47:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:47:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:48:13] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] ImMcDavid§f §6joined the lobby! §a<§c<§b<
+[22:48:15] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] revoided§f §6joined the lobby!
+[22:48:21] [Client thread/INFO]: [CHAT] §7[22✫] §a[VIP§6+§a] Al4n1s§f: twitch stream party! /p join tristxnx ! private matches !
+[22:48:30] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Master_Gouda§f §6joined the lobby!
+[22:48:31] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] TheMagicPiston§f §6joined the lobby!
+[22:48:43] [Client thread/INFO]: [CHAT] §7[20✫] §a[VIP] ApolloXIIV§f: [BIG PRIZE] » 150 KIDS Event! » /visit Qrowu in Housing! » [!] Slots Filling up!
+[22:48:50] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] ttry§f §6joined the lobby!
+[22:49:03] [Client thread/INFO]: [CHAT] [Mystery Box] §f§6ImMcDavid §ffound a §5Epic Enderman Morph§f!
+[22:49:07] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] 1erv§f §6joined the lobby! §a<§c<§b<
+[22:49:13] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Spacenaught5§f §6joined the lobby! §a<§c<§b<
+[22:49:24] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§f++§b] Apollo_PvP§f §6joined the lobby! §a<§c<§b<
+[22:49:28] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] xDeadlypiggo§f §6joined the lobby! §a<§c<§b<
+[22:49:38] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] alexisgoodlol§f §6joined the lobby!
+[22:49:39] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] thecreepymine§f §6joined the lobby! §a<§c<§b<
+[22:49:39] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§3++§6] UpR0ar§f §6joined the lobby! §a<§c<§b<
+[22:49:44] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] Caliigo§f §6joined the lobby! §a<§c<§b<
+[22:49:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:49:54] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] SpyroECVAlt§f §6joined the lobby! §a<§c<§b<
+[22:49:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:02] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Blazetheplaze§f §6joined the lobby!
+[22:50:04] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§3++§6] ihds§f §6joined the lobby! §a<§c<§b<
+[22:50:05] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Sysj§f §6joined the lobby!
+[22:50:10] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] kidmeisters§f §6joined the lobby!
+[22:50:11] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] IamBaboon§f §6joined the lobby!
+[22:50:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:12] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] MinerX79§f §6joined the lobby!
+[22:50:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:50:17] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§c++§b] RosesThorns§f §6joined the lobby! §a<§c<§b<
+[22:50:19] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] okaq§f §6joined the lobby! §a<§c<§b<
+[22:50:21] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] I_Sigh§f §6joined the lobby!
+[22:50:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:25] [Client thread/INFO]: [CHAT] §7[35✫] §b[MVP] prophacy§f: ./msg prophacy to play some public games!
+[22:50:28] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] ishiaki§f §6joined the lobby! §a<§c<§b<
+[22:50:28] [Client thread/INFO]: [CHAT] §f[142✫] §6[MVP§f++§6] ishiaki§f: can somone get oSwar an optifine cape please?
+[22:50:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[22:50:40] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] GredOnYt§f §6joined the lobby!
+[22:50:41] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] Coconuc§f §6joined the lobby! §a<§c<§b<
+[22:50:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:50:45] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Zauriki_playz§f §6joined the lobby!
+[22:50:48] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] 28Flo§f §6joined the lobby!
+[22:50:51] [Client thread/INFO]: [CHAT] [Mystery Box] §f§bFunnelBunny §ffound a §5Epic White Horse Pet§f!
+[22:50:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:51:00] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] breezingb1ue§f §6joined the lobby! §a<§c<§b<
+[22:51:00] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] TimeVortec§f §6joined the lobby! §a<§c<§b<
+[22:51:01] [Client thread/INFO]: [CHAT] §7[33✫] §6[MVP§c++§6] TimeVortec§f: ./wdr fpig cheating autoclicker
+[22:51:04] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] DimzyVoid§f §6joined the lobby!
+[22:51:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[22:51:11] [Client thread/INFO]: [CHAT]                                      
+[22:51:11] [Client thread/INFO]: [CHAT]                          
+[22:51:11] [Client thread/INFO]: [CHAT] §aYou have §b3 §aunclaimed leveling rewards!
+[22:51:11] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:51:11] [Client thread/INFO]: [CHAT] §aYou have §62 §aunclaimed achievement rewards!
+[22:51:11] [Client thread/INFO]: [CHAT] §eClick here to view them!
+[22:51:13] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[22:51:13] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[22:51:29] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] BlepBlep§f §6joined the lobby!
+[22:51:49] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[22:51:50] [Client thread/INFO]: [CHAT] Click to view the stats of your §bBed Wars§e game!
+[22:52:16] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[22:52:25] [Client thread/INFO]: [CHAT] Thsuper found a ✰✰✰✰✰ Mystery Box!
+[22:52:43] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] Berukabunny§f §6joined the lobby! §a<§c<§b<
+[22:53:03] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] xXLunarWxlfXx§f §6joined the lobby!
+[22:53:34] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[22:53:55] [Client thread/ERROR]: Item entity 298319 has no item?!
+[22:53:55] [Client thread/ERROR]: Item entity 298320 has no item?!
+[22:53:55] [Client thread/ERROR]: Item entity 298322 has no item?!
+[22:53:56] [Client thread/ERROR]: Item entity 298324 has no item?!
+[22:54:41] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] KingWolfXOX§f §6joined the lobby!
+[22:54:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
+[22:54:57] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] EXTREME_DUDE§f §6joined the lobby!
+[22:55:35] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] Brzdley§f §6joined the lobby! §a<§c<§b<
+[22:55:47] [Client thread/INFO]: [CHAT] [Mystery Box] §f§7schmecky90 §ffound a §5Epic Bat Pet§f!
+[22:55:47] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] Exodus_XD§f §6joined the lobby! §a<§c<§b<
+[22:55:51] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] joker__§f §6joined the lobby!
+[22:56:04] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] RobotPro10§f §6joined the lobby!
+[22:56:14] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] mxtthzw§f §6joined the lobby! §a<§c<§b<
+[22:56:16] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] _Lags_§f §6joined the lobby! §a<§c<§b<
+[22:56:25] [Client thread/INFO]: [CHAT] §7QtDiamond§7: isdagf
+[22:56:30] [Client thread/INFO]: [CHAT] Ricoel21 found a ✰✰✰✰✰ Mystery Box!
+[22:56:37] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] LegitDorin§f §6joined the lobby!
+[22:56:37] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] Fhever§f §6joined the lobby!
+[22:57:05] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] NetflixAndDie§f §6joined the lobby!
+[22:57:25] [Client thread/INFO]: [CHAT] You are not allowed to do this!
+[22:57:49] [Client thread/INFO]: [CHAT] Akoua found a ✰✰✰✰✰ Mystery Box!
+[22:57:52] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] yoongi§f §6joined the lobby!
+[22:58:03] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Mxids§f §6joined the lobby!
+[22:58:05] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] 1v1000§f §6joined the lobby!
+[22:58:11] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] rwef§f §6joined the lobby!
+[22:58:38] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] ItsStellar§f §6joined the lobby!
+[22:58:50] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Cupcakeosaurus§f §6joined the lobby!
+[22:59:04] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] Amaanda§f §6joined the lobby! §a<§c<§b<
+[22:59:32] [Client thread/INFO]: [CHAT] §7Boi1239924§7: can some one please gift me mvp++ or any other rank
+[22:59:33] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] panthher§f §6joined the lobby!
+[22:59:39] [Client thread/INFO]: [CHAT] §a[VIP] HungrySailor§f: donmt begg
+[22:59:43] [Client thread/INFO]: [CHAT] §7Boi1239924§7: ok
+[22:59:47] [Client thread/INFO]: [CHAT] §a[VIP] HungrySailor§f: thx
+[23:00:15] [Client thread/INFO]: [CHAT] DragonDSGYT found a ✰✰✰✰✰ Mystery Box!
+[23:00:21] [Client thread/INFO]: [CHAT] You must have VIP to open this crate!
+[23:00:39] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+           Mystery Box
+
+  You found loot!
+  1x Rare Sci-Fi Theme (Housing)
+  30x Pet Items
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[23:00:51] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+           Mystery Box
+
+  You found loot!
+  1x Legendary Baby Mooshroom Pet
+  30x Pet Items
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[23:01:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[23:01:25] [Client thread/INFO]: [CHAT] §a[VIP] ApolloXIIV§f: [BIG PRIZE] » 150 KIDS Event! » /visit Qrowu in Housing! » [!] Slots Filling up!
+[23:01:32] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] FefeBTW§f §6joined the lobby!
+[23:01:38] [Client thread/INFO]: [CHAT] [Mystery Box] §f§7_Scorpiozzz_ §ffound a §5Epic Black Sheep Pet§f!
+[23:02:07] [Client thread/INFO]: [CHAT] §a[VIP] HungrySailor§f: e
+[23:02:38] [Client thread/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[23:02:41] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] EmeraldSts§f §6joined the lobby! §a<§c<§b<
+[23:02:52] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] Twirps§f §6joined the lobby!
+[23:03:01] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:03:53] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] cleean§f §6joined the lobby!
+[23:04:11] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] nxthingpqrsonal§f §6joined the lobby!
+[23:04:11] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] 1stplacehunter§f §6joined the lobby!
+[23:04:17] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] OrginGamez§f §6joined the lobby! §a<§c<§b<
+[23:04:44] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:05:09] [Client thread/ERROR]: Item entity 298920 has no item?!
+[23:05:18] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] T1Flash§f §6joined the lobby!
+[23:06:06] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] oofity§f §6joined the lobby!
+[23:06:14] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:07:33] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] CHENSHEN5777§f §6joined the lobby!
+[23:07:47] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Frankhito§f §6joined the lobby!
+[23:08:01] [Client thread/INFO]: [CHAT] §b[MVP§8+§b] NotKaring§f §6joined the lobby!
+[23:08:25] [Client thread/INFO]: [CHAT] §7WarriorSlayer21§7: 40.712
+[23:08:29] [Client thread/INFO]: [CHAT] §a[VIP] Grazzyo§f: ew
+[23:08:57] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:09:00] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] I_Am_Saxy§f §6joined the lobby!
+[23:09:01] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] I_Am_Saxy§f: hypixel com or smth
+[23:09:24] [Client thread/INFO]: [CHAT] §a[VIP§6+§a] FlippinMegaManX§f: -<<100 KIDS EVENT!>>- Go to housing lobby, then type /visit AdamsMadness
+[23:09:38] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:09:55] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] VoidTheMemer§f §6joined the lobby!
+[23:10:17] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] nugN§f §6joined the lobby! §a<§c<§b<
+[23:10:29] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] orangebear346§f §6joined the lobby! §a<§c<§b<
+[23:10:30] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] taejoonn§f §6joined the lobby!
+[23:10:57] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Toadster314§f §6joined the lobby!
+[23:11:02] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:11:30] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] Veemo§f §6joined the lobby! §a<§c<§b<
+[23:11:33] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Zeus7400§f §6joined the lobby!
+[23:11:44] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§d++§6] Cynthian§f §6joined the lobby! §a<§c<§b<
+[23:11:48] [Client thread/INFO]: [CHAT] §7TIM8MIT§7: hi
+[23:12:03] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] Iscore_Gaming§f §6joined the lobby! §a<§c<§b<
+[23:12:05] [Client thread/INFO]: [CHAT] §7TIM8MIT§7: mooooooooooooooooooooooooooooooooooo
+[23:12:23] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] IHOP§f §6joined the lobby!
+[23:12:41] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] IsseiKun_§f §6joined the lobby!
+[23:13:06] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] lzci§f §6joined the lobby!
+[23:13:07] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Twawi§f §6joined the lobby!
+[23:13:40] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] 00cat00§f §6joined the lobby!
+[23:13:53] [Client thread/INFO]: [CHAT] Kuha0 found a ✰✰✰✰✰ Mystery Box!
+[23:14:13] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Squim151§f §6joined the lobby! §a<§c<§b<
+[23:14:14] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Zitrovix§f §6joined the lobby!
+[23:14:19] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§1++§6] woahh§f §6joined the lobby! §a<§c<§b<
+[23:14:28] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§4++§b] Swixar§f §6joined the lobby! §a<§c<§b<
+[23:14:52] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Danielpas147_§f §6joined the lobby!
+[23:15:09] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] zyjedlagang§f §6joined the lobby!
+[23:16:01] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] _DerWinter_§f §6joined the lobby!
+[23:16:45] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[23:16:47] [Client thread/INFO]: [CHAT] Parkour challenge started!
+[23:16:47] [Client thread/INFO]: [CHAT] Use /parkour checkpoint to teleport to the last checkpoint or /parkour cancel to cancel!
+[23:16:47] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] 0hwt§f §6joined the lobby!
+[23:17:30] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[23:17:37] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[23:18:02] [Client thread/INFO]: [CHAT] You reached Checkpoint #1 after 00:24.722.
+[23:18:02] [Client thread/INFO]: [CHAT] You finished this part of the parkour in 00:24.722.
+[23:18:02] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] arctic1214§f §6joined the lobby!
+[23:18:04] [Client thread/INFO]: [CHAT] §a[VIP] 5uccc§f: If yall wanna get the dark blue plus, u can gift me an rank , jk, unless?? -------------------------
+[23:18:08] [Client thread/INFO]: [CHAT] Refractiom_ found a ✰✰✰✰✰ Mystery Box!
+[23:18:12] [Client thread/INFO]: [CHAT] §b[MVP] zeeegeee§f: [!] Losing fights? /hub housing >>/visit Henty<< to hone your pvp skills [!]
+[23:18:19] [Client thread/INFO]: [CHAT] Parkour challenge failed! You teleported!
+[23:18:23] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] itztrimix§f §6joined the lobby!
+[23:18:51] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Domonoko§f §6joined the lobby!
+[23:19:12] [Client thread/INFO]: [CHAT] This is the finish line for the parkour! Get to the start line and climb back up here!
+[23:19:22] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] Mondeay§f §6joined the lobby! §a<§c<§b<
+[23:19:34] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] epicgamer_12§f §6joined the lobby! §a<§c<§b<
+[23:19:44] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] blue_raven4§f §6joined the lobby! §a<§c<§b<
+[23:20:10] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] dodowo§f §6joined the lobby!
+[23:20:31] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] 13GaMInG13§f §6joined the lobby!
+[23:20:55] [Client thread/INFO]: [CHAT] §7Flinskk§7: eae
+[23:22:04] [Client thread/INFO]: [CHAT] §7BlueLightningX§7: AAA
+[23:22:04] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] Ryanatan§f §6joined the lobby!
+[23:22:11] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] t3hkid§f §6joined the lobby!
+[23:22:22] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§4++§b] Swixar§f §6joined the lobby! §a<§c<§b<
+[23:22:28] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Trinch73§f §6joined the lobby!
+[23:22:32] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] j1a1§f §6joined the lobby!
+[23:22:33] [Client thread/INFO]: [CHAT] j1a1 found a ✰✰✰✰✰ Mystery Box!
+[23:23:09] [Client thread/INFO]: [CHAT] §b[MVP§8+§b] LyfeIsTrash§f §6joined the lobby!
+[23:23:11] [Client thread/INFO]: [CHAT] §b[MVP§0+§b] 38q§f §6joined the lobby!
+[23:23:20] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] Sir_Brixalot§f §6joined the lobby! §a<§c<§b<
+[23:23:37] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] xPureDrip§f §6joined the lobby!
+[23:23:54] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] Deqode§f §6joined the lobby! §a<§c<§b<
+[23:23:58] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] Kirboii§f §6joined the lobby!
+[23:24:01] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] ThatsChill§f §6joined the lobby!
+[23:24:11] [Client thread/INFO]: [CHAT] Parkour challenge started!
+[23:24:11] [Client thread/INFO]: [CHAT] Use /parkour checkpoint to teleport to the last checkpoint or /parkour cancel to cancel!
+[23:24:18] [Client thread/INFO]: [CHAT] §b[MVP§0+§b] eggsoda§f §6joined the lobby!
+[23:24:42] [Client thread/INFO]: [CHAT] §b[MVP§8+§b] NotKaring§f §6joined the lobby!
+[23:25:25] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] _DerWinter_§f §6joined the lobby!
+[23:25:39] [Client thread/INFO]: [CHAT] PKDO found a ✰✰✰✰✰ Mystery Box!
+[23:25:42] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] Amqri§f §6joined the lobby!
+[23:25:46] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] emacity§f §6joined the lobby!
+[23:26:15] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] GoldFishyMC§f §6joined the lobby!
+[23:26:34] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] icywol§f §6joined the lobby!
+[23:26:35] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] Simply_A_Fox§f §6joined the lobby! §a<§c<§b<
+[23:26:36] [Client thread/INFO]: [CHAT] §a[VIP§6+§a] iiBerry0_§f: has
+[23:26:42] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] WeCraft2021§f §6joined the lobby! §a<§c<§b<
+[23:27:00] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] Voltorex§f §6joined the lobby! §a<§c<§b<
+[23:27:18] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Piggieoooo§f §6joined the lobby!
+[23:27:31] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] LeIncred§f §6joined the lobby!
+[23:27:34] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] LitoRom1§f §6joined the lobby!
+[23:27:57] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[23:28:29] [Client thread/ERROR]: Item entity 300728 has no item?!
+[23:28:29] [Client thread/ERROR]: Item entity 300734 has no item?!
+[23:28:37] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[23:28:41] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[23:28:46] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] __Horo__§f §6joined the lobby!
+[23:28:46] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[23:28:52] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] frankie27d§f §6joined the lobby!
+[23:28:55] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] Triple_Fist§f §6joined the lobby!
+[23:28:58] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] realM4MASON§f §6joined the lobby! §a<§c<§b<
+[23:29:35] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] lilpoppy_§f §6joined the lobby!
+[23:29:35] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] Kohhzie§f §6joined the lobby! §a<§c<§b<
+[23:29:35] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] IdontknownamE1§f §6joined the lobby! §a<§c<§b<
+[23:30:11] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] PlzLeftClick§f §6joined the lobby! §a<§c<§b<
+[23:30:35] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] FlashyBoat§f §6joined the lobby!
+[23:31:08] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] SideOlive§f §6joined the lobby!
+[23:31:27] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Maxl_III§f §6joined the lobby!
+[23:31:39] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Amadd1___§f §6joined the lobby!
+[23:32:14] [Client thread/INFO]: [CHAT] Parkour challenge failed! You teleported!
+[23:32:38] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] DillyWilli§f §6joined the lobby!
+[23:32:39] [Client thread/INFO]: [CHAT] Friend > KD3 left.
+[23:32:40] [Client thread/INFO]: [CHAT] -----------------------------
+[23:32:40] [Client thread/INFO]: [CHAT] KD3 has disconnected, they have 5 minutes to rejoin before they are removed from the party.
+[23:32:40] [Client thread/INFO]: [CHAT] -----------------------------
+[23:32:47] [Client thread/INFO]: [CHAT] ThatLazyM8 found a ✰✰✰✰✰ Mystery Box!
+[23:32:50] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] TylerGaming17§f §6joined the lobby!
+[23:33:25] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] gog30§f §6joined the lobby!
+[23:33:59] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] DASNIKISCHNITZEL§f §6joined the lobby! §a<§c<§b<
+[23:34:07] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] XanderJ§f §6joined the lobby!
+[23:34:11] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] FrostSnap§f §6joined the lobby! §a<§c<§b<
+[23:34:11] [Client thread/INFO]: [CHAT] 
+[23:34:11] [Client thread/INFO]: [CHAT] ??? [MVP+] XanderJ gifted the VIP rank to scar5car! ???
+[23:34:11] [Client thread/INFO]: [CHAT] 
+[23:35:07] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] N3E0§f §6joined the lobby!
+[23:35:28] [Client thread/INFO]: [CHAT] §a[VIP] Bonfaria§f: .
+[23:35:36] [Client thread/INFO]: [CHAT] §a[VIP] Bonfaria§f: ;
+[23:36:00] [Client thread/INFO]: [CHAT] §7addisauruss§7: hey is anyone gifitng ranks??
+[23:36:09] [Client thread/INFO]: [CHAT] §7brownthunder35§7: no
+[23:36:22] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] ChilliMushroom§f §6joined the lobby!
+[23:37:00] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] DBA§f §6joined the lobby!
+[23:37:02] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] SwagBoy90§f §6joined the lobby!
+[23:37:29] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] Santiagoprp§f §6joined the lobby!
+[23:37:41] [Client thread/INFO]: [CHAT] -----------------------------
+[23:37:41] [Client thread/INFO]: [CHAT] KD3 was removed from your party because they disconnected
+[23:37:41] [Client thread/INFO]: [CHAT] -----------------------------
+[23:37:41] [Client thread/INFO]: [CHAT] -----------------------------
+[23:37:41] [Client thread/INFO]: [CHAT] The party was disbanded because all invites expired and the party was empty
+[23:37:41] [Client thread/INFO]: [CHAT] -----------------------------
+[23:37:57] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] SmugPanda§f §6joined the lobby!
+[23:38:01] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] Mespiriit§f §6joined the lobby! §a<§c<§b<
+[23:39:11] [Client thread/INFO]: [CHAT] Draconian707 found a ✰✰✰✰✰ Mystery Box!
+[23:40:00] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] mxau§f §6joined the lobby!
+[23:40:02] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] Duan_Is_Here§f §6joined the lobby!
+[23:41:20] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] DigitalNerd§f §6joined the lobby!
+[23:41:27] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] Feesl§f §6joined the lobby!
+[23:42:13] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] oBabyy§f §6joined the lobby!
+[23:42:27] [Client thread/INFO]: [CHAT] XxMartin10x found a ✰✰✰✰✰ Mystery Box!
+[23:42:35] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] GrandYapper2828§f §6joined the lobby! §a<§c<§b<
+[23:43:02] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] DudeTheSloth1264§f §6joined the lobby!
+[23:43:49] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] deotime§f §6joined the lobby! §a<§c<§b<
+[23:43:57] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] SomePickle§f §6joined the lobby!
+[23:44:00] [Client thread/INFO]: [CHAT] §7_Lebby_§7: g
+[23:44:08] [Client thread/INFO]: [CHAT] §b[MVP§5+§b] AngelTruth§f §6joined the lobby!
+[23:44:24] [Client thread/INFO]: [CHAT] §7Qacka§7: can i have rank
+[23:45:00] [Client thread/INFO]: [CHAT] §7Bouncy_House1§7: W
+[23:45:11] [Client thread/INFO]: [CHAT] §7Qacka§7: can i get vip
+[23:45:27] [Client thread/INFO]: [CHAT] §7Rumiia§7: hello
+[23:45:33] [Client thread/INFO]: [CHAT] §7DaCrownz§7: hii
+[23:45:44] [Client thread/INFO]: [CHAT] §7Rumiia§7: your skin is cool
+[23:45:52] [Client thread/INFO]: [CHAT] §7DaCrownz§7: thank you
+[23:45:57] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] aguuees§f §6joined the lobby! §a<§c<§b<
+[23:46:04] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] 2oul§f §6joined the lobby!
+[23:46:04] [Client thread/INFO]: [CHAT] 2oul found a ✰✰✰✰✰ Mystery Box!
+[23:46:12] [Client thread/INFO]: [CHAT] §7DaCrownz§7: i like your skin
+[23:46:52] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] omeia§f §6joined the lobby!
+[23:46:56] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Xdpenguins4367§f §6joined the lobby!
+[23:47:23] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Bruer§f §6joined the lobby!
+[23:47:57] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] PK_RAJ§f §6joined the lobby! §a<§c<§b<
+[23:48:14] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] Firds§f §6joined the lobby! §a<§c<§b<
+[23:48:40] [Client thread/INFO]: [CHAT] §b[MVP§5+§b] MeowxeWisp§f §6joined the lobby!
+[23:48:45] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Dunnilad§f §6joined the lobby!
+[23:48:58] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Jerdz§f §6joined the lobby!
+[23:49:46] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] CaptainSonic§f §6joined the lobby!
+[23:49:58] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] oiils§f §6joined the lobby!
+[23:50:02] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] IceCubeLess§f §6joined the lobby!
+[23:50:07] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] _yottabyte§f §6joined the lobby!
+[23:50:19] [Client thread/INFO]: [CHAT] §7wybouw§7: oy
+[23:50:47] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] stopsweatingnerd§f §6joined the lobby!
+[23:51:55] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] _yottabyte§f: dowker
+[23:51:57] [Client thread/INFO]: [CHAT] §7MaxtheDragon20§7: rekwod
+[23:52:54] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] whitevan_1§f §6joined the lobby!
+[23:53:01] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Nubiy§f §6joined the lobby!
+[23:53:28] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] wqiffu§f §6joined the lobby!
+[23:53:30] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Miles4466§f §6joined the lobby!
+[23:53:37] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] i_like_bags§f §6joined the lobby!
+[23:53:38] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] ccloudyy§f §6joined the lobby!
+[23:53:39] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] WilliamLeStalker§f §6joined the lobby!
+[23:53:39] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] MikGG§f §6joined the lobby! §a<§c<§b<
+[23:53:39] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Unwaken§f §6joined the lobby!
+[23:53:39] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] eSnuggle§f §6joined the lobby! §a<§c<§b<
+[23:53:41] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] Rionte§f §6joined the lobby!
+[23:53:50] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] VirusBB8§f §6joined the lobby!
+[23:53:50] [Client thread/INFO]: [CHAT] VirusBB8 found a ✰✰✰✰✰ Mystery Box!
+[23:53:57] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] acegaming20§f §6joined the lobby!
+[23:54:18] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] AnotherOtter§f §6joined the lobby!
+[23:54:21] [Client thread/INFO]: [CHAT] §b[MVP§f+§b] kingl0bster§f §6joined the lobby!
+[23:54:34] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] yPypl§f §6joined the lobby!
+[23:54:39] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Ivenator§f §6joined the lobby!
+[23:55:03] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] GeneralSamurai§f §6joined the lobby!
+[23:55:03] [Client thread/INFO]: [CHAT] §b[MVP§4+§b] oPluto§f §6joined the lobby!
+[23:55:17] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] itsNovek§f §6joined the lobby! §a<§c<§b<
+[23:55:28] [Client thread/INFO]: [CHAT] §b[MVP§0+§b] DerChaosmember§f §6joined the lobby!
+[23:55:49] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] chickentikkadosa§f §6joined the lobby!
+[23:55:50] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] SUPREMEgam1ng§f §6joined the lobby!
+[23:56:18] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] ThatSwifty§f §6joined the lobby! §a<§c<§b<
+[23:56:19] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] halleluyuh§f §6joined the lobby! §a<§c<§b<
+[23:56:32] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] ElectricGaming§f §6joined the lobby!
+[23:56:39] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] Rhomadude§f §6joined the lobby! §a<§c<§b<
+[23:56:42] [Client thread/INFO]: [CHAT] §b[MVP§d+§b] TwitchingBug§f §6joined the lobby!
+[23:56:42] [Client thread/INFO]: [CHAT] §b[MVP§e+§b] little0bear§f §6joined the lobby!
+[23:56:46] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] DotDott§f §6joined the lobby!
+[23:56:51] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] Feesl§f: pokaze ci jakos
+[23:57:07] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] Doominator_3000§f §6joined the lobby!
+[23:57:10] [Client thread/INFO]: [CHAT] §b[MVP§9+§b] TreesRampage§f §6joined the lobby!
+[23:57:38] [Client thread/INFO]: [CHAT] [Mystery Box] §f§7Bluellama §ffound a §6Legendary Zombie Morph§f!
+[23:57:38] [Client thread/INFO]: [CHAT] [Mystery Box] §f§bDotDott §ffound a §5Epic Wave Dance Gesture§f!
+[23:57:55] [Client thread/INFO]: Stopping!
+[23:57:55] [Client thread/INFO]: SoundSystem shutting down...
+[23:57:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

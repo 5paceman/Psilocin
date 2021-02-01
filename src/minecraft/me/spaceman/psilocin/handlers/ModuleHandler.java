@@ -5,9 +5,12 @@ import me.spaceman.psilocin.commandsystem.commands.Command;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.KeyPressEvent;
 import me.spaceman.psilocin.module.Module;
+import me.spaceman.psilocin.module.minigame.BedESP;
 import me.spaceman.psilocin.module.movement.Safestep;
+import me.spaceman.psilocin.module.movement.Sprint;
 import me.spaceman.psilocin.module.render.*;
-import me.spaceman.psilocin.module.world.FireballAura;
+import me.spaceman.psilocin.module.minigame.FireballAura;
+import me.spaceman.psilocin.module.world.AutoTool;
 import me.spaceman.psilocin.module.world.Fullbright;
 import me.spaceman.psilocin.utils.TimeHelper;
 import net.minecraft.client.Minecraft;
@@ -47,6 +50,23 @@ public class ModuleHandler {
                     psilocin.log("Reloaded mods in " + timeHelper.getTimedTimeInMilliseconds() + "ms.", Psilocin.Level.INFO);
                 } catch (Exception e) {
                     e.printStackTrace();
+                }
+            }
+        }));
+
+        psilocin.getCommandHandler().addCommand(new Command("keybind", 2, "\\w+ c"), ((command, args) -> {
+            if(args.length > 1)
+            {
+                String modName = args[1];
+                String key = args[2];
+                for(Module mod : this.loadedModules)
+                {
+                    if(modName.equalsIgnoreCase(mod.getName()))
+                    {
+                        mod.setKeybind(Keyboard.getKeyIndex(key));
+                        psilocin.log("Set " + key + " as keybind for " + modName, Psilocin.Level.INFO);
+                        break;
+                    }
                 }
             }
         }));
@@ -126,6 +146,8 @@ public class ModuleHandler {
         addModule(new FireballAura());
         addModule(new Trajectory());
         addModule(new BedESP());
+        addModule(new Sprint());
+        addModule(new AutoTool());
     }
 
 }

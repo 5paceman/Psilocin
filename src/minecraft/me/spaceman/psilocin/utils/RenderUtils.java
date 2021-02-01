@@ -134,6 +134,51 @@ public class RenderUtils {
     }
 
     /**
+     * Draws a gradient color rectangle with the specified coordinates and color (ARGB format). Args: x1, y1, x2, y2, color
+     */
+    public static void drawGradientRect(int left, int top, int right, int bottom, int color, int color2)
+    {
+        if (left < right)
+        {
+            int i = left;
+            left = right;
+            right = i;
+        }
+
+        if (top < bottom)
+        {
+            int j = top;
+            top = bottom;
+            bottom = j;
+        }
+
+        float alpha = (float)(color >> 24 & 255) / 255.0F;
+        float red = (float)(color >> 16 & 255) / 255.0F;
+        float green = (float)(color >> 8 & 255) / 255.0F;
+        float blue = (float)(color & 255) / 255.0F;
+
+        float alpha2 = (float)(color2 >> 24 & 255) / 255.0F;
+        float red2 = (float)(color2 >> 16 & 255) / 255.0F;
+        float green2 = (float)(color2 >> 8 & 255) / 255.0F;
+        float blue2 = (float)(color2 & 255) / 255.0F;
+        Tessellator tessellator = Tessellator.getInstance();
+        WorldRenderer worldrenderer = tessellator.getWorldRenderer();
+        GlStateManager.enableBlend();
+        GlStateManager.disableTexture2D();
+        GL11.glBlendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA);
+        GL11.glShadeModel(GL11.GL_SMOOTH);
+        worldrenderer.begin(7, DefaultVertexFormats.POSITION_COLOR);
+        worldrenderer.pos((double)left, (double)bottom, 0.0D).color(red, green, blue, alpha).endVertex();
+        worldrenderer.pos((double)right, (double)bottom, 0.0D).color(red, green, blue, alpha).endVertex();
+        worldrenderer.pos((double)right, (double)top, 0.0D).color(red2, green2, blue2, alpha2).endVertex();
+        worldrenderer.pos((double)left, (double)top, 0.0D).color(red2, green2, blue2, alpha2).endVertex();
+        tessellator.draw();
+        GL11.glShadeModel(GL11.GL_FLAT);
+        GlStateManager.enableTexture2D();
+        GlStateManager.disableBlend();
+    }
+
+    /**
      * Draws a solid color rectangle with the specified coordinates and color (ARGB format). Args: x1, y1, x2, y2, color
      */
     public static void drawRect(int left, int top, int right, int bottom, int color)

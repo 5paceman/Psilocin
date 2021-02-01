@@ -33,19 +33,32 @@ INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderPlayerEvent.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/RenderWorldEvent.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/SendChatMessageEvent.class
 INFO: Copying me/spaceman/psilocin/eventsystem/events/SendPacketEvent.class
+INFO: Copying me/spaceman/psilocin/gui/GuiPsyMenu$1.class
+INFO: Copying me/spaceman/psilocin/gui/GuiPsyMenu.class
+INFO: Copying me/spaceman/psilocin/gui/components/GUIBounds.class
+INFO: Copying me/spaceman/psilocin/gui/components/GUIButton.class
+INFO: Copying me/spaceman/psilocin/gui/components/GUIPanel.class
+INFO: Copying me/spaceman/psilocin/gui/components/IGUIElement.class
+INFO: Copying me/spaceman/psilocin/gui/components/ModuleButton.class
+INFO: Copying me/spaceman/psilocin/handlers/ConfigHandler.class
 INFO: Copying me/spaceman/psilocin/handlers/FriendHandler.class
 INFO: Copying me/spaceman/psilocin/handlers/ModuleHandler.class
 INFO: Copying me/spaceman/psilocin/hooks/PsyGuiIngame.class
 INFO: Copying me/spaceman/psilocin/module/Module$Category.class
 INFO: Copying me/spaceman/psilocin/module/Module.class
+INFO: Copying me/spaceman/psilocin/module/minigame/BedESP$StoredBed.class
+INFO: Copying me/spaceman/psilocin/module/minigame/BedESP.class
+INFO: Copying me/spaceman/psilocin/module/minigame/FireballAura.class
 INFO: Copying me/spaceman/psilocin/module/movement/Safestep.class
+INFO: Copying me/spaceman/psilocin/module/movement/Sprint.class
 INFO: Copying me/spaceman/psilocin/module/render/Nametags.class
 INFO: Copying me/spaceman/psilocin/module/render/Tracers.class
 INFO: Copying me/spaceman/psilocin/module/render/Trajectory$1.class
 INFO: Copying me/spaceman/psilocin/module/render/Trajectory.class
 INFO: Copying me/spaceman/psilocin/module/render/Wallhacks.class
-INFO: Copying me/spaceman/psilocin/module/world/FireballAura.class
+INFO: Copying me/spaceman/psilocin/module/world/AutoTool.class
 INFO: Copying me/spaceman/psilocin/module/world/Fullbright.class
+INFO: Copying me/spaceman/psilocin/utils/LoginHelper.class
 INFO: Copying me/spaceman/psilocin/utils/RenderUtils.class
 INFO: Copying me/spaceman/psilocin/utils/TimeHelper.class
 INFO: Processing net/minecraft/block/Block$1.class
@@ -658,7 +671,7 @@ INFO: Processed 1208 -> 1208
 INFO: Processing net/minecraft/client/Minecraft.class
 FINE: Access: net/minecraft/client/Minecraft/access$100(Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/resources/LanguageManager; [GETFIELD net/minecraft/client/Minecraft/mcLanguageManager Lnet/minecraft/client/resources/LanguageManager;]
 FINE: Access: net/minecraft/client/Minecraft/access$000(Lnet/minecraft/client/Minecraft;)Ljava/lang/String; [GETFIELD net/minecraft/client/Minecraft/launchedVersion Ljava/lang/String;]
-INFO: Processed 91453 -> 91301
+INFO: Processed 91655 -> 91503
 INFO: Processing net/minecraft/client/audio/GuardianSound.class
 INFO: Processed 1535 -> 1535
 INFO: Processing net/minecraft/client/audio/ISound$AttenuationType.class

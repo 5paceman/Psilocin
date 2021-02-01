@@ -147,3 +147,19 @@ IOError: [Errno 2] No such file or directory: 'temp\\client_rg.srg'
 14:06:08 - !! Can not find server sources, try decompiling !!
 14:06:14 - "scalac" is not found on the PATH.  Scala files will not be recompiled
 14:06:30 - !! Can not find server md5s !!
+23:29:07 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+23:29:28 - !! Can not find server sources, try decompiling !!
+23:29:36 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+23:30:02 - !! Can not find server md5s !!
+23:38:19 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+23:38:37 - !! Can not find server sources, try decompiling !!
+23:38:43 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+23:39:08 - !! Can not find server md5s !!
+17:39:02 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:39:16 - !! Can not find server sources, try decompiling !!
+17:39:24 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:39:43 - !! Can not find server md5s !!
+17:48:26 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:48:39 - !! Can not find server sources, try decompiling !!
+17:48:44 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:49:03 - !! Can not find server md5s !!
