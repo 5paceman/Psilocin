@@ -1525,8 +1525,6 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         }
     }
 
-    private long lastTime = 0;
-
     private void clickMouse()
     {
         if (this.leftClickCounter <= 0)
@@ -1547,10 +1545,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                 switch (this.objectMouseOver.typeOfHit)
                 {
                     case ENTITY:
-                        long now = System.currentTimeMillis();
-                        System.out.println(now - lastTime);
                         this.playerController.attackEntity(this.thePlayer, this.objectMouseOver.entityHit);
-                        lastTime = now;
                         break;
 
                     case BLOCK:

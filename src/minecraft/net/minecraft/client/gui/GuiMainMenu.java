@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import me.spaceman.psilocin.GuiAlts;
 import me.spaceman.psilocin.Psilocin;
 import me.spaceman.psilocin.eventsystem.events.RenderMainMenuEvent;
 import net.minecraft.client.Minecraft;
@@ -264,7 +265,8 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
     {
         this.buttonList.add(new GuiButton(1, this.width / 2 - 100, p_73969_1_, I18n.format("menu.singleplayer", new Object[0])));
         this.buttonList.add(new GuiButton(2, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 1, I18n.format("menu.multiplayer", new Object[0])));
-        this.buttonList.add(this.realmsButton = new GuiButton(14, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 2, I18n.format("menu.online", new Object[0])));
+        this.buttonList.add(this.realmsButton = new GuiButton(14, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 2, 98, 20, I18n.format("menu.online", new Object[0])));
+        this.buttonList.add(new GuiButton(40, this.width / 2 + 2, p_73969_1_ + p_73969_2_ * 2, 98, 20, "Alt Accounts"));
     }
 
     /**
@@ -333,6 +335,11 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
                 GuiYesNo guiyesno = GuiSelectWorld.makeDeleteWorldYesNo(this, worldinfo.getWorldName(), 12);
                 this.mc.displayGuiScreen(guiyesno);
             }
+        }
+
+        if(button.id == 40)
+        {
+            mc.displayGuiScreen(new GuiAlts("https://dl.dropboxusercontent.com/s/gg2qyo05ufq4c2f/alts.txt"));
         }
     }
 

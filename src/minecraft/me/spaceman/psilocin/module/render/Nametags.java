@@ -76,7 +76,7 @@ public class Nametags extends Module {
             GL11.glDepthMask(true);
             fontrenderer.drawString(s, -fontrenderer.getStringWidth(s) / 2, 0, 0xFFFFFFFF);
             GlStateManager.translate(-i - 7, 4, 0.0D);
-            GlStateManager.scale(-10f, -10f, 10f);
+            GlStateManager.scale(-15f, -15f, 15f);
             renderItem.renderItem(((EntityPlayer) event.getEntity()).inventory.getCurrentItem(), ItemCameraTransforms.TransformType.GROUND);
             GlStateManager.enableLighting();
             GlStateManager.disableBlend();

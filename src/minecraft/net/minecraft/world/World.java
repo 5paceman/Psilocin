@@ -11,6 +11,9 @@ import java.util.Random;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.Callable;
+
+import me.spaceman.psilocin.Psilocin;
+import me.spaceman.psilocin.eventsystem.events.BlockUpdateEvent;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHopper;
 import net.minecraft.block.BlockLiquid;
@@ -387,7 +390,7 @@ public abstract class World implements IBlockAccess
                         this.updateComparatorOutputLevel(pos, block);
                     }
                 }
-
+                Psilocin.getInstance().getEventHandler().callEvent(new BlockUpdateEvent(pos, newState));
                 return true;
             }
         }

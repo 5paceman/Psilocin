@@ -6,6 +6,7 @@ import me.spaceman.psilocin.eventsystem.EventSubscriber;
 import me.spaceman.psilocin.eventsystem.events.KeyPressEvent;
 import me.spaceman.psilocin.module.Module;
 import me.spaceman.psilocin.module.minigame.BedESP;
+import me.spaceman.psilocin.module.minigame.BlockHunt;
 import me.spaceman.psilocin.module.movement.Safestep;
 import me.spaceman.psilocin.module.movement.Sprint;
 import me.spaceman.psilocin.module.render.*;
@@ -148,6 +149,7 @@ public class ModuleHandler {
         addModule(new BedESP());
         addModule(new Sprint());
         addModule(new AutoTool());
+        addModule(new BlockHunt());
     }
 
 }

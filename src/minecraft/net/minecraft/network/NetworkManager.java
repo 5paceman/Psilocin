@@ -157,7 +157,7 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
             try
             {
                 final ReceivePacketEvent event = new ReceivePacketEvent(p_channelRead0_2_);
-                Psilocin.getInstance().getEventHandler().callEvent(event);;
+                Psilocin.getInstance().getEventHandler().callEvent(event);
                 if(event.isCancelled())
                     return;
                 else

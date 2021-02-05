@@ -15,6 +15,7 @@ public class Event {
     public static final int PLAYER_LIVING_UPDATE = 8;
     public static final int SEND_PACKET_EVENT = 9;
     public static final int RECEIVE_PACKET_EVENT = 10;
+    public static final int BLOCK_UPDATE_EVENT = 11;
 
     private int eventId;
 

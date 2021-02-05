@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.client.renderer.vertex.VertexFormat;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityFallingBlock;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.gen.feature.WorldGenGlowStone1;
 import org.lwjgl.input.Keyboard;
@@ -61,12 +62,13 @@ public class Tracers extends Module{
             WorldRenderer worldRenderer = tessellator.getWorldRenderer();
             worldRenderer.begin(GL11.GL_LINES, DefaultVertexFormats.POSITION_COLOR);
             worldRenderer.pos(posX, posY + thePlayer.getEyeHeight(), posZ).color(0f, isFriend ? 0f : 1f, isFriend ? 1f : 0f, 1f).endVertex();
-            worldRenderer.pos(playerPosX, playerPosY, playerPosZ).color(0f, isFriend ? 0f :  1f, isFriend ? 1f : 0f, 1f).endVertex();
+            worldRenderer.pos(playerPosX, playerPosY, playerPosZ).color(0f, isFriend ? 0f : 1f, isFriend ? 1f : 0f, 1f).endVertex();
             tessellator.draw();
             GlStateManager.popMatrix();
             GL11.glEnable(GL11.GL_LIGHTING);
             GlStateManager.enableDepth();
             GlStateManager.enableTexture2D();
+
         }
 
         RenderUtils.postRemoveViewBobbing();

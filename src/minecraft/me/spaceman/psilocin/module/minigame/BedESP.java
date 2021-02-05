@@ -2,6 +2,7 @@ package me.spaceman.psilocin.module.minigame;
 
 import me.spaceman.psilocin.Psilocin;
 import me.spaceman.psilocin.eventsystem.EventSubscriber;
+import me.spaceman.psilocin.eventsystem.events.BlockUpdateEvent;
 import me.spaceman.psilocin.eventsystem.events.ReceivePacketEvent;
 import me.spaceman.psilocin.eventsystem.events.RenderWorldEvent;
 import me.spaceman.psilocin.module.Module;
@@ -17,8 +18,13 @@ import net.minecraft.client.renderer.WorldRenderer;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityFallingBlock;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.network.play.server.S13PacketDestroyEntities;
+import net.minecraft.network.play.server.S21PacketChunkData;
 import net.minecraft.network.play.server.S22PacketMultiBlockChange;
 import net.minecraft.network.play.server.S23PacketBlockChange;
 import net.minecraft.util.BlockPos;
@@ -27,6 +33,8 @@ import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class BedESP extends Module {
@@ -36,6 +44,72 @@ public class BedESP extends Module {
     public BedESP() {
         super("BedESP", Keyboard.KEY_Z, Category.MINIGAME, 0xFFBF4136);
         Psilocin.getInstance().getEventHandler().addEventListener(this);
+    }
+
+    @EventSubscriber
+    public void onBlockUpdate(final BlockUpdateEvent event)
+    {
+        Minecraft mc = Minecraft.getMinecraft();
+        for(StoredBed bed : this.storedBeds)
+        {
+            bed.getSurroundingBlocks().clear();
+            int headX = bed.head.getX();
+            int headY = bed.head.getY();
+            int headZ = bed.head.getZ();
+
+            int footX = bed.foot.getX();
+            int footY = bed.foot.getY();
+            int footZ = bed.foot.getZ();
+
+            for(int x = -1; x < 2; x++)
+            {
+                BlockPos headOffset = new BlockPos(headX + x, headY, headZ);
+                BlockPos footOffset = new BlockPos(footX + x, footY, footZ);
+                Block headBlock = mc.theWorld.getBlockState(headOffset).getBlock();
+                Block footBlock = mc.theWorld.getBlockState(footOffset).getBlock();
+                if(headBlock != Blocks.air && headBlock != Blocks.bed)
+                {
+                    bed.addSurroundingBlock(headBlock, 1);
+                }
+
+                if(footBlock != Blocks.air && footBlock != Blocks.bed)
+                {
+                    bed.addSurroundingBlock(footBlock, 1);
+                }
+            }
+
+            for(int z = -1;  z < 2; z++)
+            {
+                BlockPos headOffset = new BlockPos(headX, headY, headZ + z);
+                BlockPos footOffset = new BlockPos(footX, footY, footZ + z);
+                Block headBlock = mc.theWorld.getBlockState(headOffset).getBlock();
+                Block footBlock = mc.theWorld.getBlockState(footOffset).getBlock();
+                if(headBlock != Blocks.air && headBlock != Blocks.bed)
+                {
+                    bed.addSurroundingBlock(headBlock, 1);
+                }
+
+                if(footBlock != Blocks.air && footBlock != Blocks.bed)
+                {
+                    bed.addSurroundingBlock(footBlock, 1);
+                }
+            }
+
+            BlockPos headOffset = new BlockPos(headX, headY + 1, headZ);
+            BlockPos footOffset = new BlockPos(footX, footY + 1, footZ);
+            Block headBlock = mc.theWorld.getBlockState(headOffset).getBlock();
+            Block footBlock = mc.theWorld.getBlockState(footOffset).getBlock();
+            if(headBlock != Blocks.air && headBlock != Blocks.bed)
+            {
+                bed.addSurroundingBlock(headBlock, 1);
+            }
+
+            if(footBlock != Blocks.air && footBlock != Blocks.bed)
+            {
+                bed.addSurroundingBlock(footBlock, 1);
+            }
+        }
+
     }
 
     @EventSubscriber
@@ -53,8 +127,8 @@ public class BedESP extends Module {
 
         if(event.getPacket() instanceof S22PacketMultiBlockChange)
         {
-            S22PacketMultiBlockChange chunkData = (S22PacketMultiBlockChange) event.getPacket();
-            for(S22PacketMultiBlockChange.BlockUpdateData blockUpdate : chunkData.getChangedBlocks())
+            S22PacketMultiBlockChange blockChange = (S22PacketMultiBlockChange) event.getPacket();
+            for(S22PacketMultiBlockChange.BlockUpdateData blockUpdate : blockChange.getChangedBlocks())
             {
                 Block block = blockUpdate.getBlockState().getBlock();
                 if(block instanceof BlockBed)
@@ -146,6 +220,19 @@ public class BedESP extends Module {
             GlStateManager.enableDepth();
             GL11.glDepthMask(true);
             fontrenderer.drawString(s, -fontrenderer.getStringWidth(s) / 2, 0, 0xFFFFFFFF);
+            int renderX = 0;
+            for(Map.Entry<Block, Integer> surroundingBlocks : beds.getSurroundingBlocks().entrySet())
+            {
+                GL11.glPushMatrix();
+                GL11.glTranslatef(-i + renderX, -10f, 0f);
+                GL11.glScalef(10f, 10f, 10f);
+                renderItem.renderItem(new ItemStack(surroundingBlocks.getKey()), ItemCameraTransforms.TransformType.GUI);
+                GL11.glScalef(0.05f, 0.05f, 0.05f);
+                GL11.glTranslatef(-5, 8, 0);
+                fontrenderer.drawString(surroundingBlocks.getValue().toString(), 0, 0, 0xFFFFFFFF);
+                GL11.glPopMatrix();
+                renderX += 10;
+            }
             GlStateManager.enableLighting();
             GlStateManager.disableBlend();
             GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
@@ -166,6 +253,7 @@ public class BedESP extends Module {
             this.head = head;
             this.foot = foot;
         }
+        public HashMap<Block, Integer> surroundingBlocks = new HashMap<>();
 
         @Override
         public boolean equals(Object obj) {
@@ -176,6 +264,22 @@ public class BedESP extends Module {
             } else {
                 return false;
             }
+        }
+
+        public void addSurroundingBlock(Block block, int count)
+        {
+            if(this.surroundingBlocks.containsKey(block))
+            {
+                int currentCount = this.surroundingBlocks.get(block);
+                this.surroundingBlocks.replace(block, currentCount + count);
+            } else {
+                this.surroundingBlocks.put(block, count);
+            }
+        }
+
+        public HashMap<Block, Integer> getSurroundingBlocks()
+        {
+            return this.surroundingBlocks;
         }
 
         @Override

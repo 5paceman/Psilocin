@@ -76,8 +76,8 @@ public class RenderUtils {
         worldrenderer.pos(x + w, y,  z + w).endVertex();
         worldrenderer.pos(x + w, y, z).endVertex();
         tessellator.draw();
-
-        GlStateManager.color(r, g, b, 0.8f);
+        GL11.glLineWidth(1f);
+        GlStateManager.color(1f, 1f, 1f, 1f);
         worldrenderer.begin(GL11.GL_LINE_STRIP, DefaultVertexFormats.POSITION);
         worldrenderer.pos(x, y, z).endVertex();
         worldrenderer.pos(x + w, y, z).endVertex();
